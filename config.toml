@@ -33,6 +33,12 @@ theme = 'blist'
   introTitle = "Hey! I'm Brad Cypert."
   introPhoto = "/brad-w-luna.jpg"
 
+  author = "Brad Cypert"
+  logo = "/brad-w-luna.jpg"
+  header = "Tips and Tutorials for JavaScript, Flutter, and more."
+  twitter = "bradcypert"
+  github = "bradcypert"
+
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 [[menu.main]]

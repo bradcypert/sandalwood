@@ -4,7 +4,6 @@ date: 2017-06-28
 status: publish
 permalink: /5-programming-languages-you-could-learn-from
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 62
 category:
@@ -17,8 +16,7 @@ tags:
   - nim
   - rust
 post_format: []
-_yoast_wpseo_title:
-  - "5 Programming Languages You Should Really Try"
+description: "Nim, F#, Go, Rust, and Clojure are several programming languages that are growing in popularity. Here's why I think you you should try these languages out!"
 ---
 
 For some strange reason, the vast majority of my blog readers are Python Developers. I wrote two articles on Python a long time ago and honestly try to avoid python when I can. So here’s an article for you purveyors of Python — you sultans of snakes.

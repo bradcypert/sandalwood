@@ -21,7 +21,7 @@ _yoast_wpseo_content_score:
 ---
 
 # Who is Brad Cypert?
-**I’m passionate about Kotlin, Javascript, and Frontend development.**  
+**I’m passionate about Flutter, Rust, Go, and Frontend development.**  
 **I’m also passionate about being passionate about things.**
 
 #### From the Beginning.
