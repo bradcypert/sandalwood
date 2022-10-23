@@ -14,7 +14,7 @@ tags:
   - Eloquent
   - PHP
   - Slim
-post_format: []
+description: "PHP's Slim framework is one of the nicest PHP frameworks I've used and the Eloquent ORM is wonderful to work with, too. It makes sense to combine them, so here's how to do just that!"
 ---
 
 I’ve been exposed to a lot of PHP recently! I’ve been reviewing a course on functional PHP for a publishing company (link will be added once it’s released) and my friend has recruited me into working on an API that’s written in PHP using the Slim framework. I figured now would be a good time to write about my recent findings!

@@ -4,7 +4,6 @@ date: 2018-04-09
 status: publish
 permalink: /upper-and-lower-bounds-in-scala
 author: "Brad Cypert"
-excerpt: 'Its pretty common to find yourself working with generics in Scala, but you may find yourself where you want a generic with some constraints. Generally, these constraints can be boiled down to "Subclass" or "Superclass" and Scala offers functionality out of the box to help facilitate this.'
 type: blog
 id: 289
 thumbnail: /TypeBounds-1.jpg
@@ -13,13 +12,8 @@ category:
 tags:
   - Scala
   - type-bounds
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_title:
-  - "Upper and Lower Bounds in Scala"
+description: 'Scala supports upper and lower bound type constraints via the covariant and contravarient keyword.'
+
 ---
 
 It’s pretty common to find yourself working with generics in Scala, but you may find yourself where you want a generic with some constraints. Generally, these constraints can be boiled down to “Subclass” or “Superclass” and Scala offers functionality out of the box to help facilitate this. If you’re not familiar with generics then fret not, we’ll start with them and work our way through type bounds as well. Let’s start by taking a moment and look over the following classes, trait, and hierarchy. We’ll reference these through the rest of the post as well.
@@ -171,4 +165,4 @@ new DogHouse[Dog](new Dog)
 
 ```
 
-The use cases for Type Bounds can become pretty complex and I’ve found that a lot of fantastic libraries seems to implement them quite elegantly. Personally, I feel like they’re not necessary for the language to have, but since they do exist I tend to use them a lot. They make abstractions much more simple than without. Do you use type bounds in your Scala application? Why or why not?
+The use cases for Type Bounds can become pretty complex and I’ve found that a lot of fantastic libraries seems to implement them quite elegantly. Personally, I feel like they’re not necessary for the language to have, but since they do exist I find myself tending to use them. They make abstractions much more simple than without. Do you use type bounds in your Scala application? Why or why not?

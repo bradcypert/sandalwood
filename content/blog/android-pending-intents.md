@@ -4,7 +4,6 @@ date: 2017-04-03
 status: publish
 permalink: /android-pending-intents
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 50
 category:
@@ -12,9 +11,8 @@ category:
 tags:
   - android
   - intents
-post_format: []
-_yoast_wpseo_title:
-  - "Android - Pending Intents"
+description:
+  - "Pending Intents in Android allow you to wrap an existing intent and keep that around even if the application process is killed."
 ---
 
 So you’ve been working with Android for weeks now, and you’ve all but mastered the ability to start a new activity with an intent. Here’s the kicker – There’s far more to Intents than starting a new activity when a user clicks a button, and today I’ll share my knowledge of pending intents.
@@ -27,17 +25,7 @@ When you create an intent in your application, you’re creating a message to th
 
 A pending intent is a special type of intent. It wraps an existing intent and has a few extra goodies attached to it. The most important difference between a pending intent and a regular intent is this – even if the application process is killed, the pending intent is still around for other applications or processes to interact with it. Due to this, you can give another process a reference to your application via a pending intent, and that pending intent may (or may not be) executed by that process.
 
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
 
-<ins
-  class="adsbygoogle"
-  data-ad-client="ca-pub-8945603214034079"
-  data-ad-format="fluid"
-  data-ad-layout="in-article"
-  data-ad-slot="2376037128"
-  style="display:block; text-align:center;"
-></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 #### Alright, but I’m still confused.
 

@@ -4,15 +4,12 @@ date: 2015-04-20
 status: publish
 permalink: /today-im-giving-up-business
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 17
 category:
   - Meta
-tag: []
-post_format: []
-_yoast_wpseo_title:
-  - "I'm Giving Up On Business"
+description:
+  - "Building things for fun is a valid reason for writing software, especially if its your own project. Sometimes its better for your mental health to just start building, especially if your project is in your spare time."
 ---
 
 I like to consider myself as an idea-guy. I have ideas all the time, and I consistently try to validate them before trying them. One thing I’ve noticed, however, is I hardly do any of these ideas.
@@ -39,17 +36,6 @@ The posts are the most active posts on reddit that I’ve ever posted (albeit, I
 >
 > XXXXXXXXX
 
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
-
-<ins
-  class="adsbygoogle"
-  data-ad-client="ca-pub-8945603214034079"
-  data-ad-format="fluid"
-  data-ad-layout="in-article"
-  data-ad-slot="2376037128"
-  style="display:block; text-align:center;"
-></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 This email (and the activity on my reddit posts) made me the happiest I’ve been in a long time. I just did something and it solved some peoples problems. Normally, I find out my idea can solve maybe 50 people’s problems for sure, and never get around to it because of burnout. Instead, I made something that I wanted and it helped people. Now, it’s easy to say that this was “just luck.” but I don’t think it was.
 

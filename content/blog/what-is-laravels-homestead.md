@@ -4,7 +4,6 @@ date: 2020-02-29
 status: publish
 permalink: /what-is-laravels-homestead
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 2923
 thumbnail: /gray-house-with-fireplace-surrounded-by-grass-under-white-731082.jpg
@@ -14,39 +13,7 @@ tags:
   - homestead
   - laravel
   - PHP
-post_format: []
-wp_last_modified_info:
-  - "August 25, 2020 @ 4:51 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_content_score:
-  - "30"
-_yoast_wpseo_primary_category:
-  - "81"
-amp_status:
-  - ""
-spay_email:
-  - ""
-_yoast_wpseo_focuskw:
-  - "laravel homestead"
-_yoast_wpseo_title:
-  - "%%title%% %%page%% %%sep%% %%sitename%% | PHP | Laravel"
-description:
-  - "Laravel's homestead is development environment that allows you to quickly jump into development. It is orchestrated as a vagrant box."
-_yoast_wpseo_linkdex:
-  - "73"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-saswp_custom_schema_field:
-  - ""
-saswp_webpage_speakable_3050:
-  - "0"
-saswp_modify_this_schema_3049:
-  - "0"
-saswp_blogposting_speakable_3049:
-  - "0"
+description: "Laravel's homestead is a development environment to aid in building Laravel applications in PHP."
 ---
 
 [Laravel](https://laravel.com/) is, as far as PHP frameworks go, extremely popular. In their guide, the Laravel community recommends you use Homestead as your local development environment. But what is Laravel’s homestead and why use it?

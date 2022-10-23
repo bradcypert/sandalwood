@@ -4,7 +4,6 @@ date: 2019-01-16
 status: publish
 permalink: /what-you-need-to-know-about-the-gilded-rose-interview-problem
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 795
 thumbnail: /beauty-bloom-blue-67636.jpg
@@ -13,23 +12,8 @@ category:
 tags:
   - clojure
   - interview
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "67"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
-  - "Gilded Rose"
-_yoast_wpseo_title:
-  - "The Gilded Rose - What you need to know %%sitename%%"
 description:
   - "The Gilded Rose interview problem is far more than meets the eyes. You may have requirements, but you need to refactor and provide test coverage, as well!"
-_yoast_wpseo_linkdex:
-  - "89"
 ---
 
 A few years ago, I interviewed for a Dev Ops position at a pretty prominent CI shop in San Francisco. Part of the interview process involved a take-home code-assignment (of course). This particular assignment is known as the Gilded Rose.

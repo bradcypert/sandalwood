@@ -4,7 +4,7 @@ date: 2017-10-29
 status: publish
 permalink: /adding-trigram-searching-to-a-clojure-webapp
 author: "Brad Cypert"
-excerpt: "A Trigram is a three character subsection of a string of text. This allows you to match text if you're close to the actual text you're looking for. For example, the string foobar can be represented as the following trigrams: foo, oob, oba, bar. Click here to learn how to use Trigrams to elevate your search capabilities!"
+description: "A Trigram is a three character subsection of a string of text. This allows you to match text if you're close to the actual text you're looking for. For example, the string foobar can be represented as the following trigrams: foo, oob, oba, bar. Click here to learn how to use Trigrams with YeSQL and Migratus to elevate your search capabilities!"
 type: blog
 id: 74
 category:
@@ -14,11 +14,6 @@ tags:
   - clojure
   - databases
   - migrations
-post_format: []
-description:
-  - "Learn to use Postgres Trigram (fuzzy) searches with your Clojure api using YeSQL and Migratus."
-_yoast_wpseo_title:
-  - "Trigram search with Clojure, YeSQL, Migratus & Postgres"
 ---
 
 Recently on Porios, I added the ability to do fuzzy text searches with Trigrams. Porios is powered by a Clojure API (a dated Luminus template, actually) which uses YeSQL, Postgres, Compojure and several other libraries. Let’s talk about implementing a trigram search for this application components.

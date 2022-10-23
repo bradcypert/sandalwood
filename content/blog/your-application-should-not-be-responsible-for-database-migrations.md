@@ -4,7 +4,7 @@ date: 2019-06-09
 status: publish
 permalink: /your-application-should-not-be-responsible-for-database-migrations
 author: "Brad Cypert"
-excerpt: ""
+description: "Having your application run your database migrations is at best more responsibility than your web app should be responsible for and at worst a scalability nightmare."
 type: blog
 id: 1450
 thumbnail: /animal-photography-clouds-daylight-635006.jpg
@@ -13,15 +13,6 @@ category:
 tags:
   - databases
   - migrations
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "208"
-_yoast_wpseo_content_score:
-  - "90"
 ---
 
 

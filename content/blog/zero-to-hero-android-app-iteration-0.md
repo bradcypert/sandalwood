@@ -46,18 +46,6 @@ _Disclaimer: Although we will be building a fully-functioning application, I am 
 
 Iteration 0 is a term commonly used for the amount of time taken to research or set up for a big project. For our Iteration 0, we’re going to download Android studio, download some android libraries and system images, and set up our phone to run our application. Let’s get started!
 
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
-
-<ins
-  class="adsbygoogle"
-  data-ad-client="ca-pub-8945603214034079"
-  data-ad-format="fluid"
-  data-ad-layout="in-article"
-  data-ad-slot="2376037128"
-  style="display:block; text-align:center;"
-></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 **Warning**: The files necessary to get started make take up quite a bit of space. Now is a good time to ensure you have at least 15gb of free space available if you’re not testing your application with a phone and will use an emulator instead.
 
 To start, we want to download Android Studio, a partnered effort by Jetbrains and Google. Jetbrains makes awesome software to help others build software (mainly IDEs) and Google is… well, Google. [You can download the latest build of android studio here](https://developer.android.com/studio/index.html).

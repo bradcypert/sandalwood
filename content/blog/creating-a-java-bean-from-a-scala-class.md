@@ -16,8 +16,7 @@ hefo_before:
   - "0"
 hefo_after:
   - "0"
-_yoast_wpseo_title:
-  - "Creating a Java Bean from a Scala Class"
+description: "Creating a Java Bean from a Scala Class is slightly tricky as Scala classes don't adhere to the Bean definition, but with a little work we can make Scala classes into Java beans."
 ---
 
 Sometimes, you may find yourself in a situation (like using Scala with Spring) where you need to generate a Java bean but would like to do that in Scala. By default, Scala classes don’t adhere to the requirements of the Bean definition, namely autogenerating getters and setters. Thankfully, there is a **BeanProperty** decorator that can be used in conjunction with the constructor definition to help adhere to the Bean specification.

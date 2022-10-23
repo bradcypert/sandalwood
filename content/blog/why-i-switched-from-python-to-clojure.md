@@ -4,7 +4,6 @@ date: 2016-07-18
 status: publish
 permalink: /why-i-switched-from-python-to-clojure
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 24
 thumbnail: /Screen-Shot-2019-03-25-at-9.21.39-AM.png
@@ -16,23 +15,8 @@ tags:
   - clojure
   - meta
   - Python
-post_format: []
 description:
   - "I spent some more time with Python and started to realize that I needed something more. Here's a brief list of the reasons why I switched to Clojure."
-_yoast_wpseo_title:
-  - "Why I Switched From Python to Clojure - Brad Cypert"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - ""
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
-  - "python to clojure"
-_yoast_wpseo_linkdex:
-  - "79"
 ---
 
 First – a bit of background. When I first started to learn programming, I started with a course in high school that focused on Java. From there, I decided I wanted to work for a start-up and I had to learn Python (I was naive). I started playing around with Python and it just felt right – at first. I spent some more time with it and started to realize that I needed something more. Here’s a brief list of the reasons why I switched from Python to Clojure.

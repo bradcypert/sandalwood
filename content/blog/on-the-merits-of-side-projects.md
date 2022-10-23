@@ -44,7 +44,7 @@ Education is relatively straight-forward as well. When you spend time working on
 
 Accomplishment is the most meaningful reason to me. The bird feeder metaphor might get lost in this example, so I’ll switch back to a website to keep it flexible. If you work on a team that maintains one big website, it’s safe to say that you’re never “done” with the project. You can be done with a piece of the project, but it’s often going to evolve again and again. With a side project, such as a virtual time capsule project (A weekend hackathon project I completed many years ago, no longer), I was able to build something from scratch and be “done” with it in only five hours. Sure, there’s plenty of things I could do to make it better, but it works, and for a side project, that’s all most people really need.
 
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
+
 
 <ins
   class="adsbygoogle"

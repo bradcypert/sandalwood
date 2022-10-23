@@ -4,7 +4,6 @@ date: 2018-10-22
 status: publish
 permalink: /what-is-scrum
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 665
 thumbnail: /scrum.png
@@ -14,23 +13,8 @@ tags:
   - agile
   - leadership
   - scrum
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "71"
-_yoast_wpseo_focuskw:
-  - scrum
-_yoast_wpseo_title:
-  - "Scrum: What is it? Learn about Scrum%%page%% %%sep%% %%sitename%%"
 description:
   - "Scrum is a framework aimed at helping teams tackle complex problems while creatively delivering high value products. Learn to use scrum to help your team succeed."
-_yoast_wpseo_linkdex:
-  - "89"
-_yoast_wpseo_content_score:
-  - "60"
 ---
 
 Scrum is designed to be simple. It is a series of lightweight components that, when followed, have been show to improve team workflow. Scrum’s approach focuses on respect for people and self-organization to adapt to unpredictability and the difficulties that come with solving complex problems.

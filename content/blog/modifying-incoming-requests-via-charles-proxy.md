@@ -14,8 +14,7 @@ tags:
   - Charles
   - "Developer Tools"
 post_format: []
-_yoast_wpseo_title:
-  - "Modifying incoming requests via Charles Proxy"
+description: "Charlex proxy allows you to listen to incoming requests, capture those, and modify them before letting them continue. This is extremely helpful with testing and QA, and heres how I use it."
 ---
 
 Charles Proxy is an outstanding development tool that I’ve recently started to fall in love with. I think the most practical use of this tool is probably using the rewrite tool to rewrite outgoing or incoming requests, however, I’m going to talk to you about setting up request breakpoints. Breakpoints allow you to halt an incoming or outgoing requests, possibly modify it, and send it whenever you’re content with it. It’s a fantastic tool for simulating edge-cases like making an http request to a server that wraps and returns the response of a request that it makes.

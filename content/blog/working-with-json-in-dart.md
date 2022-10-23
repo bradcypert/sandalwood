@@ -4,7 +4,7 @@ date: 2020-09-27
 status: publish
 permalink: /working-with-json-in-dart
 author: "Brad Cypert"
-excerpt: ""
+description: "JSON is a common communication specification for web apps. In this post, you'll learn how to work with JSON data in Dart."
 type: blog
 id: 3581
 thumbnail: /Untitled.png
@@ -12,27 +12,6 @@ category:
   - dart
 tags:
   - dart
-post_format: []
-wp_last_modified_info:
-  - "September 27, 2020 @ 4:59 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-saswp_custom_schema_field:
-  - ""
-saswp_webpage_speakable_3050:
-  - "0"
-saswp_modify_this_schema_3049:
-  - "0"
-saswp_blogposting_speakable_3049:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "450"
-_yoast_wpseo_content_score:
-  - "30"
 ---
 
 [JSON](https://www.json.org/json-en.html) is, as of 2020, the communication standard for most web applications (comon [gRPC](https://grpc.io/)! You can do it!). Naturally, if you’re building a Dart application, you’ll likely want to work with JSON. [Dart’s built-in `dart:convert` package](https://api.dart.dev/stable/2.9.3/dart-convert/dart-convert-library.html) is just the tool that you need!

@@ -13,9 +13,7 @@ tags:
   - clojure
   - jvm
   - macros
-post_format: []
-_yoast_wpseo_title:
-  - "Understanding Clojure Macros"
+description: "Macros allow you to write code that's effectively writting more code for you, possibly by transforming the code provided to the macro. Clojure has an expressive macro system that helps aid in this."
 ---
 
 Learning Clojure has been one of the most thought-provoking experiences of my life. Coming from a predominantly OOP background, it’s safe to say that it’s always been a bit of a challenge. Macro’s specifically, were a challenge that was hard for me to grasp, and I know cause a lot of pain points to new Clojuristas. To first understand a Macro, we must understand what a function does.

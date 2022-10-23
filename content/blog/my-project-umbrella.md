@@ -14,29 +14,7 @@ tags:
   - developer-happiness
   - project-structure
   - "side projects"
-post_format: []
-wp_last_modified_info:
-  - "October 22, 2020 @ 5:46 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-saswp_custom_schema_field:
-  - ""
-saswp_webpage_speakable_3050:
-  - "0"
-saswp_modify_this_schema_3049:
-  - "0"
-saswp_blogposting_speakable_3049:
-  - "0"
-_yoast_wpseo_content_score:
-  - "30"
-_yoast_wpseo_title:
-  - "%%title%% %%page%% %%sep%% How I Build Apps %%sep%% %%sitename%%"
-_yoast_wpseo_primary_category:
-  - "100"
+description: "When I build an 'App', there are three other projects that roll up into that 'app' -- An API, a web app, and a marketing site. Here's how I make those all fit together."
 ---
 
 I was talking with a friend the other day about Flutter for Web’s SEO, which… is not very good. He asked if I was concerned about search engines not being able to find my app to which I said “No.” My Flutter app is behind a login, so Google wouldn’t be able to index anything behind the login anyways, but that’s not why I’m not concerned. I still want people to find my app, but I handle how they find the app in a way that separates several different concerns. I call it my “Project Umbrella”.

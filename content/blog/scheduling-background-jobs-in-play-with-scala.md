@@ -4,7 +4,7 @@ date: 2018-02-13
 status: publish
 permalink: /scheduling-background-jobs-in-play-with-scala
 author: "Brad Cypert"
-excerpt: "A common theme with web applications is to run tasks in the background. Commonly, they're ran at set intervals. You'll find data processing servers, online-game servers, and several other types of servers using regularly scheduled background tasks and today, you'll learn how to implement these tasks in Play with Scala."
+description: "A common theme with web applications is to run tasks in the background. Commonly, they're ran at set intervals. You'll find data processing servers, online-game servers, and several other types of servers using regularly scheduled background tasks and today, you'll learn how to implement these tasks in Play with Scala."
 type: blog
 id: 79
 category:
@@ -15,9 +15,6 @@ tags:
   - "Background Tasks"
   - Play
   - Scala
-post_format: []
-_yoast_wpseo_title:
-  - "Scheduling background tasks in Play with Scala"
 ---
 
 A common theme with web applications is to run tasks in the background. Commonly, they’re ran at set intervals. You’ll find data processing servers, online-game servers, and several other types of servers using regularly scheduled background tasks and today, you’ll learn how to implement these tasks in Play with Scala.

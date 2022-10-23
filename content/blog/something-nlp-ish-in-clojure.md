@@ -15,13 +15,7 @@ tags:
   - classifier
   - clojure
   - nlp
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_title:
-  - "Something NLP-ish in Clojure"
+description: 'Clojure can leverage existing JVM libraries to build applications that handle a variety of features, including NLP. In this blog post, we\'ll use a Bayestian classifier to classify a small dataset of lyrics and then determine which artist would be most likely to write lyrics that we produce.'
 ---
 
 **I started writing this article almost 2 years ago. While some things have changed (interests, time, priorities), I thought about this the other day and thought it was too neat to just let die. I came back into this article today and tried to fill out a few of the lesser detailed areas and decided to just hit publish to ensure the code, thoughts, and process was shared with you all. Sorry that it’s not of my usual quality.**

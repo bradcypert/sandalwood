@@ -4,7 +4,6 @@ date: 2016-08-02
 status: publish
 permalink: /mighty-morphing-multimethods
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 27
 category:
@@ -13,9 +12,7 @@ tags:
   - beginner-friendly
   - clojure
   - multimethods
-post_format: []
-_yoast_wpseo_title:
-  - "Mighty Morphing Multimethods"
+description: "Today we’re going to talk about Multimethods, a particular form of runtime polymorphism. And since I’m in a playful mood, our example is going to involve Power Rangers."
 ---
 
 Type systems are a tricky thing. A lot of languages have very flexible type systems, such as F# with its inferred (and extremely well inferred at that) type system, or JavaScript with it’s untyped nature. Clojure hits a happy middle ground (for me, at least) – It’s dynamically typed (or “gradually typed”, if that’s your cup of tea).

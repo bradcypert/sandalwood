@@ -14,8 +14,8 @@ tags:
   - javascript
   - testing
 post_format: []
-_yoast_wpseo_title:
-  - "A brief summary on Automated Testing"
+description:
+  - "There are many ways to handle automated testing via unit tests, but these tips are some of my favorite."
 ---
 
 I recently read this [amazing article](https://www.toptal.com/javascript/writing-testable-code-in-javascript) by [Josh Mock](https://twitter.com/joshmock) and felt the need to share it. In fact, the tools he uses in his examples – JavaScript, Mocha+Chai, and Phantom are the tools I use daily to do the same thing.
@@ -58,17 +58,6 @@ Why does this matter? No one cares that B() is called with those parameters. Wha
 
 Hopefully the difference is obvious. Testing for values lends itself towards tests that do not break when you refactor code. If you write tests that prevent you from easily refactoring, one of two things will happen – You’ll remove the tests or you won’t refactor.
 
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
-
-<ins
-  class="adsbygoogle"
-  data-ad-client="ca-pub-8945603214034079"
-  data-ad-format="fluid"
-  data-ad-layout="in-article"
-  data-ad-slot="2376037128"
-  style="display:block; text-align:center;"
-></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 #### Spies, Stubs, Mocks
 

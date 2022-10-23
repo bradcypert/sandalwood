@@ -1,10 +1,10 @@
 ---
-title: "Introducing the Fish Shell"
+title: "Try the Fish Shell"
 date: 2018-02-13
 status: publish
 permalink: /introducing-the-fish-shell
 author: "Brad Cypert"
-excerpt: "Fish is a command line shell that (in my workflow) replaces Bash -- the shell most developers are used to. There are plenty of alternatives to Bash, with Zsh being the most popular, but I'm hoping to give fish a shot by the end of this article. Let's discuss why I'm using fish and you should too!"
+description: "Fish is a command line shell that (in my workflow) replaces Bash -- the shell most developers are used to. There are plenty of alternatives to Bash, with Zsh being the most popular, but I'm hoping to give fish a shot by the end of this article. Let's discuss why I'm using fish and you should too!"
 type: blog
 id: 35
 category:

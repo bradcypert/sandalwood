@@ -4,7 +4,6 @@ date: 2019-03-04
 status: publish
 permalink: /what-is-androids-surfaceflinger
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 1018
 thumbnail: /android-phone-blur-cellular-telephone-454699.jpg
@@ -15,21 +14,6 @@ tags:
   - android-os
   - performance
   - surfaceflinger
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "80"
-_yoast_wpseo_focuskw:
-  - SurfaceFlinger
-_yoast_wpseo_linkdex:
-  - "95"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_title:
-  - "Android's SurfaceFlinger - What is it? %%page%% %%sep%% %%sitename%%"
 description:
   - "Android's SurfaceFlinger is a component that composites buffers of display data and helps the HAL determine what to render on the screen."
 ---

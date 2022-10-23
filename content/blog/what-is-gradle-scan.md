@@ -4,7 +4,6 @@ date: 2019-04-17
 status: publish
 permalink: /what-is-gradle-scan
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 760
 thumbnail: /eco-ecology-environment-5808.jpg
@@ -13,19 +12,6 @@ category:
 tags:
   - DevOps
   - gradle
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "79"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "gradle scan"
-_yoast_wpseo_linkdex:
-  - "95"
 description:
   - "A Gradle scan is a build scan that provides insights into how your build ran and why it did what it did. Scans are shareable and configurable."
 ---

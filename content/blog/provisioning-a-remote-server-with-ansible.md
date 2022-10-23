@@ -4,16 +4,13 @@ date: 2017-11-22
 status: publish
 permalink: /provisioning-a-remote-server-with-ansible
 author: "Brad Cypert"
-excerpt: "If you've ever manually provisioned a server before, you know the feeling of excitement that you receive once you're finished and your application is running on a remote machine. If you've ever provisioned two servers identically, you know the feeling of dread from getting it exactly right the second time. Thankfully, tools like Ansible exist to help us provision multiple servers exactly the same way."
+description: "If you've ever manually provisioned a server before, you know the feeling of excitement that you receive once you're finished and your application is running on a remote machine. If you've ever provisioned two servers identically, you know the feeling of dread from getting it exactly right the second time. Thankfully, tools like Ansible exist to help us provision multiple servers exactly the same way."
 type: blog
 id: 75
 category:
   - Ansible
 tags:
   - Ansible
-post_format: []
-_yoast_wpseo_title:
-  - "Provisioning a remote server with Ansible"
 ---
 
 If you’ve ever manually provisioned a server before, you know the feeling of excitement that you receive once you’re finished and your application is running on a remote machine. If you’ve ever provisioned two servers identically, you know the feeling of dread from getting it exactly right the second time. Thankfully, tools like Ansible exist to help us provision multiple servers exactly the same way. Today, I’ll talk to you about provisioning a remote machine using Ansible.

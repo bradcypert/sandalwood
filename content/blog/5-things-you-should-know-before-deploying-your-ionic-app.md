@@ -13,9 +13,7 @@ category:
 tags:
   - ionic
   - mobile
-post_format: []
-_yoast_wpseo_title:
-  - "5 Things You Should Know Before Deploying Your Ionic App"
+description: "Before you deploy your ionic app, these are five things you need to know."
 ---
 
 I’ve been out of the mobile app world for almost two years now, and it certainly has had some interesting advances, but the thing that drew me back in – Ionic.
@@ -44,17 +42,6 @@ Seriously. Do it. Right now, don’t wait or you’ll forget. Nothing is as awkw
 
 This should be obvious, but there were several times I found myself trying to create an object that looked like something you’ll find on a phone. Ionic has done it for you, so use theirs! It’s easy to forget when you’re just writing CSS and HTML, but I strongly recommend browsing their docs. Anything you’d want to use, you’ll find in there plus they conform to their platform’s native looks!
 
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
-
-<ins
-  class="adsbygoogle"
-  data-ad-client="ca-pub-8945603214034079"
-  data-ad-format="fluid"
-  data-ad-layout="in-article"
-  data-ad-slot="2376037128"
-  style="display:block; text-align:center;"
-></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 4. Concat/Minify
 

@@ -4,7 +4,6 @@ date: 2016-06-23
 status: publish
 permalink: /using-json-web-tokens-with-clojure
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 22
 category:
@@ -14,23 +13,8 @@ tags:
   - clojure
   - "json web tokens"
   - jwt
-post_format: []
-_yoast_wpseo_title:
-  - "Using JSON Web Tokens (JWT) with Clojure %%sep%% %%sitename%%"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - ""
-_yoast_wpseo_focuskw:
-  - "clojure jwt"
 description:
   - "JWT are used as the authorization header on incoming requests. Clojure has a wonderful JWT library named Buddy that makes working with JSON Web tokens easy."
-_yoast_wpseo_linkdex:
-  - "77"
-_yoast_wpseo_content_score:
-  - "90"
 ---
 
 Authentication is easy. Good authentication is difficult. We’re at a point in the world where our users expect to be able to sign up for your service or app, and receive a more personalized experience. If you can’t validate who the user is, you can’t achieve this.

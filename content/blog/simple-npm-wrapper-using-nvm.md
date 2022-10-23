@@ -4,7 +4,6 @@ date: 2018-06-07
 status: publish
 permalink: /simple-npm-wrapper-using-nvm
 author: "Brad Cypert"
-excerpt: "Node has always done a pretty good job of not requiring a specific version of NPM to execute most of it's commands properly. However, with the recent addition of the package-lock file (and the recent tinkering of the package-lock file across some of the more recent releases of NPM), it's starting to become a bit of a pain to manage."
 type: blog
 id: 554
 category:
@@ -14,15 +13,6 @@ tags:
   - "Developer Tools"
   - DevOps
   - node
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - ""
-_yoast_wpseo_focuskw:
-  - NPM
 description:
   - "Learn to build a simple NPM wrapper for your node projects so that your team can easily stay on the same version of NodeJS."
 ---

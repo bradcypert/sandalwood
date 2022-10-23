@@ -4,23 +4,14 @@ date: 2018-04-12
 status: publish
 permalink: /building-a-business-on-a-budget
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 310
 thumbnail: /DO_Logo_Horizontal_Blue.png
 category:
   - Business
   - Meta
-tag: []
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_title:
-  - "Building a Business on a Budget"
+description: "Building a business on a budget is difficult, but not impossible. These are some of my favorite tools for running a business on a budget."
 ---
-
 ## IE: Seven cheap (or free) tools we use on Porios and you should use too!
 
 I’m a firm believer in the expression _“You get what you pay for”_ but I’ve quickly learned the following:
@@ -62,18 +53,6 @@ You can hit AWS’s landing page here – [AWS](https://aws.amazon.com/). Just k
 [Mailgun](https://www.mailgun.com/) is a service that allows developers to leverage powerful APIs that enable you to send, receive and track email effortlessly. Our Mailgun integration was one of the first integrations we built into Porios and we use it for all of our automatic emails. In Porios, we leverage [OUTR’s Mailgun4S](https://github.com/outr/mailgun4s) which is a great Mailgun client for Scala. The integration and client work great together and they allow us to write rich HTML emails and bundle those along with our deployable application. Unfortunately, there are no tools for building an “all-email-client-friendly” email integrated into mailgun (or the ability to create emails via the web portal and call the api with those as a reference) but this has only became a recent concern for us (as I tire of writing these email templates from scratch).
 
 The best part about mailgun, however, is that **they have a fantastic free-tier offering**. The free plan offers support for sending 1,000 emails per month, and supports logs, analytics and webhooks. We send most of our emails and manage preferences from our application, but I believe that Mailgun also offers mailing lists and you can target emails by mailing lists as well. The configuration for allowing emails from your domain is not that difficult to setup and they have a great tutorial showing you how to do so.
-
-<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{" "}
-
-<ins
-  class="adsbygoogle"
-  data-ad-client="ca-pub-8945603214034079"
-  data-ad-format="fluid"
-  data-ad-layout="in-article"
-  data-ad-slot="2376037128"
-  style="display: block; text-align: center;"
-></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## \#4. Sentry.io
 
