@@ -11,7 +11,7 @@ category:
   - Meta
 tags:
   - clojure
-  - "f#"
+  - "fsharp"
   - go
   - meta
   - nim
