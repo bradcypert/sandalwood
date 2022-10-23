@@ -1,0 +1,25 @@
+<div class="container p-6 mx-auto">
+    <h3 class="text-2xl">Language Specific Resources:</h3>
+
+    {{ $resources := dict
+        "Clojure" "Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming."
+        "Dart" "Dart is a client-optimized language for fast apps on any platform. Flutter allows developers to build apps for any type of screen."
+        "Java" "Java is known for it's “Write-Once-Run-Anywhere” mantra and helps run code on servers, phones, microwaves, and more!"
+        "JavaScript" "The language(s) of the web. TypeScript as well as JavaScript library and framework articles can be found here, too!"
+        "Kotlin" "Kotlin is a cross-platform, statically-typed language that often targets the JVM. It's used for web development, Android development, and much more."
+        "PHP" "PHP was one of the first programming languages that I learned and while it's not something I often write these days, I still find myself appreciating the stateless nature of web development, as well as Laravel and, sometimes, Wordpress."
+        "Scala" "Scala combines object-oriented and functional programming in one concise, high-level language. Note: Most of these examples will be using Scala 2.X"
+      }}
+
+    <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
+      {{ range $resource, $description := $resources }}
+      <div class="p-2">
+        <a href="/{{lower $resource}}-resources">
+          <div class="my-2 text-xl font-semibold">{{ $resource }}</div>
+          <div>{{ $description }}</div>
+        </a>
+        </div>
+        
+      {{ end }}
+    </div>
+</div>
