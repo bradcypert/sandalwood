@@ -1,0 +1,78 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'bradcypert.com'
+theme = 'blist'
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2022 - Brad Cypert · All rights reserved"
+  favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-yellow-50"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  introTitle = "Hey! I'm Brad Cypert."
+  introPhoto = "/brad-w-luna.jpg"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[[menu.main]]
+  name = "Blog"
+  url = "blog"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "about"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 3
+
+[permalinks]
+  blog = '/:filename/'
+  page = '/:filename/'
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Follow me"
+  description = "Connect with me to follow along on my journey in my career, open source, and mentorship. Occasionally, I'll share good advice and content (quality not guaranteed)."
+  twitter = "https://twitter.com/bradcypert"
+  linkedin = "https://linkedin.com/in/bradcypert"
+  github = "https://github.com/bradcypert"
+
+[build]
+  writeStats = true
+
+# [outputs]
+#   home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
+
