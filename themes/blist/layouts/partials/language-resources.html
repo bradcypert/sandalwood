@@ -15,7 +15,7 @@
       {{ range $resource, $description := $resources }}
       <div class="p-2">
         <a href="/{{lower $resource}}-resources">
-          <div class="my-2 text-xl font-semibold">{{ $resource }}</div>
+          <div class="my-2 text-xl font-semibold underline">{{ $resource }}</div>
           <div>{{ $description }}</div>
         </a>
         </div>
