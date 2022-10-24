@@ -4,7 +4,6 @@ date: 2017-04-06
 status: publish
 permalink: /clojure-protocols-and-records
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 51
 category:
@@ -12,9 +11,7 @@ category:
 tags:
   - protocols
   - records
-post_format: []
-_yoast_wpseo_title:
-  - "Clojure Protocols & Records"
+description: "Clojure's protocols allow you to write code similarly to multimethods although protocols dispatch on the type of parameter, where multimethods dispatch on the value."
 ---
 
 Deep diving back into Clojure! Damn, it feels good to be back! If you’re reading this, you probably don’t know much about Protocols or Records and the goal is simple – by the end of this post, you’ll feel comfortable understanding them, using them, and refactoring to them if you’re coming from a Java codebase.

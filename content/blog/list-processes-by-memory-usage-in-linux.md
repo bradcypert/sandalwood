@@ -14,15 +14,7 @@ tags:
   - linux
   - ps
   - terminal
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "94"
-_yoast_wpseo_content_score:
-  - "90"
+description: "Learn how to list processes by memory usage in Linux and learn what the commands are actually doing for you."
 ---
 
 I recently was running into an issue where a Systemd service was crashing due to an out of memory error. I was pretty sure that my project wasn’t taking up **too** much memory, but I wasn’t certain what was. Thankfully, with the use of some command-line wizardry, I was able to find out that Hyper (the terminal app) was using almost 3gb of memory!

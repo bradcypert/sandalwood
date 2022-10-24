@@ -13,29 +13,7 @@ tags:
   - beginner-friendly
   - Generators
   - javascript
-post_format: []
-_yoast_wpseo_title:
-  - "JavaScript - Generators"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-saswp_custom_schema_field:
-  - ""
-saswp_webpage_speakable_3050:
-  - "0"
-saswp_modify_this_schema_3049:
-  - "0"
-saswp_blogposting_speakable_3049:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "84"
-wp_last_modified_info:
-  - "September 6, 2020 @ 2:20 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_content_score:
-  - "90"
+description: "JavaScript generators allow you to evaluate code in a lazy fashion. This is extremely useful when working with large ranges of numbers or computationally intensive code."
 ---
 
 One thing I’ve learned recently from Clojure (don’t worry, this post **is** about JavaScript) is that laziness is great. Lazy code is powerful code, allowing you to model things like infinite sequences or complex computations over a range of data. Without this laziness, an infinite sequence would cause a stack overflow or complex computations would bog down your performance when you may not even need to perform all those computations to begin with!

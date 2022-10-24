@@ -4,7 +4,6 @@ date: 2015-09-11
 status: publish
 permalink: /a-brief-comparison-of-flowrouter-and-iron-router-for-meteor-js
 author: "Brad Cypert"
-excerpt: ""
 type: blog
 id: 18
 category:
@@ -14,13 +13,7 @@ tags:
   - "iron:router"
   - javascript
   - meteor
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_title:
-  - "A Brief Comparison of FlowRouter and Iron:Router for Meteor.js"
+description: "In this article, we'll cover the differences and benefits of Iron:Router vs FlowRouter for Meteor.js"
 ---
 
 Recently, I was updating an open source package that I maintain – [a project structure scaffolding tool](http://www.github.com/bradcypert/ignite). While updating the template I use for my Meteor apps, I realized my tool was still catering towards Iron:Router. For those unaware, Iron:Router has a history of being **the** Router for Meteor apps. When I first used it, however, it felt like it was lacking in some ways. After using it on about several Meteor apps now, I’ve adjusted my design to conform to Iron:Router and it works extremely well, but recently [KadiraHQ](http://www.kadira.io) created their own Router – FlowRouter – and oh, is it nice.

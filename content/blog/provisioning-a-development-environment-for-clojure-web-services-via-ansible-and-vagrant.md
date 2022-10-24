@@ -17,8 +17,7 @@ tags:
   - DevOps
   - Vagrant
 post_format: []
-_yoast_wpseo_title:
-  - "Provisioning a Development Environment for Clojure Web Services via Ansible and Vagrant"
+description: "Sandboxed developer environments are extremely helpful for local development and ensuring projects work across machines. In this post, we'll learn how to provision a development environment for Clojure web services with Ansible and Vagrant."
 ---
 
 Welcome back! DevOps has always been an area of interest for me, however I’ve not really had much of a reason to get into it. At CARFAX and LinkedIn, there were teams dedicated to the DevOps side of things. However, I’m picking up steam with a couple of projects that have me at the helm, and I’m seeing a more and more prevalent need for DevOps in these projects.

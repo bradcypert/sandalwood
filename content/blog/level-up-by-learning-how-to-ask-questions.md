@@ -9,6 +9,7 @@ category:
   - meta
 tags:
   - meta
+description: "The biggest difference that I notice between junior and senior engineers is not what they know, but its how to ask for help regarding what they do not know. Learn how to act like a senior by leveling up your question asking game."
 ---
 
 There are several differences between junior and senior developers, but one of the most noticeable differences is around how they communicate. In development, questions are one of the most common forms of communication. Here are some tips that I have to help you ask senior-level questions.

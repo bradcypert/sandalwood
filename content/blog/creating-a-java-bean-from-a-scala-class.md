@@ -11,11 +11,6 @@ category:
   - Scala
 tags:
   - Scala
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
 description: "Creating a Java Bean from a Scala Class is slightly tricky as Scala classes don't adhere to the Bean definition, but with a little work we can make Scala classes into Java beans."
 ---
 

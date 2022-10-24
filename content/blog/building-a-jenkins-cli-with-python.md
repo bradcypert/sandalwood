@@ -9,10 +9,10 @@ type: blog
 id: 13
 category:
   - Python
-tag: []
-post_format: []
-_yoast_wpseo_title:
-  - "Building a Jenkins CLI with Python"
+tags:
+  - python
+description: "Python is a great tool for building CLIs. In this post, we'll build a CLI with Python to connect to Jenkins."
+
 ---
 
 # Jenkins, please.

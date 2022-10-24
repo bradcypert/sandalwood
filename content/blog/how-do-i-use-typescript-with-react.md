@@ -13,15 +13,7 @@ category:
 tags:
   - react
   - typescript
-post_format: []
-wp_last_modified_info:
-  - "January 11, 2020 @ 7:48 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_primary_category:
-  - "243"
-_yoast_wpseo_content_score:
-  - "90"
+description: "Using typescript with react is easy! In this post, I'll show you how."
 ---
 
 [React](https://reactjs.org/) is allowing developers to iterate faster and build safer, more reliable frontend applications than we were building many years ago. [TypeScript](https://www.typescriptlang.org/), a relatively new addition to the “JavaScript Alternatives” scene, also aims to add a new level of safety in the form of type safety. Naturally, it makes sense for us to want to use TypeScript to write React components.

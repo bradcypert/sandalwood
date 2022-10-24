@@ -13,15 +13,7 @@ tags:
   - react
   - react-testing-library
   - testing
-post_format: []
-wp_last_modified_info:
-  - "February 16, 2020 @ 12:41 am"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_primary_category:
-  - "243"
+description: "In this video, we'll walk through how to test react components with react testing library"
 ---
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d8GRDqjFP-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

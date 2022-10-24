@@ -13,19 +13,7 @@ category:
 tags:
   - go
   - interfaces
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "209"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "Golang Interfaces"
-_yoast_wpseo_linkdex:
-  - "64"
+description: "Golang's interfaces allow you to define the behavior of structs, but Golang has a few unique features for interfaces that you may not expect."
 ---
 
 [Interfaces](https://gobyexample.com/interfaces) are a tool that allows you to define the behavior of objects and in Golang, interfaces are no different (except that they work on structs instead of “objects”). However, Go has some strange features for interfaces that users from other languages might not expect.
