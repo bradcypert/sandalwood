@@ -41,6 +41,7 @@ theme = 'blist'
 
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
+
 [[menu.main]]
   name = "Blog"
   url = "blog"
@@ -81,4 +82,13 @@ DefaultContentLanguageInSubdir = true
   [markup.goldmark.renderer]
     # Enable to include inline HTML
     unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    linkifyProtocol = 'https'
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = false
 

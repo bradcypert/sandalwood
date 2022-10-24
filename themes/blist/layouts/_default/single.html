@@ -60,7 +60,7 @@
     </h5>
     {{ end }}
 
-    {{ .Content }}
+    {{ .Content | htmlUnescape | safeHTML }}
   </article>
 
   {{- partial "social.html" . -}}
