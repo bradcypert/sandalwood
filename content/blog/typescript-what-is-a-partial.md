@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2237
-thumbnail: /black-and-white-blank-challenge-connect-262488.jpg
+images:
+  - /black-and-white-blank-challenge-connect-262488.jpg
 category:
   - TypeScript
 tags:

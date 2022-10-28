@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2271
-thumbnail: /react-typescript-1.png
+images:
+  - /react-typescript-1.png
 category:
   - React
 tags:

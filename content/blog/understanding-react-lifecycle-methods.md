@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2541
-thumbnail: /two-yellow-flowers-surrounded-by-rocks-1028930.jpg
+images:
+  - /two-yellow-flowers-surrounded-by-rocks-1028930.jpg
 category:
   - React
 tags:

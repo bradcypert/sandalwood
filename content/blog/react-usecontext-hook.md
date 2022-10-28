@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2631
-thumbnail: /pink-and-purple-wallpaper-1616403.jpg
+images:
+  - /pink-and-purple-wallpaper-1616403.jpg
 category:
   - React
 tags:

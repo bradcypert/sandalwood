@@ -4,7 +4,8 @@ date: 2022-10-23
 status: publish
 permalink: /rust-from-into
 author: "Brad Cypert"
-thumbnail: /rusted-lock.jpg
+images:
+  - /rusted-lock.jpg
 type: blog
 category:
   - rust

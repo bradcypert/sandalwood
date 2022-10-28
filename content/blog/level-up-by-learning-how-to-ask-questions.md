@@ -4,7 +4,8 @@ date: 2021-03-11
 status: publish
 author: "Brad Cypert"
 type: blog
-thumbnail: /Screen-Shot-2018-11-19-at-12.35.12-PM.png
+images:
+  - /Screen-Shot-2018-11-19-at-12.35.12-PM.png
 category:
   - meta
 tags:

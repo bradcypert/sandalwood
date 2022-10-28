@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1619
-thumbnail: /cell-tower-cellphone-masts-clouds-270286.jpg
+images:
+  - /cell-tower-cellphone-masts-clouds-270286.jpg
 category:
   - Go
 tags:

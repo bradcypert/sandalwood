@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1833
-thumbnail: /cropped-bandwidth-close-up-connection-1148820-e1567445450631-1.jpg
+images:
+  - /cropped-bandwidth-close-up-connection-1148820-e1567445450631-1.jpg
 category:
   - Scala
 tags:

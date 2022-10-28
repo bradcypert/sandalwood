@@ -4,7 +4,8 @@ date: 2022-03-18
 status: publish
 permalink: /building-a-cli-in-dart-with-bosun
 author: "Brad Cypert"
-thumbnail: /art-assorted-background-1619844.jpg
+images:
+  - /art-assorted-background-1619844.jpg
 excerpt: ""
 type: blog
 category:

@@ -7,7 +7,8 @@ author: "Brad Cypert"
 description: "Having your application run your database migrations is at best more responsibility than your web app should be responsible for and at worst a scalability nightmare."
 type: blog
 id: 1450
-thumbnail: /animal-photography-clouds-daylight-635006.jpg
+images:
+  - /animal-photography-clouds-daylight-635006.jpg
 category:
   - Databases
 tags:

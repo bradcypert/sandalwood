@@ -6,7 +6,8 @@ permalink: /what-you-need-to-know-about-the-gilded-rose-interview-problem
 author: "Brad Cypert"
 type: blog
 id: 795
-thumbnail: /beauty-bloom-blue-67636.jpg
+images:
+  - /beauty-bloom-blue-67636.jpg
 category:
   - clojure
 tags:

@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3045
-thumbnail: /binding-books-bound-colorful-272980.jpg
+images:
+  - /binding-books-bound-colorful-272980.jpg
 category:
   - PHP
 tags:

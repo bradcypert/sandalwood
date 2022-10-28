@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2533
-thumbnail: /woman-programming-on-a-notebook-1181359.jpg
+images:
+  - /woman-programming-on-a-notebook-1181359.jpg
 category:
   - Python
 tags:

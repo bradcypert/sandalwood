@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 872
-thumbnail: /blur-business-close-up-270557.jpg
+images:
+  - /blur-business-close-up-270557.jpg
 category:
   - PHP
 tags:

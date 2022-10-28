@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 910
-thumbnail: /art-assorted-background-1619844.jpg
+images:
+  - /art-assorted-background-1619844.jpg
 category:
   - Android
 tags:

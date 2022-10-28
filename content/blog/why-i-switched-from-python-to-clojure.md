@@ -6,7 +6,8 @@ permalink: /why-i-switched-from-python-to-clojure
 author: "Brad Cypert"
 type: blog
 id: 24
-thumbnail: /Screen-Shot-2019-03-25-at-9.21.39-AM.png
+images:
+  - /Screen-Shot-2019-03-25-at-9.21.39-AM.png
 category:
   - clojure
   - Meta

@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1030
-thumbnail: /code-coding-computer-574077.jpg
+images:
+  - /code-coding-computer-574077.jpg
 category:
   - Meta
 tags:

@@ -6,7 +6,8 @@ permalink: /what-is-androids-surfaceflinger
 author: "Brad Cypert"
 type: blog
 id: 1018
-thumbnail: /android-phone-blur-cellular-telephone-454699.jpg
+images:
+  - /android-phone-blur-cellular-telephone-454699.jpg
 category:
   - Android
 tags:

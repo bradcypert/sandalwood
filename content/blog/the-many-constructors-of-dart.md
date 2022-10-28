@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3559
-thumbnail: /pexels-iconcom-226569.jpg
+images:
+  - /pexels-iconcom-226569.jpg
 category:
   - dart
 tags:

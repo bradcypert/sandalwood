@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2027
-thumbnail: /photo-of-light-bulb-1495580.jpg
+images:
+  - /photo-of-light-bulb-1495580.jpg
 category:
   - React
 tags:

@@ -4,7 +4,7 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": {{ .Title }},
-      "image": {{ .Params.thumbnail | absURL }},
+      "image": {{ if (isset .Params.Images 0) }} {{ index (.Params.images) 0 | absURL }} {{ end }},
       "datePublished": {{ .PublishDate }},
       "dateModified": {{ .Lastmod }},
       "author": {

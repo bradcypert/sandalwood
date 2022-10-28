@@ -3,7 +3,16 @@ languageCode = 'en-us'
 title = 'bradcypert.com'
 theme = 'blist'
 
+googleAnalytics = 'G-6MJNEMNCY8'
+
+[taxonomies]
+  series = 'series'
+
 [params]
+  images = [
+    "profile.png"
+  ]
+
   # Enable the darkmode toggle in header
   darkModeToggle = true
   

@@ -5,7 +5,8 @@ lastUpdated: 2022-05-21
 status: publish
 author: "Brad Cypert"
 type: blog
-thumbnail: /pexels-ann-poan-5797904.jpg
+images:
+  - /pexels-ann-poan-5797904.jpg
 category:
   - flutter
 tags:

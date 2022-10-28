@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3605
-thumbnail: /pexels-engin-akyurt-1451040.jpg
+images:
+  - /pexels-engin-akyurt-1451040.jpg
 category:
   - Business
 tags:

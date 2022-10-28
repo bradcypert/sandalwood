@@ -6,7 +6,8 @@ permalink: /building-a-business-on-a-budget
 author: "Brad Cypert"
 type: blog
 id: 310
-thumbnail: /DO_Logo_Horizontal_Blue.png
+images:
+  - /DO_Logo_Horizontal_Blue.png
 category:
   - Business
   - Meta

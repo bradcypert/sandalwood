@@ -6,7 +6,8 @@ description: "Learn how to upload coverate to codecov for the Dart programming l
 status: publish
 author: "Brad Cypert"
 type: blog
-thumbnail: /pexels-multi-tennant-units.jpg
+images:
+  - /pexels-multi-tennant-units.jpg
 category:
   - dart
 tags:

@@ -6,7 +6,8 @@ permalink: /upper-and-lower-bounds-in-scala
 author: "Brad Cypert"
 type: blog
 id: 289
-thumbnail: /TypeBounds-1.jpg
+images:
+  - /TypeBounds-1.jpg
 category:
   - Scala
 tags:

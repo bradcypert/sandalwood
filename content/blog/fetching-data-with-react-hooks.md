@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2208
-thumbnail: /silhouette-photography-of-banana-hook-decor-706138.jpg
+images:
+  - /silhouette-photography-of-banana-hook-decor-706138.jpg
 category:
   - React
 tags:

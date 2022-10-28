@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 2759
-thumbnail: /beach-foam-landscape-nature-533923.jpg
+images:
+  - /beach-foam-landscape-nature-533923.jpg
 category:
   - DevOps
 tags:

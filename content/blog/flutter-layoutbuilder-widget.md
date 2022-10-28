@@ -5,7 +5,8 @@ status: publish
 permalink: /flutter-layoutbuilder-widget
 author: "Brad Cypert"
 type: blog
-thumbnail: /flutter-layoutbuilder-cover.jpg
+images:
+  - /flutter-layoutbuilder-cover.jpg
 category:
   - Dart
   - Flutter

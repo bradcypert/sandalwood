@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 828
-thumbnail: /boat-folding-origami-19678.jpg
+images:
+  - /boat-folding-origami-19678.jpg
 category:
   - Android
 tags:

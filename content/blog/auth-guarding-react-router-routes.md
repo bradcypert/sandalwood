@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1906
-thumbnail: /Screen-Shot-2019-10-27-at-5.01.05-PM.png
+images:
+  - /Screen-Shot-2019-10-27-at-5.01.05-PM.png
 category:
   - React
 tags:

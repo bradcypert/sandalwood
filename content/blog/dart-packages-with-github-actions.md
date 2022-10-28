@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3596
-thumbnail: /GitHub_Logo.png
+images:
+  - /GitHub_Logo.png
 category:
   - dart
 tags:

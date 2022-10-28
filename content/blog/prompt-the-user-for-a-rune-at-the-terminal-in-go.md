@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1558
-thumbnail: /Gophercolor.jpg
+images:
+  - /Gophercolor.jpg
 category:
   - Go
 tags:

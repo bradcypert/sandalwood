@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1367
-thumbnail: /circuit-board-circuits-components-825258.jpg
+images:
+  - /circuit-board-circuits-components-825258.jpg
 category:
   - "Developer Tools"
 tags:

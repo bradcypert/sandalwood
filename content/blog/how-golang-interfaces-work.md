@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1653
-thumbnail: /cropped-bread-burlap-close-up-1600711-e1562602457160-1.jpg
+images:
+  - /cropped-bread-burlap-close-up-1600711-e1562602457160-1.jpg
 category:
   - Go
 tags:

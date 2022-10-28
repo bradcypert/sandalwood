@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 769
-thumbnail: /connection-device-display-776092.jpg
+images:
+  - /connection-device-display-776092.jpg
 category:
   - kotlin
 tags:

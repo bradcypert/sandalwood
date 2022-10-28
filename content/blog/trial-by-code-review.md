@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 32
-thumbnail: /access-blur-business-1181271.jpg
+images:
+  - /access-blur-business-1181271.jpg
 category:
   - Meta
 tags:

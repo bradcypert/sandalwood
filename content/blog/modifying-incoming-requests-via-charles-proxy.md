@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 250
-thumbnail: /Screen-Shot-2018-03-08-at-10.51.47-AM-e1520524383391.png
+images:
+  - /Screen-Shot-2018-03-08-at-10.51.47-AM-e1520524383391.png
 category:
   - "Developer Tools"
 tags:

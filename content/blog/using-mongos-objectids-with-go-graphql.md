@@ -6,7 +6,8 @@ permalink: /using-mongos-objectids-with-go-graphql
 author: "Brad Cypert"
 type: blog
 id: 1919
-thumbnail: /blur-cartography-close-up-2678374-1.jpg
+images:
+  - /blur-cartography-close-up-2678374-1.jpg
 category:
   - Go
 tags:

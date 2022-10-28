@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1000
-thumbnail: /arm-wrestling-bar-bet-4417.jpg
+images:
+  - /arm-wrestling-bar-bet-4417.jpg
 category:
   - kotlin
   - Scala

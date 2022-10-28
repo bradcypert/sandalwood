@@ -1,9 +1,9 @@
 <div class="p-2">
 <a href="{{ .Permalink }}">
-  {{ if .Params.thumbnail }}
+  {{ if isset (.Params.images) 0 }}
   <div class="relative">
     <div class="image-hover">
-      <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+      <img src="{{ index (.Params.images) 0 }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
     <div class="hover-text bg-black text-white p-2 rounded-md">Learn More</div>
     </div>
     {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}

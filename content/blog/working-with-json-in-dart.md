@@ -7,7 +7,8 @@ author: "Brad Cypert"
 description: "JSON is a common communication specification for web apps. In this post, you'll learn how to work with JSON data in Dart."
 type: blog
 id: 3581
-thumbnail: /Untitled.png
+images:
+  - /Untitled.png
 category:
   - dart
 tags:

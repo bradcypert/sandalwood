@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 687
-thumbnail: /pexels-photo-507410.jpeg
+images:
+  - /pexels-photo-507410.jpeg
 category:
   - kotlin
 tags:

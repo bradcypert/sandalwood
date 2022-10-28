@@ -5,7 +5,8 @@ status: publish
 permalink: /dart-mixins
 author: "Brad Cypert"
 type: blog
-thumbnail: /dart-mixins-cover.jpg
+images:
+  - /dart-mixins-cover.jpg
 category:
   - Dart
 tags:

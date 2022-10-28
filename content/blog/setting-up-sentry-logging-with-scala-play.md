@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1256
-thumbnail: /chopped-wood-evening-forest-7557.jpg
+images:
+  - /chopped-wood-evening-forest-7557.jpg
 category:
   - Scala
 tags:

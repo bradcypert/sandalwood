@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1703
-thumbnail: /cropped-action-plan-brainstorming-complex-212286-e1563490331368.jpg
+images:
+  - /cropped-action-plan-brainstorming-complex-212286-e1563490331368.jpg
 category:
   - Go
 tags:

@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3405
-thumbnail: /green-artichoke-on-gray-round-plate-3647046.jpg
+images:
+  - /green-artichoke-on-gray-round-plate-3647046.jpg
 category:
   - TypeScript
 tags:

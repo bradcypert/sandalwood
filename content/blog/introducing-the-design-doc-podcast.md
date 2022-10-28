@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1960
-thumbnail: /1975435-1561678560877-75bffad2b651c.jpg
+images:
+  - /1975435-1561678560877-75bffad2b651c.jpg
 category:
   - Podcast
 tags:

@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1613
-thumbnail: /acrylic-art-artistic-1289899.jpg
+images:
+  - /acrylic-art-artistic-1289899.jpg
 category:
   - Elm
 tags:

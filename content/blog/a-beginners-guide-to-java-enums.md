@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 34
-thumbnail: /books-coding-couch-1181298.jpg
+images:
+  - /books-coding-couch-1181298.jpg
 category:
   - Java
 tags:

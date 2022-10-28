@@ -5,7 +5,8 @@ status: publish
 author: "Brad Cypert"
 excerpt: ""
 type: blog
-thumbnail: /pexels-lightbulb.jpg
+images:
+  - /pexels-lightbulb.jpg
 category:
   - Flutter
 tags:

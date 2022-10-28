@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3293
-thumbnail: /Untitled1.png
+images:
+  - /Untitled1.png
 category:
   - PHP
 tags:

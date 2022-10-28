@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 1813
-thumbnail: /athens-e1566846297678.png
+images:
+  - /athens-e1566846297678.png
 category:
   - Go
 tags:

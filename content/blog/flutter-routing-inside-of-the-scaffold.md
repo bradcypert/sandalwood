@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3528
-thumbnail: /pexels-pixabay-349758.jpg
+images:
+  - /pexels-pixabay-349758.jpg
 category:
   - Flutter
 tags:

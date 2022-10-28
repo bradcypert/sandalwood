@@ -6,7 +6,8 @@ permalink: /static-methods-companion-objects-and-testing
 author: "Brad Cypert"
 type: blog
 id: 586
-thumbnail: /background-board-card-825262.jpg
+images:
+  - /background-board-card-825262.jpg
 category:
   - kotlin
 tags:

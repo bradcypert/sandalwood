@@ -6,7 +6,8 @@ permalink: /what-is-scrum
 author: "Brad Cypert"
 type: blog
 id: 665
-thumbnail: /scrum.png
+images:
+  - /scrum.png
 category:
   - Leadership
 tags:

@@ -7,7 +7,8 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 id: 3565
-thumbnail: /pexels-buenosia-carol-707582.jpg
+images:
+  - /pexels-buenosia-carol-707582.jpg
 category:
   - dart
 tags:

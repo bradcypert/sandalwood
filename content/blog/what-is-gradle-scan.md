@@ -6,7 +6,8 @@ permalink: /what-is-gradle-scan
 author: "Brad Cypert"
 type: blog
 id: 760
-thumbnail: /eco-ecology-environment-5808.jpg
+images:
+  - /eco-ecology-environment-5808.jpg
 category:
   - DevOps
 tags:

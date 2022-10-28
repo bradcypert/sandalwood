@@ -4,7 +4,8 @@ date: 2021-09-16
 status: publish
 permalink: /boxing-things-in-rust
 author: "Brad Cypert"
-thumbnail: /rusted-lock.jpg
+images:
+  - /rusted-lock.jpg
 excerpt: ""
 type: blog
 category:
