@@ -13,6 +13,8 @@ googleAnalytics = 'G-6MJNEMNCY8'
     "profile.png"
   ]
 
+  description = 'Learn about a vast array of programming languages, frameworks, and technologies at BradCypert.com'
+
   # Enable the darkmode toggle in header
   darkModeToggle = true
   
