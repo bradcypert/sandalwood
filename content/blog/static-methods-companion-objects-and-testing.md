@@ -15,10 +15,7 @@ tags:
   - kotlin
   - static
   - testing
-description:
-  - "Learn to use Companion Objects to help with testing static methods in Kotlin. Find out how to make the most of your companion objects!"
-_yoast_wpseo_linkdex:
-  - "83"
+description: "Learn to use Companion Objects to help with testing static methods in Kotlin. Find out how to make the most of your companion objects!"
 ---
 
 I’ve been working with Kotlin a ton recently, both at work and for fun. It’s a fantastic language on the JVM that combines almost all of my favorite Scala features and adds in several new features as well. If you haven’t given it a shot yet and you’re a Java reader, give it a try! You’ll love how expressive it can be and how simple and concise some of the code can be. If you’re a Scala reader, you’ll feel familiar with a lot of the syntax and ideas (Objects, replacing statics for example). One thing Kotlin does that still feels a bit weird is it promotes the use of companion objects. A companion object sits inside a class definition and houses all the `static` methods which that class will own. Let’s convert a piece of Java code to Kotlin so you can see what I mean.
