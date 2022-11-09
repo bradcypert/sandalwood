@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3045
 images:
-  - /binding-books-bound-colorful-272980.jpg
+  - binding-books-bound-colorful-272980.jpg
 category:
   - PHP
 tags:

@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 795
 images:
-  - /beauty-bloom-blue-67636.jpg
+  - beauty-bloom-blue-67636.jpg
 category:
   - clojure
 tags:

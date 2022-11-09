@@ -6,7 +6,7 @@ status: publish
 author: "Brad Cypert"
 type: blog
 images:
-  - /pexels-ann-poan-5797904.jpg
+  - pexels-ann-poan-5797904.jpg
 category:
   - flutter
 tags:

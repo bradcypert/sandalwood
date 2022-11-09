@@ -7,7 +7,7 @@ status: publish
 author: "Brad Cypert"
 type: blog
 images:
-  - /pexels-multi-tennant-units.jpg
+  - pexels-multi-tennant-units.jpg
 category:
   - dart
 tags:

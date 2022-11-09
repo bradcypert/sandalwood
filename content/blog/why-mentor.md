@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 34
 images:
-  - /why-mentor.jpg
+  - why-mentor.jpg
 tags:
   - meta
   - mentorship

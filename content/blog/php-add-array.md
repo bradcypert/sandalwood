@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 872
 images:
-  - /blur-business-close-up-270557.jpg
+  - blur-business-close-up-270557.jpg
 category:
   - PHP
 tags:

@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 586
 images:
-  - /background-board-card-825262.jpg
+  - background-board-card-825262.jpg
 category:
   - kotlin
 tags:

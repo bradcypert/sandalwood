@@ -5,7 +5,7 @@ status: publish
 permalink: /rust-from-into
 author: "Brad Cypert"
 images:
-  - /rusted-lock.jpg
+  - rusted-lock.jpg
 type: blog
 category:
   - rust

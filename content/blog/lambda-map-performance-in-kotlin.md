@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 747
 images:
-  - /Screen-Shot-2018-11-19-at-12.35.12-PM.png
+  - Screen-Shot-2018-11-19-at-12.35.12-PM.png
 category:
   - kotlin
 tags:

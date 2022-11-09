@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1906
 images:
-  - /Screen-Shot-2019-10-27-at-5.01.05-PM.png
+  - Screen-Shot-2019-10-27-at-5.01.05-PM.png
 category:
   - React
 tags:

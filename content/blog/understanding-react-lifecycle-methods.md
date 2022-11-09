@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2541
 images:
-  - /two-yellow-flowers-surrounded-by-rocks-1028930.jpg
+  - two-yellow-flowers-surrounded-by-rocks-1028930.jpg
 category:
   - React
 tags:

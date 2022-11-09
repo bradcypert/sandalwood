@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2533
 images:
-  - /woman-programming-on-a-notebook-1181359.jpg
+  - woman-programming-on-a-notebook-1181359.jpg
 category:
   - Python
 tags:

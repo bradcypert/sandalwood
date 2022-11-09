@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2631
 images:
-  - /pink-and-purple-wallpaper-1616403.jpg
+  - pink-and-purple-wallpaper-1616403.jpg
 category:
   - React
 tags:

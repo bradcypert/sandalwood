@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1367
 images:
-  - /circuit-board-circuits-components-825258.jpg
+  - circuit-board-circuits-components-825258.jpg
 category:
   - "Developer Tools"
 tags:

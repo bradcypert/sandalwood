@@ -5,7 +5,7 @@ status: publish
 permalink: /boxing-things-in-rust
 author: "Brad Cypert"
 images:
-  - /rusted-lock.jpg
+  - rusted-lock.jpg
 excerpt: ""
 type: blog
 category:

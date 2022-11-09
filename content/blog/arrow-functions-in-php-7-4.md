@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3293
 images:
-  - /Untitled1.png
+  - Untitled1.png
 category:
   - PHP
 tags:

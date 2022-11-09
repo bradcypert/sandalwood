@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1256
 images:
-  - /chopped-wood-evening-forest-7557.jpg
+  - chopped-wood-evening-forest-7557.jpg
 category:
   - Scala
 tags:

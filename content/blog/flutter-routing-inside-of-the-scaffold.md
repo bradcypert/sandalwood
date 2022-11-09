@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3528
 images:
-  - /pexels-pixabay-349758.jpg
+  - pexels-pixabay-349758.jpg
 category:
   - Flutter
 tags:

@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 760
 images:
-  - /eco-ecology-environment-5808.jpg
+  - eco-ecology-environment-5808.jpg
 category:
   - DevOps
 tags:

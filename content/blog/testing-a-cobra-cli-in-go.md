@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1703
 images:
-  - /cropped-action-plan-brainstorming-complex-212286-e1563490331368.jpg
+  - cropped-action-plan-brainstorming-complex-212286-e1563490331368.jpg
 category:
   - Go
 tags:

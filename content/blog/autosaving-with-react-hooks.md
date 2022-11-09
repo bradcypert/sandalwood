@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2027
 images:
-  - /photo-of-light-bulb-1495580.jpg
+  - photo-of-light-bulb-1495580.jpg
 category:
   - React
 tags:

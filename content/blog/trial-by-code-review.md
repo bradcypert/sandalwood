@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 32
 images:
-  - /access-blur-business-1181271.jpg
+  - access-blur-business-1181271.jpg
 category:
   - Meta
 tags:

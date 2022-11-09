@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1000
 images:
-  - /arm-wrestling-bar-bet-4417.jpg
+  - arm-wrestling-bar-bet-4417.jpg
 category:
   - kotlin
   - Scala

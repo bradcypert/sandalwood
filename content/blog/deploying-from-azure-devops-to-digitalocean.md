@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2759
 images:
-  - /beach-foam-landscape-nature-533923.jpg
+  - beach-foam-landscape-nature-533923.jpg
 category:
   - DevOps
 tags:

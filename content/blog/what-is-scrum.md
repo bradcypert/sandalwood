@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 665
 images:
-  - /scrum.png
+  - scrum.png
 category:
   - Leadership
 tags:

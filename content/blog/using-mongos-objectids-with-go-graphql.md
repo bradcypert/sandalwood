@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 1919
 images:
-  - /blur-cartography-close-up-2678374-1.jpg
+  - blur-cartography-close-up-2678374-1.jpg
 category:
   - Go
 tags:

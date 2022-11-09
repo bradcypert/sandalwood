@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 24
 images:
-  - /Screen-Shot-2019-03-25-at-9.21.39-AM.png
+  - Screen-Shot-2019-03-25-at-9.21.39-AM.png
 category:
   - clojure
   - Meta

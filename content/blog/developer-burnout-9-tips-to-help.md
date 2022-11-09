@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1030
 images:
-  - /code-coding-computer-574077.jpg
+  - code-coding-computer-574077.jpg
 category:
   - Meta
 tags:

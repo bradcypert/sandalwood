@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1813
 images:
-  - /athens-e1566846297678.png
+  - athens-e1566846297678.png
 category:
   - Go
 tags:

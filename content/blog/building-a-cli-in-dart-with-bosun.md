@@ -5,7 +5,7 @@ status: publish
 permalink: /building-a-cli-in-dart-with-bosun
 author: "Brad Cypert"
 images:
-  - /art-assorted-background-1619844.jpg
+  - art-assorted-background-1619844.jpg
 excerpt: ""
 type: blog
 category:

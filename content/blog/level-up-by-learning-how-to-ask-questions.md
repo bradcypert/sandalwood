@@ -5,7 +5,7 @@ status: publish
 author: "Brad Cypert"
 type: blog
 images:
-  - /Screen-Shot-2018-11-19-at-12.35.12-PM.png
+  - Screen-Shot-2018-11-19-at-12.35.12-PM.png
 category:
   - meta
 tags:

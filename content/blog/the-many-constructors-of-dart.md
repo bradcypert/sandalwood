@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3559
 images:
-  - /pexels-iconcom-226569.jpg
+  - pexels-iconcom-226569.jpg
 category:
   - dart
 tags:

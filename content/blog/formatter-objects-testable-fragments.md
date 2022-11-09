@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 828
 images:
-  - /boat-folding-origami-19678.jpg
+  - boat-folding-origami-19678.jpg
 category:
   - Android
 tags:

@@ -6,7 +6,7 @@ permalink: /team-charter-for-software-engineering-teams
 author: "Brad Cypert"
 type: blog
 images:
-  - /team-charter.jpg
+  - team-charter.jpg
 tags:
   - meta
   - leadership

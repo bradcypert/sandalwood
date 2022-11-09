@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2271
 images:
-  - /react-typescript-1.png
+  - react-typescript-1.png
 category:
   - React
 tags:

@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 687
 images:
-  - /pexels-photo-507410.jpeg
+  - pexels-photo-507410.jpeg
 category:
   - kotlin
 tags:

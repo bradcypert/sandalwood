@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 910
 images:
-  - /art-assorted-background-1619844.jpg
+  - art-assorted-background-1619844.jpg
 category:
   - Android
 tags:

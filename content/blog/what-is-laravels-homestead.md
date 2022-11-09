@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 2923
 images:
-  - /gray-house-with-fireplace-surrounded-by-grass-under-white-731082.jpg
+  - gray-house-with-fireplace-surrounded-by-grass-under-white-731082.jpg
 category:
   - PHP
 tags:

@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3565
 images:
-  - /pexels-buenosia-carol-707582.jpg
+  - pexels-buenosia-carol-707582.jpg
 category:
   - dart
 tags:

@@ -6,7 +6,7 @@ permalink: /flutter-isolates
 author: "Brad Cypert"
 type: blog
 images:
-  - /silhouette-photography-of-banana-hook-decor-706138.jpg
+  - silhouette-photography-of-banana-hook-decor-706138.jpg
 category:
   - Flutter
 tags:

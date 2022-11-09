@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1613
 images:
-  - /acrylic-art-artistic-1289899.jpg
+  - acrylic-art-artistic-1289899.jpg
 category:
   - Elm
 tags:

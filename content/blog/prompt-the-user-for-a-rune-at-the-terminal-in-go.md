@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1558
 images:
-  - /Gophercolor.jpg
+  - Gophercolor.jpg
 category:
   - Go
 tags:

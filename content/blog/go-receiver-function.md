@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1619
 images:
-  - /cell-tower-cellphone-masts-clouds-270286.jpg
+  - cell-tower-cellphone-masts-clouds-270286.jpg
 category:
   - Go
 tags:

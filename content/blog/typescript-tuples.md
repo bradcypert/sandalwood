@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3405
 images:
-  - /green-artichoke-on-gray-round-plate-3647046.jpg
+  - green-artichoke-on-gray-round-plate-3647046.jpg
 category:
   - TypeScript
 tags:

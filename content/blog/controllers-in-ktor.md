@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 769
 images:
-  - /connection-device-display-776092.jpg
+  - connection-device-display-776092.jpg
 category:
   - kotlin
 tags:

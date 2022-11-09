@@ -6,7 +6,7 @@ author: "Brad Cypert"
 excerpt: ""
 type: blog
 images:
-  - /pexels-lightbulb.jpg
+  - pexels-lightbulb.jpg
 category:
   - Flutter
 tags:

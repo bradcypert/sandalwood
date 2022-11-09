@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1960
 images:
-  - /1975435-1561678560877-75bffad2b651c.jpg
+  - 1975435-1561678560877-75bffad2b651c.jpg
 category:
   - Podcast
 tags:

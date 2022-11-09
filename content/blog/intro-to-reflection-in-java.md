@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 19
 images:
-  - /person-reflect-on-round-brown-wooden-framed-mirror-1502800.jpg
+  - person-reflect-on-round-brown-wooden-framed-mirror-1502800.jpg
 category:
   - Java
 tags:

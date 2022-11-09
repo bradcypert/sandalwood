@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 1018
 images:
-  - /android-phone-blur-cellular-telephone-454699.jpg
+  - android-phone-blur-cellular-telephone-454699.jpg
 category:
   - Android
 tags:

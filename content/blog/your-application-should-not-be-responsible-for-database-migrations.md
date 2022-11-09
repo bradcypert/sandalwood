@@ -8,7 +8,7 @@ description: "Having your application run your database migrations is at best mo
 type: blog
 id: 1450
 images:
-  - /animal-photography-clouds-daylight-635006.jpg
+  - animal-photography-clouds-daylight-635006.jpg
 category:
   - Databases
 tags:

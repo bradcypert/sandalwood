@@ -6,7 +6,7 @@ permalink: /dart-mixins
 author: "Brad Cypert"
 type: blog
 images:
-  - /dart-mixins-cover.jpg
+  - dart-mixins-cover.jpg
 category:
   - Dart
 tags:

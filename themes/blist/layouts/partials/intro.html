@@ -10,6 +10,11 @@
         </h3>
 
     </div>
-    <img class="rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
+    {{ $src := resources.Get .Site.Params.introPhoto }}
+    {{ $title := .Site.Title }}
+      {{ with $src }}
+        {{ $src := $src.Resize "x600 webp"}}
+        <img class="rounded-lg shadow-sm" src="{{ $src.RelPermalink  }}" alt="{{ $src }}" />
+      {{ end }}
   </div>
 </section>

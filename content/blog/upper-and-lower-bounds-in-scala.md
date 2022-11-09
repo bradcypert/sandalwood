@@ -7,7 +7,7 @@ author: "Brad Cypert"
 type: blog
 id: 289
 images:
-  - /TypeBounds-1.jpg
+  - TypeBounds-1.jpg
 category:
   - Scala
 tags:

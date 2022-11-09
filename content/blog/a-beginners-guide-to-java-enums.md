@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 34
 images:
-  - /books-coding-couch-1181298.jpg
+  - books-coding-couch-1181298.jpg
 category:
   - Java
 tags:

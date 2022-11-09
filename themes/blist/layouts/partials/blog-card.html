@@ -1,9 +1,14 @@
 <div class="p-2">
 <a href="{{ .Permalink }}">
-  {{ if isset (.Params.images) 0 }}
+  {{ if isset .Params.images 0 }}
+  {{ $image := index .Params.images 0 }}
+  {{ $src := resources.Get (printf $image) }}
   <div class="relative">
     <div class="image-hover">
-      <img src="{{ index (.Params.images) 0 }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+      {{ with $src }}
+        {{ $src := $src.Resize "400x webp"}}
+        <img src="{{ $src.RelPermalink }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+      {{ end }}
     <div class="hover-text bg-black text-white p-2 rounded-md">Learn More</div>
     </div>
     {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}

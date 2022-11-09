@@ -6,7 +6,7 @@ permalink: /flutter-layoutbuilder-widget
 author: "Brad Cypert"
 type: blog
 images:
-  - /flutter-layoutbuilder-cover.jpg
+  - flutter-layoutbuilder-cover.jpg
 category:
   - Dart
   - Flutter

@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2208
 images:
-  - /silhouette-photography-of-banana-hook-decor-706138.jpg
+  - silhouette-photography-of-banana-hook-decor-706138.jpg
 category:
   - React
 tags:

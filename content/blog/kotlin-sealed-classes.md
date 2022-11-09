@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 642
 images:
-  - /sealed.jpg
+  - sealed.jpg
 category:
   - kotlin
 tags:

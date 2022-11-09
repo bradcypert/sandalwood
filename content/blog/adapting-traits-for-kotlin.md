@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 1245
 images:
-  - /code-coding-computer-574070.jpg
+  - code-coding-computer-574070.jpg
 category:
   - kotlin
 tags:

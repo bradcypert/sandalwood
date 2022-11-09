@@ -8,7 +8,7 @@ description: "JSON is a common communication specification for web apps. In this
 type: blog
 id: 3581
 images:
-  - /Untitled.png
+  - Untitled.png
 category:
   - dart
 tags:

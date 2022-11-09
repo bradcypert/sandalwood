@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3596
 images:
-  - /GitHub_Logo.png
+  - GitHub_Logo.png
 category:
   - dart
 tags:

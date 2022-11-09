@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 3605
 images:
-  - /pexels-engin-akyurt-1451040.jpg
+  - pexels-engin-akyurt-1451040.jpg
 category:
   - Business
 tags:

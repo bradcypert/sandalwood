@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 2237
 images:
-  - /black-and-white-blank-challenge-connect-262488.jpg
+  - black-and-white-blank-challenge-connect-262488.jpg
 category:
   - TypeScript
 tags:

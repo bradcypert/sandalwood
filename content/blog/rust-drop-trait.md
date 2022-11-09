@@ -5,7 +5,7 @@ status: publish
 permalink: /rust-drop-trait
 author: "Brad Cypert"
 images:
-  - /rusted-metal.jpg
+  - rusted-metal.jpg
 type: blog
 category:
   - rust

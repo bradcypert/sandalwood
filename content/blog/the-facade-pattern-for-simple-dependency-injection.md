@@ -8,7 +8,7 @@ excerpt: ""
 type: blog
 id: 774
 images:
-  - /abstract-architecture-art-227675.jpg
+  - abstract-architecture-art-227675.jpg
 category:
   - kotlin
 tags:
