@@ -1,6 +1,6 @@
 baseURL = 'https://www.bradcypert.com/'
 languageCode = 'en-us'
-title = 'bradcypert.com'
+title = 'BradCypert.com'
 theme = 'blist'
 
 googleAnalytics = 'G-6MJNEMNCY8'
