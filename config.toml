@@ -2,6 +2,7 @@ baseURL = 'https://www.bradcypert.com/'
 languageCode = 'en-us'
 title = 'BradCypert.com'
 theme = 'blist'
+timeout = 60000
 
 googleAnalytics = 'G-6MJNEMNCY8'
 
