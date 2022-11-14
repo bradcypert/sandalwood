@@ -1,0 +1,41 @@
+{{ $image := resources.GetMatch .Destination }}
+{{ with $image }}
+  {{ if gt $image.Width 640 }}
+      {{ $image = $image.Resize "640x webp q90" }}
+  {{ end }}
+
+  {{ if gt $image.Height 500 }}
+      {{ $image = $image.Resize "x500 webp q90" }}
+  {{ end }}
+
+  {{ $tinyw := default "500x webp q90" }}
+  {{ $smallw := default "800x webp q90" }}
+  {{ $mediumw := default "1200x webp q90" }}
+  {{ $largew := default "1500x webp q90" }}
+
+  {{/* resize the src image to the given sizes */}}
+  {{/* We create a a temp scratch because it's not available in this context */}}
+  {{ $data := newScratch }}
+  {{ $data.Set "tiny" ($image.Resize $tinyw) }}
+  {{ $data.Set "small" ($image.Resize $smallw) }}
+  {{ $data.Set "medium" ($image.Resize $mediumw) }}
+  {{ $data.Set "large" ($image.Resize $largew) }}
+
+  {{/* add the processed images to the scratch */}}
+
+  {{ $tiny := $data.Get "tiny" }}
+  {{ $small := $data.Get "small" }}
+  {{ $medium := $data.Get "medium" }}
+  {{ $large := $data.Get "large" }}
+  <picture>
+    <source media="(max-width: 376px)" 
+          srcset="{{with $tiny.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 992px)" 
+          srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 1400px)" 
+          srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
+      <source media="(min-width: 1600px)" 
+          srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+      <img src="{{ $image.RelPermalink | safeURL }}" height="{{ $image.Height}}" width="{{ $image.Width }}" {{ with .Title }} alt="{{ . }}" {{ end }} {{ with .Title }} title="{{ . }}" {{ end }}/>
+  </picture>
+{{ end }}
