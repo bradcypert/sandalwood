@@ -13,8 +13,7 @@ tags:
   - "Developer Tools"
   - DevOps
   - node
-description:
-  - "Learn to build a simple NPM wrapper for your node projects so that your team can easily stay on the same version of NodeJS."
+description: "Learn to build a simple NPM wrapper for your node projects so that your team can easily stay on the same version of NodeJS."
 ---
 
 The NPM team has always done a pretty good job of not requiring a specific version of NPM to execute most of it’s commands properly. However, with the recent addition of the package-lock file (and the recent tinkering of the package-lock file across some of the more recent releases of NPM), it’s starting to become a bit of a pain to manage. I work with developers using a gamut of NPM versions from 5.1.1 to 6.0.1. These may sound like minor version changes but since 5.6.0, most of the changes have included changes to the package-lock file. More importantly, this generates a lot of a noise in PRs (we check to ensure that package-lock changes are actually warranted as we’ve had child dependencies break on us in the past) and that causes confusion and takes time to sift through.

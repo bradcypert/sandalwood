@@ -14,8 +14,9 @@ category:
 tags:
   - enums
   - java
-description:
-  - "A Java Enum is a type that has a predefined set of constants, properties and methods that can be used to write expressive and clean code."
+description: "A Java Enum is a type that has a predefined set of constants, properties and methods that can be used to write expressive and clean code."
+versions:
+  java: jdk8
 ---
 
 

@@ -10,6 +10,8 @@ category:
 tags:
   - wasm
   - go
+versions:
+  go: 1.16
 ---
 <div>
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jo7BbL7Xdms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

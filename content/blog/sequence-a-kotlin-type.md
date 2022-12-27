@@ -15,21 +15,9 @@ tags:
   - "Functional Programming"
   - kotlin
   - Sequences
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "104"
-_yoast_wpseo_focuskw:
-  - sequence
-description:
-  - "Sequences are a performant alternative to chaining operations on list-like data structures. You should consider a sequence anytime you would perform multiple operations on a list."
-_yoast_wpseo_linkdex:
-  - "81"
-_yoast_wpseo_content_score:
-  - "90"
+description: "Sequences are a performant alternative to chaining operations on list-like data structures. You should consider a sequence anytime you would perform multiple operations on a list."
+versions:
+  kotlin: 1.2.60
 ---
 
 Kotlin, despite being an object oriented language, offers a ton of support for Functional paradigms. One of the most common functional paradigms involves using a combination of `map`, `filter`, and `reduce` on Iterable types. However, Kotlin uses extension functions on Java Collections to create these functions in their standard library. That means that when you call `map` on a list, you’ll return a new list. This is usually intended, however, it can become problematic when chaining multiple operations on the same list — You’ll create a ton of intermediate lists!

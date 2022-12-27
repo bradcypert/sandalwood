@@ -14,21 +14,11 @@ category:
 tags:
   - javascript
   - react
-post_format: []
-wp_last_modified_info:
-  - "February 10, 2020 @ 3:45 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_primary_category:
-  - "243"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "React Lifecycle Methods"
 description:
   - "React Lifecycle Methods can be tricky, but powerful. If you're using function components instead, most lifecycle methods have hook counterparts."
-_yoast_wpseo_linkdex:
-  - "73"
+versions:
+  react: 17.0
+  typescript: 3.4
 ---
 
 React Lifecycle Methods are one tricky piece of business, especially if you’re coming from a framework that doesn’t have their own. Thankfully, they’re fairly similar to Android’s lifecycle methods and it wasn’t long before I was able to grasp them.

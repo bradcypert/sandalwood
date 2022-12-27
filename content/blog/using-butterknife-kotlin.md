@@ -14,23 +14,9 @@ tags:
   - android
   - ButterKnife
   - kotlin
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_title:
-  - "Using ButterKnife View Bindings with Kotlin"
-_yoast_wpseo_primary_category:
-  - ""
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - butterknife
-description:
-  - "Butterknife is a fantastic library for Android Development. Originally written for Java, this library helps you reference your views in code."
-_yoast_wpseo_linkdex:
-  - "44"
+description: "Butterknife is a fantastic library for Android Development. Originally written for Java, this library helps you reference your views in code."
+versions:
+  kotlin: 1.2.60
 ---
 
 Butterknife is a simple but fantastic tool for Android development. When this was introduced, it really simplified my thought process regarding view bindings in my activities, fragments, or view holders. As Kotlin adoption grew,[ Jake Wharton (creator of ButterKnife)](https://jakewharton.com/) also created [KotterKnife](https://github.com/JakeWharton/kotterknife), for _kotlin-esque_ view bindings. KotterKnife isn’t bad, but I prefer the annotation syntax of ButterKnife instead! Implementing ButterKnife with Kotlin has a few gotcha’s however, that may be a bit difficult to get setup with. Let’s talk through those.

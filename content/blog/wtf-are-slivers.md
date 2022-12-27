@@ -14,6 +14,9 @@ tags:
   - flutter
   - fancy_ui
 description: "Slivers help give you a deeper level of control over scrollable items in Flutter. Learn when to use slivers here."
+versions:
+  dart: "2.16.2"
+  flutter: "2.10.5"
 ---
 
 A fantastic user experience is a powerful tool for your application. It can help market your application (everyone loves a pretty app), can help with user engagement and can even be a competitive advantage in certain contexts. Flutter gives us so many tools to help us build fantastic user experiences - Hero, LayoutBuilder, Snackbar and more. Most of these are fairly well documented and are rather straightforward to use. Slivers, however, are even more powerful and less clearly documented (from my experience). Let's dig into Slivers and talk through how they're used in scrollable regions in a Flutter application.

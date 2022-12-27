@@ -13,6 +13,8 @@ category:
   - dart
 tags:
   - dart
+versions:
+  dart: 2.16.2
 ---
 
 [JSON](https://www.json.org/json-en.html) is, as of 2020, the communication standard for most web applications (comon [gRPC](https://grpc.io/)! You can do it!). Naturally, if you’re building a Dart application, you’ll likely want to work with JSON. [Dart’s built-in `dart:convert` package](https://api.dart.dev/stable/2.9.3/dart-convert/dart-convert-library.html) is just the tool that you need!

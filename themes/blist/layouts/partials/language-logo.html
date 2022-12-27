@@ -1,0 +1,22 @@
+{{ $allowed := dict 
+    "rust" "rust/rust-plain.svg"
+    "dart" "dart/dart-original.svg"
+    "flutter" "flutter/flutter-original.svg"
+    "go" "go/go-original-wordmark.svg"
+    "react" "react/react-original.svg"
+    "typescript" "typescript/typescript-original.svg"
+    "php" "php/php-plain.svg"
+    "laravel" "laravel/laravel-plain.svg"
+    "python" "python/python-original.svg"
+    "mongo" "mongodb/mongodb-original.svg"
+    "scala" "scala/scala-original.svg"
+    "java" "java/java-original.svg"
+    "gradle" "gradle/gradle-plain.svg"
+    "kotlin" "kotlin/kotlin-original.svg"
+    "android" "android/android-original.svg" }}
+
+{{ if isset $allowed . }}
+    <img style="display: inline-block" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{index $allowed .}}" alt="{{.}}" width="24" height="24" /> {{ . }}
+{{ else }}
+    {{ . }}
+{{ end }}

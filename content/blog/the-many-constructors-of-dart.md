@@ -14,6 +14,8 @@ category:
 tags:
   - dart
 description: 'Dart has many different forms of constructors including redirecting constructors, factory constructors, constant constructors and more!'
+versions:
+  dart: 2.16.2
 ---
 
 Last night, as I was writing code in a Flutter app, I came across an interesting dilemma. I wanted to throw a custom exception if I was unable to sign in with Apple on the login screen — nothing too crazy. Naturally, this lead me to creating a custom exception. I tried something along the lines of:

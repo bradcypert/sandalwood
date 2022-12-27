@@ -15,21 +15,9 @@ tags:
   - cobra
   - go
   - testing
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "209"
-_yoast_wpseo_focuskw:
-  - "Testing Cobra CLI"
-_yoast_wpseo_linkdex:
-  - "76"
-_yoast_wpseo_content_score:
-  - "90"
-description:
-  - "Testing a Cobra CLI is easy if you take the time to refactor your command function out into function with an identifier. It can then be tested as normal."
+description: "Testing a Cobra CLI is easy if you take the time to refactor your command function out into function with an identifier. It can then be tested as normal."
+versions:
+  go: 1.16
 ---
 
 Go has a [fantastic library for writing CLI’s (Command Line Interfaces) called Cobra](https://github.com/spf13/cobra). I’ve been working on a [CLI named Deckard](https://github.com/bradcypert/deckard) for a few months now. Being new to Go, I had (lazily) shied away from writing tests. However, after thinking about my test plan and doing a little refactoring, I’ve found a great way to handle testing your Cobra CLI application.

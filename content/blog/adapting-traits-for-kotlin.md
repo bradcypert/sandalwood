@@ -14,8 +14,9 @@ category:
 tags:
   - kotlin
   - traits
-description:
-  - "Although Traits have first-class support in Scala, Kotlin does not directly have Traits. However, we can create our own traits in Kotlin using interfaces."
+description:  "Although Traits have first-class support in Scala, Kotlin does not directly have Traits. However, we can create our own traits in Kotlin using interfaces."
+versions:
+  kotlin: 1.2.60
 ---
 [Traits](https://docs.scala-lang.org/tour/traits.html) are a pattern introduced in Scala (at least, this was my first introduction to them) that help avoid deep class hierarchies in favor of composition. If you don’t have Scala experience, but do have Java experience, you can treat this similarly to [Java 8 Interfaces](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html). However, I still prefer to call them Traits.
 

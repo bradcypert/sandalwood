@@ -14,6 +14,9 @@ tags:
   - react-testing-library
   - testing
 description: "In this video, we'll walk through how to test react components with react testing library"
+versions:
+  react: 17.0
+  typescript: 3.4
 ---
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d8GRDqjFP-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

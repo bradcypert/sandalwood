@@ -14,21 +14,9 @@ category:
 tags:
   - kotlin
   - ktor
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "104"
-_yoast_wpseo_content_score:
-  - "30"
-_yoast_wpseo_focuskw:
-  - controllers
-description:
-  - "Although Ktor does not have any explicit concept of controllers, it's very easy to refactor your routes to support this pattern."
-_yoast_wpseo_linkdex:
-  - "88"
+description:  "Although Ktor does not have any explicit concept of controllers, it's very easy to refactor your routes to support this pattern."
+versions:
+  kotlin: 1.2.60
 ---
 
 Ktor is a microframework written in Kotlin. It’s focus is on building asynchronous servers and clients in connected systems. I’ve been using it predominantly for the “server” slice of that statement. I call Ktor a “microframework” simply because, while it’s opinionated, you have a lot of freedom in the way that you accomplish tasks within the framework.

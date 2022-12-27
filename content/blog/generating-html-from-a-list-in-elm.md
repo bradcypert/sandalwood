@@ -13,21 +13,9 @@ category:
   - Elm
 tags:
   - elm
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "211"
-_yoast_wpseo_focuskw:
-  - "html list elm"
-description:
-  - "To generate HTML from a list in Elm, you can leverage List.map with a mapping function to produce HTML elements."
-_yoast_wpseo_linkdex:
-  - "73"
-_yoast_wpseo_content_score:
-  - "60"
+description: "To generate HTML from a list in Elm, you can leverage List.map with a mapping function to produce HTML elements."
+versions:
+  elm: 0.18
 ---
 
 Elm is a fantastic language for building web applications. It provides a rich DSL for writing HTML that functions in a similar way to JSX (but still quite different). Overall, I enjoy writing it, however, I often forget how to generate HTML from a list of data in Elm.

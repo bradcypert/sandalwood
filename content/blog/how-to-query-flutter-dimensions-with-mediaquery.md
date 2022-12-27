@@ -13,6 +13,9 @@ tags:
   - dart
   - flutter
 description: "Flutter's Media Query can be used to look up the width, height and more of your applications context and the user's device."
+versions:
+  dart: 2.16.2
+  flutter: 2.10.5
 ---
 
 One of the key selling points for building Flutter applications is the framework's options for building responsive mobile applications. However, it's easy to find yourself overwhelmed by the many options that are available. Often times, you'll want to leverage BoxConstraints, LayoutBuilder, AspectRatio, FittedBox or maybe even the rare FractionallySizedBox. You might even be able to keep things simple by sticking to Flex widgets. However, you'll likely find yourself in a predicament where, for one reason or another, you just need to know information about the device viewport.

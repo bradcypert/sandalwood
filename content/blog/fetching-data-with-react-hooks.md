@@ -26,10 +26,10 @@ _yoast_wpseo_content_score:
   - "90"
 _yoast_wpseo_focuskw:
   - "data react hooks"
-description:
-  - "Fetching data with React has historically been accomplished via `componentDidMount`, however, we can accomplish similar effects via useState and useEffect."
-_yoast_wpseo_linkdex:
-  - "69"
+description: "Fetching data with React has historically been accomplished via `componentDidMount`, however, we can accomplish similar effects via useState and useEffect."
+versions:
+  react: 17.0.0
+  typescript: 3.7
 ---
 
 [React hooks have changed the way that I (and arguably the React Community) prefer to build components](https://reactjs.org/docs/hooks-intro.html). I’ve been working on a GraphQL project for a while, and when we migrated to functional components and hooks, I was able to use[ Apollo’s hooks](https://www.apollographql.com/docs/react/api/react-hooks/) for my data fetching needs. However, I find myself now working on a new project that doesn’t use GraphQL. Consequentially, I find myself wondering “How do I fetch data with React Hooks?”

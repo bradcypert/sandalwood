@@ -18,23 +18,8 @@ tags:
   - DevOps
   - digitalocean
 post_format: []
-wp_last_modified_info:
-  - "February 19, 2020 @ 7:04 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "Deploying azure devops digitalocean"
-description:
-  - "Deploying from Azure Devops to DigitalOcean is fairly straight forward with a small amount of configuration and Azure's build/release pipelines."
-_yoast_wpseo_linkdex:
-  - "67"
-_yoast_wpseo_primary_category:
-  - "79"
+description: "Deploying from Azure Devops to DigitalOcean is fairly straight forward with a small amount of configuration and Azure's build/release pipelines."
 ---
-
-import SendFoxForm from "../components/sendfox-form";
 
 Azure DevOps is one hell of a tool, but is it still an option if you don’t want to deploy code to Azure? Well, yes, although it is a lot easier to deploy to Azure than anything else. This makes sense given how the two integrate and are owned by the same company. However, I’m going to show you how I deploy from Azure DevOps to <span class="su-tooltip" data-at="top center" data-behavior="hover" data-classes="su-qtip qtip-dark su-qtip-size-default" data-close="no" data-my="bottom center" data-title="Disclaimer" title="This link has a referral code attached to it. I only refer products that I use and love. DigitalOcean is no exception -- I run BradCypert.com on their platform. Using this referral code helps me minimize server costs and allows me to focus on putting out regular content for you.  There is no additional cost to you for using this referral code. "> [DigitalOcean](https://m.do.co/c/f968a2744d2a).</span>
 
@@ -260,9 +245,3 @@ This means that my task definition ultimately looks like this:
 Hopefully you’ve found this be a helpful guide on your journey of deploying code from Azure DevOps to DigitalOcean. I was really hesitant about Azure DevOps (especially coming from Netlify for frontend work) but I’ve turned around and enjoy the build pipelines quite a bit. It’s so much nicer than manually SCPing files from my laptop to a Droplet (we’ve all been there before)! Additionally, this lets anyone on the [Pyre Studios](https://pyrestudios.io) team deploy our project at the click of a button.
 
 [Want to learn about other cost-effective tools for building a business? Check out that post here!](/building-a-business-on-a-budget/)
-
-#### Want free React Tips?
-
-##### No Spam, No Ads, Only Content
-
-<SendFoxForm form="react" />

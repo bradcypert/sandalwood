@@ -16,6 +16,8 @@ tags:
   - bosun
 
 description: "Bosun is a library for writing expressive CLIs in Dart."
+versions:
+  dart: 2.16.2
 ---
 
 

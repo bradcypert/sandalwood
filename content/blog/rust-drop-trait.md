@@ -12,6 +12,8 @@ category:
 tags:
   - rust
 description: "The Drop trait in Rust only has one method but it's extremely important. Learn what Drop does and how to implement it yourself here."
+versions:
+  rust: "2018"
 ---
 
 The `Drop` trait in Rust only has one method but it's extremely important. The `drop` method on the `Drop` trait is called automatically when an object goes out of scope. This means that when an object's lifetime ends, `drop` will be called on that object.

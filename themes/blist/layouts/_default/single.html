@@ -64,6 +64,26 @@
       {{ end }}
     </h5>
     {{ end }}
+    {{ with .Params.versions }}
+    <h6 class="lang-versions text-sm border border-pink-500 bg-pink-100 dark:border-pink-300 dark:bg-pink-900 dark:text-white p-4 mt-2 mb-2 rounded">
+      This project uses these versions of languages, frameworks, and libraries.
+      <ul class="">
+        <style>
+          .lang-versions li:before {
+            content: none !important;
+          }
+
+          .lang-versions img {
+            margin: 0.25em 0 !important;
+          }
+        </style>
+        {{ range $key, $value := . }}
+          <li>{{- partial "language-logo.html" $key -}}: {{$value}}</li>
+        {{ end }}
+      </ul>
+      This tutorial may work with newer versions and possibly older versions, but has only been tested on the versions mentioned above.
+    </h6>
+    {{ end }}
 
     {{ .Content | safeHTML }}
   </article>

@@ -13,21 +13,9 @@ tags:
   - bdd
   - kotlin
   - testing
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "104"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - Expekt
-description:
-  - "Expekt is a behavior-driven development assertion library for Kotlin. Writing tests using Expekt can help make assertions clearer and more robust."
-_yoast_wpseo_linkdex:
-  - "90"
+description: "Expekt is a behavior-driven development assertion library for Kotlin. Writing tests using Expekt can help make assertions clearer and more robust."
+versions:
+  kotlin: 1.2.60
 ---
 
 Behavior-Driven Development (BDD) has became quite a popular strategy for writing tests in the past ten or so years. BDD is a style of test-writing that focuses on test cases that flow like natural English sentences. Expekt is one such library for writing JUnit assertions in Kotlin. Combining JUnit and Expekt you can achieve results like this:

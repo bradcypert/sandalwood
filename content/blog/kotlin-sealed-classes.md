@@ -14,23 +14,9 @@ category:
 tags:
   - kotlin
   - "sealed classes"
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "104"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
-  - "sealed classes"
-_yoast_wpseo_title:
-  - "Sealed Classes in Kotlin - A Beginner's Guide%%page%% %%sep%% %%sitename%%"
-description:
-  - "Sealed Classes provide you with a more powerful alternative to enumerations in Kotlin. You can use sealed classes to help solve problems that enums wouldnt."
-_yoast_wpseo_linkdex:
-  - "94"
+description: "Sealed Classes provide you with a more powerful alternative to enumerations in Kotlin. You can use sealed classes to help solve problems that enums wouldnt."
+versions:
+  kotlin: 1.2.60
 ---
 
 Kotlin has a concept known as sealed hierarchies (several other languages implement this feature as well). In Kotlin, we can generate a sealed hierarchy through the use of sealed classes.

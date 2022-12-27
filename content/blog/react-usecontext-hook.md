@@ -15,26 +15,11 @@ tags:
   - hooks
   - react
   - typescript
-post_format: []
-wp_last_modified_info:
-  - "February 11, 2020 @ 3:41 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_focuskw:
-  - "React's useContext Hook"
-_yoast_wpseo_title:
-  - "React's useContext Hook | Managing Authentication %%page%% %%sep%% %%sitename%%"
-description:
-  - "React's useContext hook can provide a lightweight alternative to global state management (like Redux) if used properly. However, it can also be unweildy if used improperly."
-_yoast_wpseo_linkdex:
-  - "69"
-_yoast_wpseo_content_score:
-  - "30"
-_yoast_wpseo_primary_category:
-  - "243"
+description: "React's useContext hook can provide a lightweight alternative to global state management (like Redux) if used properly. However, it can also be unweildy if used improperly."
+versions:
+  react: 17.0
+  typescript: 3.4
 ---
-
-
 
 Contexts are a commonly used tool when building React libraries, but are often overlooked when building an application in React. I don’t believe that should be the case, as useContext can provide you a powerful alternative (but lightweight) alternative to tools like Redux when managed carefully.
 

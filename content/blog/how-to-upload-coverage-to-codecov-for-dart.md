@@ -15,6 +15,8 @@ tags:
   - flutter
   - testing
   - code_coverage
+versions:
+  dart: 2.16.2
 ---
 
 Code Coverage helps you identify how much of your code is covered via test cases. Coverage itself is an interesting idea. People are largely divided on it but coverage can be a useful metric if used for objective information and not used to measure success. In this post, we'll cover generating coverage for flutter and dart (each individually), formatting that coverage if needed, and then uploading it to CodeCov via Github actions.

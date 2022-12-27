@@ -14,8 +14,10 @@ tags:
   - go
   - graphql
   - mongo
-description:
-  - "Serializing Mongo an ObjectID with Graphql in Go can be tricky, but with a custom scalar type, it's relatively painless."
+description: "Serializing Mongo an ObjectID with Graphql in Go can be tricky, but with a custom scalar type, it's relatively painless."
+versions:
+  go: 1.16.0
+  mongo: 4.2
 ---
 
 I’ve been working on building a Graphql API in Go and recently ran into an issue serializing Mongo’s ObjectIDs. This doesn’t sound like a difficult task, and thankfully it’s not, but it wasn’t super obvious how to go about this.

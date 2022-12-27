@@ -13,21 +13,9 @@ category:
   - Go
 tags:
   - go
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "209"
-_yoast_wpseo_focuskw:
-  - "prompt the user for a rune"
-description:
-  - "You can prompt the user for a rune in Go simply by creating a buffered reader from Stdin and then calling ReadRune() on that reader."
-_yoast_wpseo_linkdex:
-  - "79"
-_yoast_wpseo_content_score:
-  - "90"
+description: "You can prompt the user for a rune in Go simply by creating a buffered reader from Stdin and then calling ReadRune() on that reader."
+versions:
+  go: 1.16
 ---
 
 I’ve been spending a lot of my spare time working on a [Go](https://golang.org/) project called [Deckard](https://github.com/bradcypert/deckard). It’s a [command line interface (or CLI)](https://en.wikipedia.org/wiki/Command-line_interface) for handling database schema changes. Recently, I found myself wanting to prompt the user for a rune before running a command in that CLI.

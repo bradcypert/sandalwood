@@ -13,21 +13,9 @@ category:
   - TypeScript
 tags:
   - typescript
-post_format: []
-wp_last_modified_info:
-  - "January 10, 2020 @ 3:37 am"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_primary_category:
-  - "258"
-_yoast_wpseo_focuskw:
-  - "typescript partial"
-description:
-  - "TypeScript's partial is a type that you provide and it is treated as a type that represents all subsets of a given type."
-_yoast_wpseo_linkdex:
-  - "57"
-_yoast_wpseo_content_score:
-  - "90"
+description: "TypeScript's partial is a type that you provide and it is treated as a type that represents all subsets of a given type."
+versions:
+  typescript: 3.4
 ---
 
 A common theme in TypeScript is to define an interface for a data structure. Additionally, it’s fairly common to post data structures to an HTTP endpoint to create resources. You may even find yourself posting another structure with some of the same properties to update that data structure. Instead of creating another interface for the update, in this example, this is where the use of [Typescript’s Partial](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialt) comes in to play.

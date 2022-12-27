@@ -13,21 +13,9 @@ category:
   - PHP
 tags:
   - PHP
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "81"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
-  - "PHP Add array"
-description:
-  - "To add to an array in php, you can use an assignment operator or the array_push function. However, it's strongly advised to use the assignment operator."
-_yoast_wpseo_linkdex:
-  - "95"
+description: "To add to an array in php, you can use an assignment operator or the array_push function. However, it's strongly advised to use the assignment operator."
+versions:
+  php: 7.2
 ---
 
 It’s very common to find yourself working with Arrays in any language, and PHP is no exception. If you’re reading this, you probably want to find out how to add to an array in PHP but there’s one thing to cover first! Unlike most other languages, arrays in PHP are just an ordered map! Let’s declare an array to work with.

@@ -14,6 +14,9 @@ tags:
   - dart
   - flutter
 description: "Flutter's LayoutBuilder Widget is a widget that allows you to adapt children widgets based off the constraints that the LayoutBuilder is contained in. This allows you to layout widgets differently in different sized containers (like a phone screen vs a tablet screen), but LayoutBuilder also allows you to change how widgets render based off the container that they're rendered within."
+versions:
+  dart: 2.16.2
+  flutter: 2.10.5
 ---
 
 Flutter's LayoutBuilder Widget is a widget that allows you to adapt children widgets based off the constraints that the LayoutBuilder is contained in. This allows you to layout widgets differently in different sized containers (like a phone screen vs a tablet screen), but LayoutBuilder also allows you to change how widgets render based off the container that they're rendered within. A good example of the later is rendering a list of items as a list when the container is taller than 500 dp, but when it's smaller, rendering a select dropdown with the items as options.

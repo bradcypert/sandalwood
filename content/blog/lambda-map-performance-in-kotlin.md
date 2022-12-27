@@ -15,21 +15,9 @@ tags:
   - "Functional Programming"
   - kotlin
   - micro-optimizations
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "104"
-_yoast_wpseo_focuskw:
-  - lambda
-description:
-  - "Using a map function with a lambda is very common in Kotlin, but not always needed. In fact, you can get performance improvments using Callable References instead."
-_yoast_wpseo_linkdex:
-  - "87"
-_yoast_wpseo_content_score:
-  - "90"
+description: "Using a map function with a lambda is very common in Kotlin, but not always needed. In fact, you can get performance improvments using Callable References instead."
+versions:
+  kotlin: 1.2.60
 ---
 
 Working on an enterprise application written in Kotlin, I’ve recently noticed something that felt “off” to me. Perhaps you’ve seen it, perhaps you’ve written it — maybe even recently! It looks something like this (I call this a Lambda-Map):

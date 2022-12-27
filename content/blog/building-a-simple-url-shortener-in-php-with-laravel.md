@@ -13,6 +13,9 @@ tags:
   - laravel
   - PHP
 description: "URL Shorteners are extremely useful and in this post, I'll show you how to build one with Laravel and PHP."
+versions:
+  php: 7.4
+  laravel: 8.0
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YTD59Bv0rHE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

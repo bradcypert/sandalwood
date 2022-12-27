@@ -7,6 +7,9 @@ tags:
   - flutter
   - dart
 description: "SimpleDialogs are an insanely simple way to display immediately actionable items while conforming to the Material Design specification. They're recommended for use when you need a flexible dialog that doesn't leverage text buttons."
+versions:
+  dart: 2.16.2
+  flutter: 2.10.5
 ---
 
 SimpleDialogs are an insanely simple way to display immediately actionable items while conforming to the Material Design specification. They're recommended for use when you need a flexible dialog that doesn't leverage text buttons. Take a moment to familiarize yourself with the [Material Spec for SimpleDialogs](https://material.io/components/dialogs#simple-dialog) and once you're back on this tab, we'll dive into their implementation specifically for Flutter.

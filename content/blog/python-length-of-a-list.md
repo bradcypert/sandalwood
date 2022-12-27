@@ -14,22 +14,9 @@ category:
 tags:
   - Python
 post_format: []
-wp_last_modified_info:
-  - "February 17, 2020 @ 4:15 am"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_primary_category:
-  - "86"
-_yoast_wpseo_focuskw:
-  - "python length of list"
-_yoast_wpseo_title:
-  - "%%title%% | Python 3 Tips %%page%% %%sep%% %%sitename%%"
-description:
-  - "Finding the length of a list in Python is easy via the len() function. Python's len() function also works on collections and all sequences!"
-_yoast_wpseo_linkdex:
-  - "64"
+description: "Finding the length of a list in Python is easy via the len() function. Python's len() function also works on collections and all sequences!"
+versions:
+  python: 3.1
 ---
 
 When writing Python, it’s fairly common to find yourself working with lists of data. Usually, you’ll also find yourself trying to figure out just how my items are in that list. Thankfully, in Python, finding the length of a list is fairly easy.

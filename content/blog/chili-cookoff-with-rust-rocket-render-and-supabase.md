@@ -12,6 +12,9 @@ category:
 tags:
   - rust
 description: "Learn how Rust, Rocket, Render, and Supabase helped streamline my annual Chili Cookoff"
+versions:
+  rust: "2018"
+  rocket: "0.5-rc2"
 ---
 
 This is the 2nd year that my wife and I have hosted a chili cookoff. We invite friends and family, some of them bring chili, and everyone participates in a democratic vote for the 1st, 2nd, and 3rd best chilis (and this year, we're doing hottest and most creative, too). Last year, we assigned the chilis a number and gave three scraps of paper to each cookoff-goer on which they'd write the number of their top 3 chilis. We'd then collect these in a hat and go count up the votes. This works but we found that it was a bit tedious. This year, I've been learning Rust and in an effort to be a good software engineer (and make a technical problem out of something that doesn't need to be), I've decided to build a simple web server in Rust that helps make this process less painful. Here's how it went.

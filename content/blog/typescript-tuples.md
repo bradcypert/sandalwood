@@ -15,6 +15,8 @@ tags:
   - tuple
   - typescript
 description: "Tuples allow you to express an array with a fixed number of elements of which each element may be of a different type. The key takeaway here is that tuples (in TypeScript) are simply arrays with predetermined types existing at specific indexes."
+versions:
+  typescript: 3.7
 ---
 
 [TypeScript offers a plethora of types](https://www.typescriptlang.org/docs/handbook/basic-types.html) for developers to leverage, but some of the types may be ones that you’re unfamiliar with. Take the tuple, for example. [JavaScript doesn’t have a concept of tuples](https://stackoverflow.com/questions/4512405/javascript-variable-assignments-from-tuples), so figuring out how and when to use one might feel tricky. Thankfully, Tuples are pretty simple and are used by popular frameworks, like React.

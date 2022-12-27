@@ -12,6 +12,8 @@ category:
 tags:
   - rust
 description: "Rust's trait system is like a breath of fresh air when compared to some of more recent language forays. One of my favorite things about Rust and it's trait system is how the From and Into traits work."
+versions:
+    rust: "2018"
 ---
 
 Rust's trait system is like a breath of fresh air when compared to some of more recent language forays. One of my favorite things about Rust and it's trait system is how the From and Into traits work.

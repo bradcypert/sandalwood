@@ -14,8 +14,7 @@ tags:
   - agile
   - leadership
   - scrum
-description:
-  - "Scrum is a framework aimed at helping teams tackle complex problems while creatively delivering high value products. Learn to use scrum to help your team succeed."
+description: "Scrum is a framework aimed at helping teams tackle complex problems while creatively delivering high value products. Learn to use scrum to help your team succeed."
 ---
 
 Scrum is designed to be simple. It is a series of lightweight components that, when followed, have been show to improve team workflow. Scrum’s approach focuses on respect for people and self-organization to adapt to unpredictability and the difficulties that come with solving complex problems.

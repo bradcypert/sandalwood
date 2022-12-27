@@ -13,6 +13,8 @@ tags:
   - dart
   - learn_dart
 description: "Dart's mixins are a way to reuse class code in multiple class hierarchies."
+versions:
+  dart: 2.16.2
 ---
 
 There are a _lot_ of alternatives to inheritance. Abstract classes, interfaces, some languages have "traits", and in Dart,

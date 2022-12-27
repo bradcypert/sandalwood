@@ -15,6 +15,8 @@ tags:
   - boxing
   - memory-management
 description: "Boxing is a practice for allocating memory on the heap. A Box is a smart pointer to a value allocated on the heap."
+versions:
+  rust: "2018"
 ---
 
 Rust's memory management can feel a bit intimidating for most developers. Rust gives you some control over whether you're allocating data on the stack or the heap and its up to you to decide where memory should be allocated.

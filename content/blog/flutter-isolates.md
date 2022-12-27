@@ -13,6 +13,9 @@ tags:
   - flutter
   - dart
 description: "Isolates are a way to run long-running tasks in a separate, isolated thread. They are useful for things like network requests, database access, and long-running calculations."
+versions:
+  dart: 2.16.2
+  flutter: 2.10.5
 ---
 
 Unfortunately the documentation around isolates is not very good, but they're a very powerful feature. If your goal is to avoid jank, you need to keep your main thread's UI responsive, and you need to make sure your main thread is not blocked by long-running tasks. Isolates help you achieve this.

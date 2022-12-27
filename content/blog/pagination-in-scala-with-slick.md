@@ -15,24 +15,10 @@ tags:
   - Play
   - Scala
   - slick
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "61"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "pagination scala slick"
-description:
-  - "Pagination in Scala can be achieved with the use of the drop and take methods from Slick . Support for play can be handled via Query Parameters."
-_yoast_wpseo_linkdex:
-  - "69"
+description: "Pagination in Scala can be achieved with the use of the drop and take methods from Slick . Support for play can be handled via Query Parameters."
+versions:
+  scala: 2.11.12
 ---
-
-
 
 Pagination is the idea that a list of content can be broken into separate pages. When I first heard of pagination, the common practice was to use query params to influence which rows of content was loaded by the server. If you clicked the “next” button on the page, it would reload the page with new query params.
 

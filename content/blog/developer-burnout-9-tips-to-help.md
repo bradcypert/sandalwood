@@ -15,21 +15,9 @@ tags:
   - developer-psychology
   - meta
   - soft-skills
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "70"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
   - "developer burnout"
 description:
   - "Developer burnout is a struggle that has some pretty dangerous side-effects. Thankfully, you can fight developer burnout with these nine tips."
-_yoast_wpseo_linkdex:
-  - "71"
 ---
 
 

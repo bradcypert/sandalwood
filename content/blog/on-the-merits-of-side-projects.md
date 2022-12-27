@@ -11,21 +11,7 @@ category:
   - Leadership
 tags:
   - "side projects"
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_focuskw:
-  - "side projects"
-description:
-  - "There are really only four\_benefits I see to side projects. Enjoyment, Education, Accomplishment, Sanity. Let's talk a bit about each."
-_yoast_wpseo_linkdex:
-  - "77"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_primary_category:
-  - "71"
+description: "There are really only four\_benefits I see to side projects. Enjoyment, Education, Accomplishment, Sanity. Let's talk a bit about each."
 ---
 
 After reading Spotify Lead Designer Tobias van Schneider’s [outstanding post on side projects](http://firstround.com/review/Spotifys-Design-Lead-on-Why-Side-Projects-Should-be-Stupid/), I wanted to expand upon my feelings about them as well. Hopefully, if you’re not working on something outside of your normal day-to-day, you can find the motivation to start a side-project after reading this. There are really only four benefits I see to side projects. Enjoyment, Education, Accomplishment, Sanity. Let’s talk a bit about each.

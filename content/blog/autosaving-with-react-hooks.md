@@ -15,21 +15,10 @@ tags:
   - autosave
   - hooks
   - react
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "243"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - autosaving
-description:
-  - "Autosaving with React hooks is fairly trivial once you understand React's useEffect hook. Autosaving can be accomplished with useEffect and useState."
-_yoast_wpseo_linkdex:
-  - "75"
+description: "Autosaving with React hooks is fairly trivial once you understand React's useEffect hook. Autosaving can be accomplished with useEffect and useState."
+versions:
+  react: 17.0
+  typescript: 3.4
 ---
 
 React hooks have really changed the game for me when it comes to building react components. However, I’ve found that writing autosaving functionality is a little less obvious via hooks. Thankfully, it is still possible (and arguably a lot cleaner) when using hooks.

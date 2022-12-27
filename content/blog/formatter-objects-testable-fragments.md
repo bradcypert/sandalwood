@@ -15,9 +15,10 @@ tags:
   - android
   - kotlin
 post_format: []
-description:
-  - "You can leverage formatter objects to help make view logic more testable. Simplify your views and prevent regressions using formatter objects."
-  - "90"
+description: "You can leverage formatter objects to help make view logic more testable. Simplify your views and prevent regressions using formatter objects."
+versions:
+  kotlin: 1.2.60
+  android: "I have no clue. Sorry."
 ---
 
 Let’s face it — Fragments are a pain to test and it’s predominantly due to how the Android operating system works. Sometimes, you’ll find yourself writing business rules regarding how a view is displayed. Likely, some data will come back from a web server and you’ll have to format some text differently or color something differently. Nothing crazy, but all this code adds up and needs to be tested.

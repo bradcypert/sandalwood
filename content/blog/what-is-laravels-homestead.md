@@ -15,6 +15,9 @@ tags:
   - laravel
   - PHP
 description: "Laravel's homestead is a development environment to aid in building Laravel applications in PHP."
+versions:
+  php: 7.2
+  laravel: 6.0
 ---
 
 [Laravel](https://laravel.com/) is, as far as PHP frameworks go, extremely popular. In their guide, the Laravel community recommends you use Homestead as your local development environment. But what is Laravel’s homestead and why use it?

@@ -13,21 +13,10 @@ category:
   - Android
 tags:
   - android
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "80"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
-  - dimensions
-_yoast_wpseo_linkdex:
-  - "93"
-description:
-  - "Dimensions in Android should be used any time that you need to reuse the value, to support multiple device parameters, or to convert dp to pixels."
+description: "Dimensions in Android should be used any time that you need to reuse the value, to support multiple device parameters, or to convert dp to pixels."
+versions:
+  kotlin: 1.2.60
+  android: "No idea, sorry."
 ---
 
 

@@ -13,25 +13,9 @@ category:
   - Go
 tags:
   - go
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "209"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "go receiver function"
-description:
-  - "Go's receiver function allows you to define functions that belong to structs, similarly, but still quite different from instance methods in OOP."
-_yoast_wpseo_linkdex:
-  - "62"
-wp_last_modified_info:
-  - "January 28, 2020 @ 5:55 pm"
-wplmi_shortcode:
-  - "[lmt-post-modified-info]"
+description: "Go's receiver function allows you to define functions that belong to structs, similarly, but still quite different from instance methods in OOP."
+versions:
+  go: 1.16
 ---
 
 Classes aren’t really a thing in go, so you cant have instance methods ([like Java or similar](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)), however, you may have noticed some functions in Go that appear to be instance methods. These are [Go’s receiver functions](https://tour.golang.org/methods/4).

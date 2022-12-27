@@ -15,21 +15,10 @@ tags:
   - react
   - react-router
   - typescript
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - ""
-_yoast_wpseo_focuskw:
-  - "admin guard react routes"
-description:
-  - "React Routes can be configured to easily admin guard specific components through the use of higher order function components."
-_yoast_wpseo_linkdex:
-  - "63"
-_yoast_wpseo_content_score:
-  - "90"
+description: "React Routes can be configured to easily admin guard specific components through the use of higher order function components."
+versions:
+  react: 17.0
+  typescript: 3.4
 ---
 
 A common theme in web applications is to serve specific content to authenticated users while serving other content to everyone else. I’ve heard this referred to in the past as “auth guarding” specific content. In this case of our example today, we want to auth guard react-router routes.

@@ -15,6 +15,8 @@ tags:
   - Async
   - dart
 description: 'Futures and Streams help solve the problem of asynchronous programming in Dart. Futures are intended to be used when you have a value that is returned asynchronously but streams are intended to be used for asynchronous values being emitted over time.'
+versions:
+  dart: 2.16.2
 ---
 
 Asynchronous programming in Dart is an absolute blast. Dart offers a couple of different options when writing asynchronous code: namely [Futures](https://api.dart.dev/stable/2.9.3/dart-async/Future-class.html) and [Streams](https://api.dart.dev/stable/2.9.3/dart-async/Stream-class.html). You can use both Futures and Streams to solve a lot of the same problems, but each serve their own purpose as well.

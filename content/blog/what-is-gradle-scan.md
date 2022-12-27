@@ -13,8 +13,9 @@ category:
 tags:
   - DevOps
   - gradle
-description:
-  - "A Gradle scan is a build scan that provides insights into how your build ran and why it did what it did. Scans are shareable and configurable."
+description: "A Gradle scan is a build scan that provides insights into how your build ran and why it did what it did. Scans are shareable and configurable."
+versions:
+  gradle: 5.4
 ---
 
 

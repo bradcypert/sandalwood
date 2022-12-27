@@ -17,21 +17,10 @@ tags:
   - Play
   - Scala
   - sentry
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "61"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "Sentry Scala"
-_yoast_wpseo_linkdex:
-  - "93"
-description:
-  - "Adding Sentry to your Scala / Play application is easy and can be accomplished in three small steps."
+description: "Adding Sentry to your Scala / Play application is easy and can be accomplished in three small steps."
+versions:
+  scala: 2.8
+  play: 2.5
 ---
 
 

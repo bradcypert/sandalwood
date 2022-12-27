@@ -15,23 +15,7 @@ tags:
   - athens-project
   - go
   - modules
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "209"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - "athens project"
-_yoast_wpseo_title:
-  - "Better dependency management via %%title%% %%page%% %%sep%% %%sitename%%"
-description:
-  - "The Athens Project is a module proxy for Go that supports most major version control systems. Its currently in beta, but is growing fast."
-_yoast_wpseo_linkdex:
-  - "78"
+description: "The Athens Project is a module proxy for Go that supports most major version control systems. Its currently in beta, but is growing fast."
 ---
 
 I recently got back from Gophercon in San Diego and am still excited about the talk on the Athens Project. For those unaware, the Athens Project is a module proxy for Go! It’s currently in beta, but showing a ton of promise already.

@@ -13,8 +13,7 @@ category:
 tags:
   - clojure
   - interview
-description:
-  - "The Gilded Rose interview problem is far more than meets the eyes. You may have requirements, but you need to refactor and provide test coverage, as well!"
+description: "The Gilded Rose interview problem is far more than meets the eyes. You may have requirements, but you need to refactor and provide test coverage, as well!"
 ---
 
 A few years ago, I interviewed for a Dev Ops position at a pretty prominent CI shop in San Francisco. Part of the interview process involved a take-home code-assignment (of course). This particular assignment is known as the Gilded Rose.
