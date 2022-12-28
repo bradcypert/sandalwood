@@ -5,6 +5,7 @@ theme = 'blist'
 timeout = 60000
 
 googleAnalytics = 'G-6MJNEMNCY8'
+enableGitInfo = true
 
 [taxonomies]
   series = 'series'

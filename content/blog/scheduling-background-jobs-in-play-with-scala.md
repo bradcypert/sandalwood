@@ -15,6 +15,11 @@ tags:
   - "Background Tasks"
   - Play
   - Scala
+images:
+  - pexels-rustic-clock.jpg
+versions:
+  scala: 2.8
+  play: 2.6
 ---
 
 A common theme with web applications is to run tasks in the background. Commonly, they’re ran at set intervals. You’ll find data processing servers, online-game servers, and several other types of servers using regularly scheduled background tasks and today, you’ll learn how to implement these tasks in Play with Scala.

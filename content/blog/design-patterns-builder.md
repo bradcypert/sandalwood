@@ -14,6 +14,8 @@ tags:
   - "Design Patterns"
   - java
 description: "The Builder Design Pattern is a clean solution to the multiple constructor problem. As your code grows, optional constructor parameters clutter your classes."
+versions:
+  java: jdk8
 ---
 
 Welcome back. I’m writing today to talk about something that I think is pretty cool — design patterns in code! Specifically, we’re going to cover the builder pattern, which I find myself using all the time when writing Android applications and sometimes when writing plain Java applications. Let’s setup a scenario: You have a class that has a constructor. You call it a `User` class. The constructor for this class takes in a `String firstName` and a `String lastName`. You write some awesome logic in this class and use it everywhere. You new it up all over your codebase because it’s just **that** good. You kick back and enjoy the good life, until you have another developer walk over to you and say _“Oh, hey. We need to add email address to the user class. And we’ll probably want to add phone number and mailing address, too.”_ Crap.

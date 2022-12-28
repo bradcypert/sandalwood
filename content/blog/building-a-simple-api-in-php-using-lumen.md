@@ -13,23 +13,7 @@ tags:
   - Eloquent
   - lumen
   - PHP
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_title:
-  - "Building a Simple API in PHP using Lumen"
-_yoast_wpseo_primary_category:
-  - "81"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - Lumen
-description:
-  - "Lumen is a microframework (like Slim) but comes bundled with the Eloquent ORM. Read on to find out how to setup and use Lumen in your project today!"
-_yoast_wpseo_linkdex:
-  - "88"
+description: "Lumen is a microframework (like Slim) but comes bundled with the Eloquent ORM. Read on to find out how to setup and use Lumen in your project today!"
 ---
 
 Alright, at it again with another PHP post. Hopefully this doesn’t dislodge my blog from the [planet.clojure.in](http://planet.clojure.in) newsletter from writing too much non-clojure. The other day I wrote a post about using Slim with Eloquent to build a simple API. It was a fun project and I decided to share it with the PHP subreddit. Thankfully, the PHP community is far better than I remembered it — we created a lot of great feedback and had a few discussions about **Lumen**.

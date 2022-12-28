@@ -15,9 +15,7 @@ tags:
   - categorization
   - clojure
   - nlp
-post_format: []
-_yoast_wpseo_title:
-  - "Using NLP to Categorize Customer Feedback in Clojure"
+description: "Natural language processing can be used to help categorize feedback from customers. In this post, we'll create a rudimentary sentiment analysis in Clojure to do exactly that!"
 ---
 
 First – an apology. It’s been a long while since I’ve written and I kind-of dropped my last series on it’s head and left it to rest. If you were particularly interested in the Zero-To-Hero for Android Development, let me know. I’ll pick it back up. The reason I stopped writing it was because the community sentiment was straight-forward — they wanted more Clojure!

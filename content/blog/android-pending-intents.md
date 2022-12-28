@@ -11,8 +11,7 @@ category:
 tags:
   - android
   - intents
-description:
-  - "Pending Intents in Android allow you to wrap an existing intent and keep that around even if the application process is killed."
+description: "Pending Intents in Android allow you to wrap an existing intent and keep that around even if the application process is killed."
 ---
 
 So you’ve been working with Android for weeks now, and you’ve all but mastered the ability to start a new activity with an intent. Here’s the kicker – There’s far more to Intents than starting a new activity when a user clicks a button, and today I’ll share my knowledge of pending intents.

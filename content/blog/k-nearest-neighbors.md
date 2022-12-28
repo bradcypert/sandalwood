@@ -16,8 +16,7 @@ tags:
   - knn
   - machine-learning
 post_format: []
-description:
-  - "Thanks for tuning in for another awesome blog post! In this post, we're going to cover KNN and it's implementation in Clojure!"
+description: "Thanks for tuning in for another blog post! In this post, we're going to cover KNN and it's implementation in Clojure!"
 _yoast_wpseo_title:
   - "KNN - My Nearest Neighbors"
 ---

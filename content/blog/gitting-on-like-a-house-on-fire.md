@@ -12,8 +12,7 @@ category:
 tags:
   - git
 post_format: []
-description:
-  - "Learn a few git tricks for free to improve your workflow and code like a git master!"
+description: "Learn a few git tricks for free to improve your workflow and code like a git master!"
 _yoast_wpseo_title:
   - "Gitting on like a house on fire"
 ---

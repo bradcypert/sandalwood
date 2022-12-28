@@ -13,11 +13,7 @@ tags:
   - clojure
   - macros
   - threading
-post_format: []
-description:
-  - "In this post, we cover the Thread macro in Clojure and how to use it to define data transformation pipelines. Additionally, we look at the comp function and it's ability to act as an alternative."
-_yoast_wpseo_title:
-  - "Threading Pipelines in Clojure"
+description: "In this post, we cover the Thread macro in Clojure and how to use it to define data transformation pipelines. Additionally, we look at the comp function and it's ability to act as an alternative."
 ---
 
 Today we’re going to talk about the `thread` macro (`->`) and how to manipulate functions to fit them into your “thread pipeline”. First, let’s figure out what exactly the thread macro is.

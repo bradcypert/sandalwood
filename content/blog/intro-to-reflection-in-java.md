@@ -17,22 +17,9 @@ tags:
   - metaprogramming
   - reflection
 post_format: []
-description:
-  - "Use reflection to dynamically inspect classes at runtime! Learn about dynamically reading member variables or executing methods!"
-_yoast_wpseo_title:
-  - "Intro to Reflection in Java"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - ""
-_yoast_wpseo_focuskw:
-  - reflection
-_yoast_wpseo_linkdex:
-  - "69"
-_yoast_wpseo_content_score:
-  - "90"
+description: "Use reflection to dynamically inspect classes at runtime! Learn about dynamically reading member variables or executing methods!"
+versions:
+  java: jdk8
 ---
 
 Recently, I began exploring an interesting idea I had – creating a RESTful framework built on top of Spark. Now, Spark is naturally restful, but I basically want the user to be able to define an object, flag it as a resource, and compile their code. They should then have `GET`, `POST`, `PUT`, and `DELETE` verbs available on that object. Sounds relatively trivial right?

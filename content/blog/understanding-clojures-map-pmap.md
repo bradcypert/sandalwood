@@ -13,11 +13,9 @@ tags:
   - clojure
   - map
   - pmap
-post_format: []
-description:
-  - "Clojure's map is a staple of the language and used liberally throughout the language's source code.  pmap is know for being slow. Learn why now!"
-_yoast_wpseo_title:
-  - "Understanding Clojure's Map & PMap"
+description: "Clojure's map is a staple of the language and used liberally throughout the language's source code.  pmap is know for being slow. Learn why now!"
+versions:
+  clojure: 1.7
 ---
 
 Let’s be honest – Part of the reason you’re using Clojure is the higher order functions like `map`. They’re great, composable, and describe what you’re trying to do instead of defining what to do – this keeps code simple. Maybe you’ve been playing with `map` for a while now and have even tried using `pmap`. If you did, you probably noticed that `pmap` is often slower than `map`, and if you want to know why – read on.

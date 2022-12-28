@@ -13,8 +13,9 @@ tags:
   - clojure
   - "json web tokens"
   - jwt
-description:
-  - "JWT are used as the authorization header on incoming requests. Clojure has a wonderful JWT library named Buddy that makes working with JSON Web tokens easy."
+description: "JWT are used as the authorization header on incoming requests. Clojure has a wonderful JWT library named Buddy that makes working with JSON Web tokens easy."
+versions:
+  clojure: 1.7
 ---
 
 Authentication is easy. Good authentication is difficult. We’re at a point in the world where our users expect to be able to sign up for your service or app, and receive a more personalized experience. If you can’t validate who the user is, you can’t achieve this.

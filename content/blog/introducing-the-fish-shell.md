@@ -12,9 +12,8 @@ category:
 tags:
   - fish
   - shell
-post_format: []
-_yoast_wpseo_title:
-  - "Introducing the Fish Shell"
+images:
+  - pexels-clownfish.jpg
 ---
 
 The first thing I do when I my hands on a new Macbook is install Homebrew. Then, I install Fish. What is fish? Well, that’s an excellent question. Fish is a command line shell that (in my workflow) replaces Bash — the shell most developers are used to. There are plenty of alternatives to Bash, with Zsh being the most popular, but I’m hoping to give fish a shot by the end of this article. Here’s what I like about it:

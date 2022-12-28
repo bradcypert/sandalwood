@@ -12,8 +12,7 @@ category:
 tags:
   - clojure
 post_format: []
-_yoast_wpseo_title:
-  - "Clojure + Kibit & Eastwood"
+description: "Learn about common tools in the Clojure ecosystem for linting and static analysis."
 ---
 
 I’ve been writing Clojure for a while now, but my day job is still predominantly JavaScript and Java. There are two tools that I use every single time I write JavaScript and Java code. Respectively, a linter and a static code analyzer. Recently, I set out to search for similar tools in the Clojure domain.

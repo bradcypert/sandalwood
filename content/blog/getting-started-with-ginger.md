@@ -18,10 +18,9 @@ tags:
   - rest
   - restful
 post_format: []
-description:
-  - "Learn how to build an API in 25 minutes with Ginger, H2, and Java 8!"
-_yoast_wpseo_title:
-  - "Building RESTful APIs with Ginger, H2, and Java 8"
+description: "Learn how to build an API in 25 minutes with Ginger, H2, and Java 8!"
+versions:
+    java: jdk8
 ---
 
 Recently, I started writing a few RESTful services in Java Spark. I found a few recurring themes and decided to extract them out into a layer ontop of Spark to make it even easier to build a RESTful service from the ground up. This project is called Ginger and I’ll show you how to create a RESTful service using the Ginger framework.

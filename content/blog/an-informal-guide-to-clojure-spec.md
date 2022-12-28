@@ -1,5 +1,5 @@
 ---
-title: "An Informal &#038; Practical Guide to Clojure.Spec"
+title: "An Informal & Practical Guide to Clojure.Spec"
 date: 2017-05-14
 status: publish
 permalink: /an-informal-guide-to-clojure-spec
@@ -13,8 +13,7 @@ tags:
   - clojure
   - spec
 post_format: []
-description:
-  - "Clojure's spec allows you to declaratively define specifications that you use in your code for numerous things such as checking validity and more!"
+description: "Clojure's spec allows you to declaratively define specifications that you use in your code for numerous things such as checking validity and more!"
 ---
 
 Hello again! No witty intro this time, I’ve just been working with Clojure 1.9-alpha recently, and have decided to write about Clojure spec and some of the features it offers. Let’s get to it!

@@ -12,6 +12,10 @@ category:
 tags:
   - Generics
   - Scala
+images:
+  - pexels-spoons.jpg
+versions:
+  scala: 2.8
 ---
 
 Scala has, in it’s core library, several classes that are intended to contain (at some point or another) some object. A few examples of this are seen in [Option](https://www.scala-lang.org/api/2.12.2/scala/Option.html) and [Future](https://www.scala-lang.org/api/2.12.2/scala/concurrent/Future.html). These container classes allow you to act upon values that may or may not exist or even to work with values that should appear in the future (hence the name “Future”). The idea of these container classes is fundamentally simple. Let’s define a container class to hold an instance of class called Egg.

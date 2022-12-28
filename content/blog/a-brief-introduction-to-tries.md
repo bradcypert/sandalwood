@@ -14,8 +14,7 @@ tags:
   - data-structures
   - java
   - trie
-description:
-  - "Tries are a type of search tree commonly used for storing and searching single characters that make up one or more strings. Learn to create them in Java!"
+description: "Tries are a type of search tree commonly used for storing and searching single characters that make up one or more strings. Learn to create them in Java!"
 ---
 
 Hello there! Welcome back! Today I’m talking about Tries (pronounced “trys”). Tries are a type of search tree commonly used for storing and searching single characters that make up one or more strings. What make a trie interesting is that the first node contains an empty value and the descendants of a node have a common prefix associated with that node.

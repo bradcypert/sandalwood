@@ -15,10 +15,7 @@ tags:
   - listview
   - recyclerview
 post_format: []
-description:
-  - "Learn about when to use a RecyclerView and a ListView as well as how to build an Adapter for each!"
-_yoast_wpseo_title:
-  - "Android - ListView, RecyclerView, Adapters"
+description: "Learn about when to use a RecyclerView and a ListView as well as how to build an Adapter for each!"
 ---
 
 I recently started working on part three of my [**Zero-To-Hero**](http://www.bradcypert.com/tags/zero-to-hero/) series, which gives us a chance to leverage a RecyclerView and List Adapter for our Todo/Habit application. Though I cover them in that tutorial as well, I feel like they deserve a post to themselves to go a bit more in depth. Code examples are taken from the Turnip app that we build in the **Zero-To-Hero** series.

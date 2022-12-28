@@ -10,9 +10,10 @@ category:
   - Python
 tags:
   - flask
-  - Python
-description:
-  - "Writing an API in Flask with SQLAlchemy is easy with the correct setup. Flask takes care of the server and routing while SQLAlchemy handles the database."
+  - python
+description: "Writing an API in Flask with SQLAlchemy is easy with the correct setup. Flask takes care of the server and routing while SQLAlchemy handles the database."
+versions:
+  python: 3.8.1
 ---
 
 ## First Thing’s First

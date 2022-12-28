@@ -6,10 +6,10 @@ permalink: /today-im-giving-up-business
 author: "Brad Cypert"
 type: blog
 id: 17
-category:
-  - Meta
-description:
-  - "Building things for fun is a valid reason for writing software, especially if its your own project. Sometimes its better for your mental health to just start building, especially if your project is in your spare time."
+tags:
+  - business
+  - "side projects"
+description: "Building things for fun is a valid reason for writing software, especially if its your own project. Sometimes its better for your mental health to just start building, especially if your project is in your spare time."
 ---
 
 I like to consider myself as an idea-guy. I have ideas all the time, and I consistently try to validate them before trying them. One thing I’ve noticed, however, is I hardly do any of these ideas.

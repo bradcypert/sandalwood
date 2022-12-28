@@ -14,8 +14,7 @@ tags:
   - javascript
   - testing
 post_format: []
-description:
-  - "There are many ways to handle automated testing via unit tests, but these tips are some of my favorite."
+description: "There are many ways to handle automated testing via unit tests, but these tips are some of my favorite."
 ---
 
 I recently read this [amazing article](https://www.toptal.com/javascript/writing-testable-code-in-javascript) by [Josh Mock](https://twitter.com/joshmock) and felt the need to share it. In fact, the tools he uses in his examples – JavaScript, Mocha+Chai, and Phantom are the tools I use daily to do the same thing.

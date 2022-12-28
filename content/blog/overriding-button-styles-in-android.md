@@ -13,18 +13,7 @@ tags:
   - android
   - beginner-friendly
 post_format: []
-description:
-  - "Quickly learn how to override the default android styles to help you create a look and feel unique to your application!"
-_yoast_wpseo_title:
-  - "Overriding Button Styles in Android"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "80"
-_yoast_wpseo_content_score:
-  - "90"
+description: "Quickly learn how to override the default android styles to help you create a look and feel unique to your application!"
 ---
 
 Android comes with a ton of widgets, gizmos, and gadgets (maybe just widgets) out of the box, but it can be difficult to find one that works exactly how you would expect it to. My advice is this – find one that functions the way you want it to and override the styles to make it look the way you’d like. If that doesn’t work, you can always create a custom view, too!

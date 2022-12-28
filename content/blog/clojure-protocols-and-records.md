@@ -1,5 +1,5 @@
 ---
-title: "Clojure Protocols &#038; Records"
+title: "Clojure Protocols & Records"
 date: 2017-04-06
 status: publish
 permalink: /clojure-protocols-and-records

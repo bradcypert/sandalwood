@@ -12,11 +12,9 @@ category:
 tags:
   - Async
   - clojure
-post_format: []
-description:
-  - "What is a future?\nA future is simply a function that executes code on a background thread and can be dereferenced to get the result of that code."
-_yoast_wpseo_title:
-  - "Using Futures in Clojure"
+description: "A future is simply a function that executes code on a background thread and can be dereferenced to get the result of that code."
+versions:
+  clojure: 1.8.0
 ---
 
 It’s late at night so I’ll keep this post short. I’m going to quickly cover how to use Futures in Clojure and why you would want to use them. Let’s start with the why.

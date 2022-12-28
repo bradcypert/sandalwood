@@ -13,10 +13,9 @@ tags:
   - Async
   - clojure
 post_format: []
-description:
-  - "Learn to use Clojure's Core.Async to your advantage! Experiment with Channels, Threads, and Buffers while building a virtual warehouse."
-_yoast_wpseo_title:
-  - "Building Async Processes with Clojure"
+description: "Learn to use Clojure's Core.Async to your advantage! Experiment with Channels, Threads, and Buffers while building a virtual warehouse."
+versions:
+  clojure: 1.7
 ---
 
 I’ve been writing about my favorite language, Clojure, for a while now. I’ve also been gauging your interest in Clojure and, if you’re reading this, I think you’re ready to take this relationship to the next level. Let’s talk about asynchronous code in Clojure.

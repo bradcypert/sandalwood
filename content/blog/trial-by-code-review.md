@@ -14,22 +14,7 @@ category:
 tags:
   - meta
 post_format: []
-_yoast_wpseo_title:
-  - "%%title%% %%sep%% A Plan for Helpful Code Reviews %%sep%% %%sitename%%"
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "70"
-_yoast_wpseo_content_score:
-  - "60"
-_yoast_wpseo_focuskw:
-  - "code review"
-description:
-  - "A code review can be scary, especially for newer developers, but through a good understand of ettiquete and accountability, a code review can become an enlightening experience."
-_yoast_wpseo_linkdex:
-  - "73"
+description: "A code review can be scary, especially for newer developers, but through a good understand of ettiquete and accountability, a code review can become an enlightening experience."
 ---
 
 Today wasn’t the day, but I remember it like it was. My first big project that I submitted at a big company working with engineers that I respected and looked up to. I pushed my code to our code review tool and anxiously awaited their feedback. Some of it was the most non-constructive feedback that I’ve ever seen in a code review and since then I’ve thought of some standards that might (or might not) be worth adhering to in code reviews. Perhaps a better title for this post is actually **A brief guide to writing code reviews.**

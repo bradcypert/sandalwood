@@ -16,8 +16,7 @@ tags:
   - clojure
   - meta
   - Python
-description:
-  - "I spent some more time with Python and started to realize that I needed something more. Here's a brief list of the reasons why I switched to Clojure."
+description: "I spent some more time with Python and started to realize that I needed something more. Here's a brief list of the reasons why I switched to Clojure."
 ---
 
 First – a bit of background. When I first started to learn programming, I started with a course in high school that focused on Java. From there, I decided I wanted to work for a start-up and I had to learn Python (I was naive). I started playing around with Python and it just felt right – at first. I spent some more time with it and started to realize that I needed something more. Here’s a brief list of the reasons why I switched from Python to Clojure.
