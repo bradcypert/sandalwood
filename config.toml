@@ -9,6 +9,7 @@ enableGitInfo = true
 
 [taxonomies]
   series = 'series'
+  tag = 'tags'
 
 [params]
   images = [
@@ -85,8 +86,8 @@ DefaultContentLanguageInSubdir = true
 [build]
   writeStats = true
 
-# [outputs]
-#   home = ["HTML", "RSS", "JSON"]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 # syntax highlight settings
 [markup]
