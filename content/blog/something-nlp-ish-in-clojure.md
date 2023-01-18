@@ -115,13 +115,12 @@ Next, we define a function that calculates the probability of the song lyrics be
 
 ```
 
-````clojure
+```clojure
 (defn- get-total-word-count-for-band-songs [t]
   (let [d (for [[k v] t]
     [k (count (clojure.string/split v #"s+"))])]
   d))
 
-```clojure
 (defn- get-probs [input times total]
   (let [times (into {} times)]
     (println times total input)
@@ -211,4 +210,3 @@ Here’s all the code together, feel free to copy/paste!
 ```
 
 Once again, sorry that this isn’t of the best quality. I just did not want to leave this post unposted. Thanks for reading!
-````
