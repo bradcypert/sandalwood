@@ -22,7 +22,7 @@ So I wrote a [Naive Bayes Classifer](https://en.wikipedia.org/wiki/Naive_Bayes_c
 
 ## Let's build the API
 
-[Redhat has a wonderful definition for API which states "API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software."](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces) APIs are generally considered good things to think about when designing software, so we're going to start by thinking through our API.
+[Redhat has a wonderful definition for API](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces) which states "API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software." APIs are generally considered good things to think about when designing software, so we're going to start by thinking through our API.
 
 We know that we need to train our classifier on data, and we need to feed that classifier data for it to classify. With this in mind, it makes sense that we should have two public methods for our classifier. Rust provides the trait keyword for defining groups of method signatures that encapsulate particular functionality -- the functionality of our classifier, for example. Let's go ahead and define a trait for our classifier.
 
