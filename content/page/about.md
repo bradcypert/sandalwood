@@ -12,7 +12,6 @@ description:
   - "Louisville, Kentucky based software architect passionate about building applications at scale. Frequent blogger. Coffee lover."
 ---
 
-# Who is Brad Cypert?
 **I’m passionate about Flutter, Rust, Go, and Software Architecture.**  
 **I’m also passionate about being passionate about things.**
 
