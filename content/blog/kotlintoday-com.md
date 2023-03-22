@@ -12,21 +12,7 @@ category:
 tags:
   - kotlin
   - meta
-post_format: []
-hefo_before:
-  - "0"
-hefo_after:
-  - "0"
-_yoast_wpseo_primary_category:
-  - "104"
-_yoast_wpseo_content_score:
-  - "90"
-_yoast_wpseo_focuskw:
-  - kotlinToday
-description:
-  - "KotlinToday.com is a meta-blog website for Kotlin related news. It features posts from notable Kotlin developers in the industry and helps you learn Kotlin!"
-_yoast_wpseo_linkdex:
-  - "84"
+description: "KotlinToday.com was a meta-blog website for Kotlin related news. It featuref posts from notable Kotlin developers in the industry and helped you learn Kotlin!"
 ---
 
 KotlinToday shut down after several years. Thank you for visiting the site for your Kotlin News.

@@ -83,6 +83,85 @@ void main() {
 }
 ```
 
+Alternatively, you can accomplish a similar experience via `Future.sync`.
+
+```dart
+List<String> cached = null;
+
+Future<List<String>> getData() {
+  return Future.sync(() {
+    if (cached != null) {
+      return Future.value(cached);
+    } else {
+      return http.get("https://api.github.com/users/bradcypert/repos")
+        .then((response) => jsonDecode(response.body).map((repo) => repo['name']).toList().cast<String>())
+        .then((repos) {
+          cached = repos;
+          return repos;
+        });
+    }
+  });
+}
+```
+
+`Future.sync` takes a function that returns either a future or a non-future value. If the value is not a future, it is wrapped in a future that is completed with that value. If the value is a future, that future takes place of the return value from Future.sync.
+
+### Future.delayed
+
+If you'd like to run a computation after a given value has passed, you can use `Future.delayed`. This method lets you specify a duration and a computation function, similar to future.sync, but it simply waits the provided duration before running the computation.
+
+```dart
+List<String> cached = null;
+
+Future<List<String>> getData() {
+  return Future.delayed(const Duration(seconds: 5), () {
+    if (cached != null) {
+      return Future.value(cached);
+    } else {
+      return http.get("https://api.github.com/users/bradcypert/repos")
+        .then((response) => jsonDecode(response.body).map((repo) => repo['name']).toList().cast<String>())
+        .then((repos) {
+          cached = repos;
+          return repos;
+        });
+    }
+  });
+}
+```
+
+### Completers
+
+Completers allow you to produce a future and complete them later with a given value or error state. Completers can be useful when you want to give the user a future, but they need to take more action (through your API) to be ready to consume the future. Additionally, completers can be used to provide a cleaner interface to callbacks. These are just a few examples of how you can use completers to enhance your dart code, but there are many more ways to use them, too!
+
+```dart
+class MyService {
+  Completer _completer = new Completer();
+
+  init() {
+    _completer = new Completer();
+    initializeApiFromSomeThirdPartyPackage(
+      onSuccess: (data) {
+        _completer.complete(data);
+      },
+      onError: (error) {
+        _completer.completeError(error);
+      },
+    );
+    return _completer;
+  }
+
+  close() {
+    _completer.complete();
+  }
+
+  isActive() => _completer.future;
+}
+```
+
+### Future.error
+
+If you'd like to return a future in an error state, you can simply use `Future.error`.
+
 ## Streams
 
 Streams are similar to futures, except they’re used to model an asynchronous sequence of data. If Futures are a single piece of data that may or may not be available, Streams are sequence of data over time that may or may not be available. For example, Streams can be used to consume updates from sockets, where those updates are pushed to the frontend automatically. Another example would be listening to a stream built and controlled by your application and pushing data into that stream in response to user events. I use that particular pattern in View Models with Flutter quiet a bit.
