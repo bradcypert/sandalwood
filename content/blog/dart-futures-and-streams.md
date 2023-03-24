@@ -21,7 +21,7 @@ versions:
 
 Asynchronous programming in Dart is an absolute blast. Dart offers a couple of different options when writing asynchronous code: namely [Futures](https://api.dart.dev/stable/2.9.3/dart-async/Future-class.html) and [Streams](https://api.dart.dev/stable/2.9.3/dart-async/Stream-class.html). You can use both Futures and Streams to solve a lot of the same problems, but each serve their own purpose as well.
 
-Futures are a type that models a computation who’s value may or may not be available. If you’re unfamiliar with Futures, you can think of getting a receipt at your favorite fast food restaurant as a Future. At some point, that receipt can be exchanged for a Hamburger (or whatever you order). However, something the grill could also break, and you may not receieve that Hamburger. You can think of a receipt as a `Future<Hamburger>`.
+Futures are a type that models a computation who’s value may or may not be available. If you’re unfamiliar with Futures, you can think of getting a receipt at your favorite fast food restaurant as a Future. At some point, that receipt can be exchanged for a Hamburger (or whatever you order). However, the grill could also break and you may not receieve that Hamburger. You can think of a receipt as a `Future<Hamburger>`.
 
 Futures are often used for particularly length computations such as HTTP requests or file IO. A lot of Dart packages (like [HTTP](https://pub.dev/packages/http)) will return futures from the methods that you call within those packages, however, you can even build your own Futures and work with those just like you would any other.
 
