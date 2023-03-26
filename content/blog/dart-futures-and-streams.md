@@ -48,7 +48,7 @@ It’s worth noting that `.then` and `.catchError` both return the future, so yo
 
 ## Creating your own Future
 
-Sometimes you’ll want to create a Future, even if the value is readily available. You can do that using `<a href="https://api.dart.dev/stable/2.9.3/dart-async/Future/Future.value.html">Future.value()</a>`. This is common in scenarios where you might have cached data locally, but you also might have to make an HTTP request for the data.
+Sometimes you’ll want to create a Future, even if the value is readily available. You can do that using [Future.value()](https://api.dart.dev/stable/2.9.3/dart-async/Future/Future.value.html). This is common in scenarios where you might have cached data locally, but you also might have to make an HTTP request for the data.
 
 For example:
 
