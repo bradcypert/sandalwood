@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "module": "ESNext",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "./static/js",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "target": "ES2016",
+      "types": [
+        "node"
+      ],
+      "lib": [
+        "ES2020",
+        "DOM",
+        "DOM.Iterable",
+      ],
+      "useDefineForClassFields": false
+    },
+    "include": ["web-components/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
