@@ -30,6 +30,6 @@
     "not dead"
   ],
   "dependencies": {
-    "lit": "^2.7.0",
+    "lit": "^2.7.0"
   }
 }
