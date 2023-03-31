@@ -393,7 +393,9 @@ const App = () => {
 </code-block>
 
 <div class="wp-block-image">
-  ![](/Screen-Shot-2019-10-27-at-5.01.17-PM.png)
+
+![](/Screen-Shot-2019-10-27-at-5.01.17-PM.png)
+
 </div>
 Once again, this doesn’t take care of all the intricacies behind logging in (and
 storing the login response so it’s readily available) but it should help you setup

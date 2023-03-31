@@ -160,7 +160,7 @@ class MyService {
 
 ### Future.error
 
-If you'd like to return a future in an error state, you can simply use `Future.error`.
+If you'd like to return a future in an error state, you can simply use `Future.error`. You'll often do this in cases where the requested computation can not be fulfilled. There are other ways to propogate errors depending on how you're constructing your future. For example, Future.delayed can become an error when that delayed function returns a Future.error or if it throws.
 
 ## Streams
 
@@ -218,3 +218,110 @@ Creating your own Stream is actually quite similar to creating your own Future! 
 - `Stream.periodic(interval, computation)` creates a new stream and on the provided interval, runs the provided computation, emitting it’s result.
 
 There are actually a couple more Stream constructors, but these are the ones that I’ve found myself using the most. You can find all of the constructors available in the [Dart Stream API documentation](https://api.dart.dev/stable/2.9.3/dart-async/Stream-class.html).
+
+## Stream Examples
+
+There are many cases where you may want to create a stream. One of my favorite examples is when you are providing multiple callbacks for lifecycle methods and feel that a stream of data can better represent state of data over time. Let's assume we have an object that takes in several callbacks that are triggered when the object's internal state changes. A great real life example of this would be callbacks to a Wallet Connect bridge in the web3 world.
+
+```dart
+
+/// this isn't super realistic, but should hopefully illustrate a good use case for streams
+abstract class WalletConnectionDelegate {
+  void onInit();
+  void onNewSession();
+  void onApprove();
+  void onClose();
+}
+```
+
+This gets particularly cumbersome when you have multiple delegates and several of those only care about certain events (like a delegate that's listening exclusively for close events to let the user know the session was terminated).
+
+This could look something like this:
+
+```dart
+
+abstract class WalletConnectionDelegate {
+  void onInit();
+  void onNewSession();
+  void onApprove();
+  void onClose();
+}
+
+class MyWalletConnectDelegate extends WalletConnectionDelegate {
+  onInit() => handleOnInit(),
+  onClose() => handleOnClose(),
+  onNewSession(session) => handleOnNewSession(session),
+  onApprove(tx) => handleOnApprove(tx),
+}
+
+... /// in another file
+
+class MyWalletConnectDelegate extends WalletConnectionDelegate(
+  onInit() => null,
+  onClose() => showSessionTerminated(),
+  onNewSession(session) => null,
+  onApprove(tx) => null
+)
+
+```
+
+This example highlights another problem! What if our delegate requires all of these callbacks but our view only cares about one of them? This is a great usecase for streams! We can create a stream of events and let our views subscribe to that stream and only listen for the events they care about. In Dart, this also requires us to model our stream states, so we'll do that via classes.
+
+```dart
+
+abstract class WalletConnectionDelegate {
+  void onInit();
+  void onNewSession();
+  void onApprove();
+  void onClose();
+}
+
+class InitEvent {}
+
+class CloseEvent {}
+
+class NewSessionEvent {
+  final dynamic session; // dont make this dynamic in production code though!
+}
+
+class NewTransactionEvent {
+  final dynamic transaction; // dont make this dynamic in production code though!
+}
+
+class StreamWCDelegate extends WalletConnectDelegate {
+
+  final controller = StreamController.broadcast();
+
+  Stream get stream => controller.stream;
+  
+  onInit() => controller.add(InitEvent());
+  onClose() => controller.add(CloseEvent());
+  onNewSession(session) => controller.add(NewSessionEvent(session));
+  onApprove(tx) => controller.add(NewTransactionEvent(tx));
+}
+```
+
+Now we can simply provide create a singleton of the stream delegate and then provide that in place of the callback delegate. Then, we can simply listen to the stream for our examples:
+
+```dart
+final delegate = StreamWCDelegate();
+
+// hand this off so whatever API can call the methods on it
+establishDelegate(delegate);
+
+delegate.stream.listen((e) {
+  if (e is InitEvent) {
+    handleOnInit();
+  } else if (e is CloseEvent) {
+    handleOnClose();
+  } else if (e is NewSessionEvent) {
+    handleOnNewSessionEvent();
+  } else if (e is NewTransactionEvent) {
+    handleOnNewTransactionEvent();
+  }
+});
+
+... /// in another file
+
+delegate.stream.where((e) => e is OnClose).listen((e) => showSessionTerminated());
+```
