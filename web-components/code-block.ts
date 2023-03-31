@@ -24,7 +24,7 @@ export class CodeBlock extends LitElement {
   button {
     background: none;
     background-color: #686a76;
-	  color: #f8f8f2;
+    color: #f8f8f2;
     border: none;
     font: inherit;
     cursor: pointer;
