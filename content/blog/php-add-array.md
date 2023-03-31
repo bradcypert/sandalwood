@@ -29,7 +29,7 @@ $array = array(1,2,3,4);
 Now that we have an array, we can see how easy it is to add to an array like so:
 
 ```php
-\$array[] = 5;
+$array[] = 5;
 ```
 
 Adding to an array in PHP really is as simple as assigning a new value to a blank index!
