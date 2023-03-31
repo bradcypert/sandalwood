@@ -22,13 +22,13 @@ export class CodeBlock extends LitElement {
   }
   
   button {
-	  background: none;
+    background: none;
     background-color: #686a76;
 	  color: #f8f8f2;
-	  border: none;
-	  font: inherit;
-	  cursor: pointer;
-	  outline: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     border: 1px solid black;
     padding: 8px;
     border-top-left-radius: 5px;
