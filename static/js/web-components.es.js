@@ -641,14 +641,14 @@ P.styles = $t`
     padding-left: 1.1428571em;
   }
   
-  button, input[type="submit"], input[type="reset"] {
-	background: none;
+  button {
+    background: none;
     background-color: #686a76;
-	color: #f8f8f2;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: #f8f8f2;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     border: 1px solid black;
     padding: 8px;
     border-top-left-radius: 5px;
@@ -661,7 +661,6 @@ P.styles = $t`
     opacity: 1.0;
     border-bottom: 1px solid transparent;
   }
-
   `;
 J([
   ut()

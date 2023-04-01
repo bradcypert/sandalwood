@@ -44,7 +44,7 @@ export class CodeBlock extends LitElement {
   `;
 
   @state()
-  private _selected: number = 0;
+  private selected: number = 0;
 
   @state()
   private originalChildren: Array<Element>;
@@ -60,14 +60,14 @@ export class CodeBlock extends LitElement {
     return html`<div>
         <div class="tabs">
             ${tabs.map((tab, index) => html`
-                <button class="${this._selected == index ? "selected" : ""}" @click=${() => this._selected = index}>
+                <button class="${this.selected == index ? "selected" : ""}" @click=${() => this.selected = index}>
                     <span>
                         ${tab}
                     </span>
                 </button>
             `)}
         </div>
-        ${this.originalChildren[this._selected]}
+        ${this.originalChildren[this.selected]}
     </div>`;
   }
 }
