@@ -35,6 +35,9 @@ TypeScript is a superset of JavaScript that adds Types, as well as a few other h
 - [What is a Partial in TypeScript?](/typescript-what-is-a-partial/)
 - [Tupels in TypeScript](/typescript-tuples/)
 
+## Web Components
+- [Adding Web Components to a Hugo Blog](/adding-web-components-to-a-hugo-blog/)
+
 ## Tooling
 
 This section is a bit of a hodgepodge. There are a lot of tools available in the JavaScript community. I’ll try to make the link indicate what tools are being used.

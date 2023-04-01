@@ -15,7 +15,7 @@ tags:
   - typescript
 images:
   - pexels-tima-miroshnichenko-6755080.jpg
-description: ""
+description: "If you're looking to add some reactive frontend elements to your simple blog without having to resort to more complex frameworks like React or Vue, web components might just be the answer you're looking for. In this blog post, I'll walk you through how I added web components to my Hugo blog using Lit components and Vite as a simple build system."
 outline:
   what: "Explain how I added web components to my hugo blog"
   why: "Web components provided a lightweight alternative to React or Vue for adding reactive frontend elements to simple blogs"
