@@ -84,10 +84,10 @@ description: ""
 I've added a new set of fields to this YAML to help me outline my posts. The section is titled `outline` and looks like so:
 ```yaml
 outline:
-  what: \"What's the main goal I am trying to convey\"
-  why: \"Why does anyone care?\"
-  how: \"How is whatever Im teaching used?\"
-  when: \"When should it be used?\"
+  what: "What's the main goal I am trying to convey"
+  why: "Why does anyone care?"
+  how: "How is whatever Im teaching used?"
+  when: "When should it be used?"
 ```
 
 My plan is to not post content if I cant answer these questions and to start by answering these questions. I feel that this will help me ensure that my content is quality and beneficial. For the post you're reading right now, the outline looks something like this:
