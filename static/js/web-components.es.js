@@ -605,7 +605,7 @@ var Nt = Object.defineProperty, Tt = Object.getOwnPropertyDescriptor, J = (n, t,
 };
 let P = class extends S {
   constructor() {
-    super(...arguments), this._selected = 0;
+    super(...arguments), this.selected = 0;
   }
   connectedCallback() {
     super.connectedCallback(), this.originalChildren = [...this.shadowRoot.host.children];
@@ -615,14 +615,14 @@ let P = class extends S {
     return st`<div>
         <div class="tabs">
             ${n.map((t, e) => st`
-                <button class="${this._selected == e ? "selected" : ""}" @click=${() => this._selected = e}>
+                <button class="${this.selected == e ? "selected" : ""}" @click=${() => this.selected = e}>
                     <span>
                         ${t}
                     </span>
                 </button>
             `)}
         </div>
-        ${this.originalChildren[this._selected]}
+        ${this.originalChildren[this.selected]}
     </div>`;
   }
 };
@@ -664,7 +664,7 @@ P.styles = $t`
   `;
 J([
   ut()
-], P.prototype, "_selected", 2);
+], P.prototype, "selected", 2);
 J([
   ut()
 ], P.prototype, "originalChildren", 2);
