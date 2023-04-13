@@ -18,7 +18,7 @@ versions:
   go: 1.16
 ---
 
-Classes aren’t really a thing in go, so you cant have instance methods ([like Java or similar](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)), however, you may have noticed some functions in Go that appear to be instance methods. These are [Go’s receiver functions](https://tour.golang.org/methods/4).
+Classes aren’t really a thing in Go, so you cant have instance methods ([like Java or similar](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)), however, you may have noticed some functions in Go that appear to be instance methods. These are [Go’s receiver functions](https://tour.golang.org/methods/4).
 
 The way they work is quite simple. If you have a struct like so:
 
@@ -38,7 +38,7 @@ You could write a function that takes the struct in as a parameter. For example:
 ```go
 d := Database{...}
 
-func getDatabaseRoot(db \*Database) {
+func getDatabaseRoot(db *Database) {
 return db.Host + ":" + db.port
 }
 
