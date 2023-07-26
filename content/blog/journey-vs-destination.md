@@ -19,7 +19,7 @@ outline:
   when: "When starting a new project"
 ---
 
-For me, embarking on a software development journey can take two distinct paths - the Journey Development Path and the Destination Development Path. Each approach brings its unique set of goals, challenges, and rewards. In this blog post, we will explore the key differences between these two development philosophies and discuss how they influence us as developers. By the end of this article, my hope is that you will understand the differences between these two approaches and have some insight on when and why to choose a specific path.
+For me, embarking on a software development journey can take two distinct paths - the Journey Development Path and the Destination Development Path. Each approach brings its unique set of goals, challenges, and rewards. In this blog post, we will explore the key differences between these two development philosophies and discuss how they influence us as developers. By the end of this article, my hope is that you will understand the differences between these two approaches and have some insight on when and why I think you should choose a specific path.
 
 ## Journey Development: Embracing Learning and Exploration
 
