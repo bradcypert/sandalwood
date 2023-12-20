@@ -1,19 +1,14 @@
+#!/usr/bin/env bash
+lowercaseName=`echo "$1" | awk '{ print tolower($0) }'`
 echo "---
-title: \"Something NLP-ish in Clojure\"
+title: \"$1\"
 date: ${date+'%Y/%m/%d'}
 status: publish
 permalink: /todo
 author: \"Brad Cypert\"
 type: blog
-id: 39
-category:
-  - clojure
-  - NLP
 tags:
-  - bayes
-  - classifier
-  - clojure
-  - nlp
+  - TODO
 description: \"\"
 outline:
   what: \"What's the main goal I am trying to convey\"
@@ -21,4 +16,4 @@ outline:
   how: \"How is whatever Im teaching used?\"
   when: \"When should it be used?\"
 ---
-" >> ./content/blog/$1.md
+" >> "./content/blog/${lowercaseName// /-}.md"
