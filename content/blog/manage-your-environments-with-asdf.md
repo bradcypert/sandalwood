@@ -64,12 +64,20 @@ And if you find the need to remove a plugin, you can do so with:
 asdf plugin remove $name
 ```
 
+You can find plugins for any popular tool choice, but some common examples are NodeJS, Bun, Dart, Go, and more.
+
 ## Using Plugins to Manage Tools
 
 Once you have your plugins setup, you can use them to manage tool versions. Let's continue with our Dart example by installing the latest version of Dart.
 
 ```bash
 asdf install dart latest
+```
+
+Dart is the plugin here, so if we wanted to install Node instead (provided you installed the node plugin), you would write:
+
+```bash
+asdf install nodejs latest
 ```
 
 If we need to, we can install a specific version, too!
