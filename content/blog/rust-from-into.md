@@ -42,7 +42,7 @@ Using from actually has a few different options. Let's follow along from our abo
 fn main() {
     let my_email = "brad@example.com";
     let example1 = Email::from(my_email);
-    let example2: Email = my_str.into();
+    let example2: Email = my_email.into();
 }
 ```
 
