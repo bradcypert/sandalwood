@@ -17,8 +17,6 @@ outline:
   how: "Examples include the tool directory in this project, several of my flutter projects and more. I'll add those examples to this post."
   when: "As soon as you write a string of bash or scripting commands to do something to a repository. IE: Almost every repo."
 ---
-# Every Project Should Have a Tool Directory
-
 **Welcome back to the blog!** I'm excited to share a tip that I've found incredibly valuable for managing my projects, both personal and professional: the **tool directory**.
 
 ## What is a tool directory?
