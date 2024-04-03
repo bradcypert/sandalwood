@@ -14,7 +14,7 @@
     {{ $title := .Site.Title }}
       {{ with $src }}
         {{ $src := $src.Resize "x600 webp"}}
-        <img class="rounded-lg shadow-sm" src="{{ $src.RelPermalink  }}" alt="{{ $src }}" />
+        <img class="rounded-lg shadow-sm" src="{{ $src.RelPermalink  }}" height="600" alt="{{ $src }}" />
       {{ end }}
   </div>
 </section>
