@@ -62,8 +62,7 @@ It’s worth mentioning that, as an effort to avoid slowing builds down with thi
 
 <HeadsUp title="A Note for Gradle Enterprise Users">
   Gradle Scans are pushed to public servers by default. If you pay for Gradle
-  enterprise,[you can configure them so that they hit your enterprise server
-  instead](https://docs.gradle.com/build-scan-plugin/?_ga=2.101945985.1677862482.1555510221-996774626.1548092762#set_the_location_of_your_gradle_enterprise_instance)
+  enterprise, <a target="_blank" href="https://docs.gradle.com/build-scan-plugin/?_ga=2.101945985.1677862482.1555510221-996774626.1548092762#set_the_location_of_your_gradle_enterprise_instance">you can configure them so that they hit your enterprise server</a>
   and require enterprise authentication.
 </HeadsUp>
 
