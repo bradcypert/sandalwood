@@ -43,7 +43,7 @@ There’s a lot of information presented in an unconfigured scan, and parsing it
 
 Plugins merely shows what plugins are enabled in this gradle build, while switches does the same — but for switches.
 
-The timeline, however, shows the stages of your build over time. This is extremely helpful for profiling your build and figuring out what exactly is taking so long. While the build I shared above is quite simply, you’ll likely find that in your application, the timeline will be full of information, especially the more complicated your build is.
+The timeline, however, shows the stages of your build over time. This is extremely helpful for profiling your build and figuring out what exactly is taking so long. While the build I shared above is quite simple, you’ll likely find that in your application the timeline will be full of information, especially so the more complicated your build is.
 
 ## Configuring the Scan
 
