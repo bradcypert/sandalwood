@@ -31,12 +31,7 @@ I was actually mowing my lawn while listening to this episode and being alone wi
 
 Lets rewind a bit, though. I started blogging about 10 years ago. I love it -- so much that I had a plan to quit my job and just blog about programming full time. I was excited to add analytics to my site to start to see how people were engaging with my blog and then quickly disappointed in seeing the actual metrics.
 
-<figure>
-    <img src="/depression-as-a-metric.png"
-         alt="45% bounce rate">
-    <figcaption>Disappointment as a metric.</figcaption>
-</figure>
-
+![Disappoint as a metric. 45% bounce rate](/depression-as-a-metric.png)
 
 I tried a _lot_ to improve my metrics but quickly realized that this is a trend for programming related blogs. Most people don't go to a programming blog to browse. They're searching a stacktrace or problem and end up on your website. They get their answer (or don't) and then they leave. I've finally acknowledged that this is a reality, and I've stopped caring so much about the metrics on my site. Occasionally, I'd see fun little blips in my analytics that would point me to an article I wrote being shared on HackerNews, but for the most part, my analytics were becoming pointless.
 
