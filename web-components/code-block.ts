@@ -1,6 +1,4 @@
 import {html, css, LitElement} from 'lit';
-import {unsafeHTML} from 'lit/directives/unsafe-html.js';
-
 import {customElement, state} from 'lit/decorators.js';
 
 
