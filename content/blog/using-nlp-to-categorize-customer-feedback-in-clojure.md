@@ -172,10 +172,7 @@ nlp.core=> (get-sentiment "Hey there!
 
 ```
 
-Not great, but this is a good time to mention two things.
-
-1. I’d consider setting up a filter (maybe even using the `filter` function!) to determine how many “Negatives” are required to make up a “bad email”.
-2. You can actually leverage the SentimentTrees instead of the Sentiment class and get more details (such as “Error predictability”, or how likely we are to be wrong about this classification).
+Overall the sentiment here is positive, which seems to match the tone of that email. It's interesting to see a "negative" pop up, but I think looking at the sentiment at large is key here.
 
 ###### Sarcastic Mail
 
@@ -185,7 +182,7 @@ Not great, but this is a good time to mention two things.
 
 ```
 
-This is one that I was excited. The tone is positive although it’s littered with sarcasm and our code picks up on that. It realizes the negativity and (mostly) marks it as so.
+This is one that I was excited to see the outcome of. The tone is positive although it’s littered with sarcasm and our code picks up on that. It realizes the negativity and (mostly) marks it as so.
 
 ###### Happy Mail #2
 
