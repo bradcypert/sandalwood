@@ -39,6 +39,6 @@ Meanwhile, I had added Ads to my site in a goal to make money blogging so I coul
 
 Years have gone by and I can live comfortably now with or without the $0.03 that I rake in daily from my blog. The value of the ads and analytics are nonexistent for me at this point, so I'm removing them all. I want to focus on teaching ideas and don't want to be tempted by the carrot of coercing developers into clicking another page for another ad impression.
 
-I still like the idea of producing content for a living and I've got a lot of irons in the fire for that ([Youtube](https://www.youtube.com/@CodeWithCypert), [courses.bradcypert.com](https://courses.bradcypert.com), and a few others), so Im retiring the idea of my blob being a form of income and a potential job.
+I still like the idea of producing content for a living and I've got a lot of irons in the fire for that ([Youtube](https://www.youtube.com/bradcypert), [courses.bradcypert.com](https://courses.bradcypert.com), and a few others), so Im retiring the idea of my blob being a form of income and a potential job.
 
 Please enjoy the content on this site ad and analytics free. I hope you find it helpful.
