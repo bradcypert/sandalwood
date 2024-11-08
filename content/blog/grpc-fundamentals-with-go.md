@@ -90,7 +90,7 @@ protoc --go_out=./coffeeshop_proto --go_opt=paths=source_relative \
     coffee_shop.proto
 ```
 
-That being said, you do need to install the protobuf compiler (`brew install protobuf` on mac) to run the above code. Let's take this a step further and throw it in a Makefile so we don't have to remember all of that.
+That being said, you do need to install the protobuf compiler (`brew install protobuf` on mac, [other OS instructions here](https://grpc.io/docs/protoc-installation/)) to run the above code. Let's take this a step further and throw it in a Makefile so we don't have to remember all of that.
 
 ```Makefile
 build_proto:
