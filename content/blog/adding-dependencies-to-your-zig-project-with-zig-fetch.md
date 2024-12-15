@@ -19,7 +19,7 @@ outline:
   when: "you need to leverage code written by others in a scalable and maintainable fashion"
 ---
 
-Boy, does this feel like a weird blog post to write but I had to dig into the actual source code for the Zig cli to figure out my issue, so I'm going to write about this and hopefully spare others from that pain.
+Boy, does this feel like a weird blog post to write. I had to dig into the source code for the Zig cli to figure out how to do this, so I'm going to write about this and hopefully spare others from that pain.
 
 Zig is a fun language and there's something ~~sexy~~ ~~powerful~~ ~~dangerous~~ enjoyable about having control of how memory is allocated. However, as with any language that I'm learning in my spare time, I don't want to have to write everything from scratch. I'd like to use the code written by others.
 
