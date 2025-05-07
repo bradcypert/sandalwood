@@ -29,6 +29,10 @@ If you're a Go developer and want to dip your toes into the world of hardware, I
 
 In this post, I’ll walk you through building a soil moisture sensor that reads data and displays it on an LCD screen—all written in Go using TinyGo.
 
+This post is available as an in-depth video tutorial too! Check it out here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCdLJc0XgaU?si=-wB595Z0zaUHiBxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Why TinyGo?
 
 Microcontroller development is traditionally done in C or C++, but for many of us who love Go, this can feel like stepping back in time. TinyGo changes the game by compiling Go programs to run on small devices. It supports a growing number of microcontrollers and comes with a solid standard library for embedded development.
