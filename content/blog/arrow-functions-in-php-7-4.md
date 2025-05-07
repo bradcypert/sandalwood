@@ -18,7 +18,6 @@ description: "PHP 7.4 introduces arrow functions to our standard library. Arrow 
 versions:
   php: 7.4
 ---
-
 PHP is finally getting arrow functions (also known as Short Closures)! I know, I know. I’m just as excited as you are. Here’s everything you need to know about arrow functions in PHP.
 
 First, arrow functions are an approved RFC for PHP 7.4. If you’re using a version of PHP that’s lower than 7.4, you won’t be able to use arrow functions.
