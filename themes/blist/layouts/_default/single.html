@@ -78,7 +78,7 @@
           }
         </style>
         {{ range $key, $value := . }}
-          <li>{{- partial "language-logo.html" $key -}}: {{$value}}</li>
+      <li>{{- partial "language-logo.html" $key -}}{{$key}}: {{$value}}</li>
         {{ end }}
       </ul>
       This tutorial may work with newer versions and possibly older versions, but has only been tested on the versions mentioned above.
