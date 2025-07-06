@@ -29,8 +29,6 @@ layers, and any scenario requiring fast sorted data access."
 logarithmic performance, range queries, or plan to scale beyond memory limits."
 ---
 
-# Building a Production-Ready B+ Tree in Zig: A Deep Dive into LowkeyDB
-
 When building an embedded database, one of the most critical decisions is choosing the right data structure for storage and retrieval. After implementing a complete B+ tree from scratch in Zig for LowkeyDB, I want to share the journey, the challenges, and the (hopefully) elegant solutions that emerged.
 
 ## What is a B+ Tree and Why Should You Care?
