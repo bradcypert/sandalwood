@@ -18,15 +18,15 @@ tags:
     - Concurrency
 description: "Build a scalable B+ Tree database in Zig with automatic page splitting, concurrent operations, and memory-safe design. Full implementation guide with performance
   analysis."
-  outline:
-    what: "How to implement a production-ready B+ Tree from scratch in Zig, including page-based storage, automatic splitting, multi-level navigation, and thread-safe operations for a scalable
-  embedded database."
-    why: "B+ Trees are the backbone of most database systems, but most developers never see a complete implementation. Understanding how they work internally makes you a better database user and
-  systems programmer, plus Zig's safety features make complex data structures more approachable."
-    how: "Used as the core storage engine in databases like PostgreSQL, MySQL, and SQLite for efficient indexing, range queries, and maintaining sorted data. Also applicable in file systems, caching
-  layers, and any scenario requiring fast sorted data access."
-    when: "Essential when building databases, storage engines, or high-performance applications that need efficient sorted data access. Choose B+ Trees over simpler structures when you need
-  logarithmic performance, range queries, or plan to scale beyond memory limits."
+outline:
+  what: "How to implement a production-ready B+ Tree from scratch in Zig, including page-based storage, automatic splitting, multi-level navigation, and thread-safe operations for a scalable
+embedded database."
+  why: "B+ Trees are the backbone of most database systems, but most developers never see a complete implementation. Understanding how they work internally makes you a better database user and
+systems programmer, plus Zig's safety features make complex data structures more approachable."
+  how: "Used as the core storage engine in databases like PostgreSQL, MySQL, and SQLite for efficient indexing, range queries, and maintaining sorted data. Also applicable in file systems, caching
+layers, and any scenario requiring fast sorted data access."
+  when: "Essential when building databases, storage engines, or high-performance applications that need efficient sorted data access. Choose B+ Trees over simpler structures when you need
+logarithmic performance, range queries, or plan to scale beyond memory limits."
 ---
 
 # Building a Production-Ready B+ Tree in Zig: A Deep Dive into LowkeyDB
