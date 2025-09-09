@@ -422,11 +422,11 @@ const promotion_key = try allocator.dupe(u8, new_page.getKey(0));
 self.allocator.free(split_result.promotion_key);  // Essential!
 ```
 
-Zig's explicit memory management prevented leaks that plague garbage-collected implementations.
+Zig's explicit memory management actually made this rather challenging, but after-the-fact, I feel secure in knowing that the memory usage here is pretty safe!
 
 ### 4. Thread Safety Complexity
 
-Implementing fine-grained locking for B+ Trees is incredibly complex. Our database-level approach trades some performance for guaranteed correctness—a worthwhile tradeoff for many applications.
+Implementing fine-grained locking for B+ Trees is incredibly complex. Our database-level approach trades some performance for guaranteed correctness which is something I'd a worthwhile tradeoff for most applications.
 
 ## Future Optimizations
 
