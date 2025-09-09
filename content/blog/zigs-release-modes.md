@@ -5,6 +5,8 @@ status: publish
 permalink: /zigs-release-modes
 author: "Brad Cypert"
 type: blog
+images:
+  - zig-multithreading.jpeg
 tags:
   - zig
 versions:
