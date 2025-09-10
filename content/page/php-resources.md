@@ -28,4 +28,4 @@ development, as well as Laravel and, sometimes, Wordpress.
 
 - [Laravel URL shortener](/building-a-simple-url-shortener-in-php-with-laravel)
 - [Building a simple API with Lumen](/building-a-simple-api-in-php-using-lumen)
-- [Building a simple API with Slim & Eloquent](/building-a-restful-api-in-php-using-slim-eloquent)
+- [Building a simple API with Slim and Eloquent](/building-a-restful-api-in-php-using-slim-eloquent)
