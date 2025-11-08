@@ -5,7 +5,7 @@ status: publish
 permalink: /using-c-libraries-in-zig
 author: "Brad Cypert"
 type: blog
-image:
+images:
   - pexels-tools.jpg
 tags:
   - zig
