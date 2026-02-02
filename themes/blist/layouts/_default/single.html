@@ -10,7 +10,7 @@
         {{ $src := $src.Resize "x600 webp"}}
         <img src="{{ $src.RelPermalink }}" alt="{{ $alt }}" class="rounded-lg shadow-sm w-full object-contain" />
       {{ end }}
-    {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+    {{ if not (or (or site.Params.hideMeta .Params.hideMeta) false) }}
     <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
       {{ $datestr }}
     </div>
@@ -18,10 +18,10 @@
   </div>
   {{ end }}
 
-  <article class="prose font-light lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
 
     <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
-    {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+    {{ if not (or (or site.Params.hideMeta .Params.hideMeta) false) }}
     <h5 class="text-sm flex items-center">
       <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -53,7 +53,7 @@
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
       {{ .WordCount }}&nbsp;{{ i18n "words" }}
-      {{ if not (or (or .Site.Params.hideOtherLanguages .Params.hideOtherLanguages) false) }}
+      {{ if not (or (or site.Params.hideOtherLanguages .Params.hideOtherLanguages) false) }}
         {{ if .IsTranslated -}}
           {{- $sortedTranslations := sort .Translations "Site.Language.Weight" -}}
           {{- $links := apply $sortedTranslations "partial" "translation_link.html" "." -}}

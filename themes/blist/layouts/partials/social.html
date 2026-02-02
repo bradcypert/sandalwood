@@ -1,4 +1,4 @@
-<div class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
+<div class="{{ site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
   <div class="container px-6 py-12 mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     <div class="flex items-center">
       {{ $src := resources.Get "/brad-cartoon-headshot.png" }}
@@ -7,12 +7,12 @@
         <img class="flex-1 mr-4" alt="Cartoon headshot of Brad Cypert" src="{{ $src.RelPermalink }}" style="height: 140px; border-radius: 18px"/>
       {{ end }}
       <div class="flex-2">
-        <div class="text-2xl font-bold mb-2">{{ .Site.Params.homepage.social.title }}</div>
-        <p class="opacity-60">{{ .Site.Params.homepage.social.description }}</p>
+        <div class="text-2xl font-bold mb-2">{{ site.Params.homepage.social.title }}</div>
+        <p class="opacity-60">{{ site.Params.homepage.social.description }}</p>
       </div>
     </div>
     <ul class="flex justify-center gap-4">
-      {{ with .Site.Params.homepage.social.twitter }}
+      {{ with site.Params.homepage.social.twitter }}
       <li>
         <a
           href="{{.}}"
@@ -40,7 +40,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.linkedin }}
+      {{ with site.Params.homepage.social.linkedin }}
       <li>
         <a
           href="{{.}}"
@@ -70,7 +70,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.xing }}
+      {{ with site.Params.homepage.social.xing }}
       <li>
         <a
                 href="{{.}}"
@@ -96,7 +96,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.github }}
+      {{ with site.Params.homepage.social.github }}
       <li>
         <a
           href="{{.}}"
@@ -124,7 +124,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.medium }}
+      {{ with site.Params.homepage.social.medium }}
       <li>
         <a
           href="{{.}}"
@@ -155,7 +155,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.reddit }}
+      {{ with site.Params.homepage.social.reddit }}
       <li>
         <a
           href="{{.}}"
@@ -188,7 +188,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.dribbble }}
+      {{ with site.Params.homepage.social.dribbble }}
       <li>
         <a
           href="{{.}}"
@@ -218,7 +218,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.youtube }}
+      {{ with site.Params.homepage.social.youtube }}
       <li>
         <a
           href="{{.}}"
@@ -246,7 +246,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.instagram }}
+      {{ with site.Params.homepage.social.instagram }}
       <li>
         <a
           href="{{.}}"
@@ -275,7 +275,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.Params.homepage.social.stackoverflow }}
+      {{ with site.Params.homepage.social.stackoverflow }}
       <li>
         <a
           href="{{.}}"
@@ -303,7 +303,7 @@
         </a>
       </li>
       {{ end }}
-      {{ with .Site.BaseURL }}
+      {{ with site.BaseURL }}
       <li>
         <a
           href="{{.}}/index.xml"

@@ -71,8 +71,8 @@ DefaultContentLanguageInSubdir = true
   weight = 3
 
 [permalinks]
-  blog = '/:filename/'
-  page = '/:filename/'
+  blog = '/:contentbasename/'
+  page = '/:contentbasename/'
 
 [params.homepage.social]
   # Global params common for both languages

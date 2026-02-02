@@ -1,6 +1,6 @@
 ---
 title: "Brad Cypert - Software Technologist in Louisville Kentucky"
-description: Improve your skills as a software engineer with tutorials, tips, and tricks by Brad Cypert on BradCypert.com
+description: "Louisville, Kentucky based software architect passionate about building applications at scale. Frequent blogger. Coffee lover."
 date: 2014-10-23
 status: publish
 permalink: /about
@@ -8,8 +8,6 @@ author: "Brad Cypert"
 excerpt: ""
 type: page
 id: 14
-description:
-  - "Louisville, Kentucky based software architect passionate about building applications at scale. Frequent blogger. Coffee lover."
 ---
 
 **I’m passionate about Flutter, Rust, Go, and Software Architecture.**  

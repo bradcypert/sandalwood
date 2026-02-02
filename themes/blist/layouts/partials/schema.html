@@ -9,15 +9,15 @@
       "dateModified": {{ .Lastmod }},
       "author": {
         "@type": "Person",
-        "name": {{ .Site.Params.author }}
+        "name": {{ site.Params.author }}
       },
       "mainEntityOfPage": { "@type": "WebPage" },
        "publisher": {
         "@type": "Organization",
-        "name": {{ .Site.Params.header }},
+        "name": {{ site.Params.header }},
         "logo": {
           "@type": "ImageObject",
-          "url": {{ .Site.Params.logo }}
+          "url": {{ site.Params.logo }}
         }
       },
       "description": {{ .Summary | plainify | safeHTML }},
@@ -27,13 +27,13 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": {{ .Site.Params.header }},
-      "url": {{ .Site.BaseURL }},
+      "name": {{ site.Params.header }},
+      "url": {{ site.BaseURL }},
       "sameAs": [
-        "https://www.facebook.com/{{ .Site.Params.facebook }}",
-        "https://www.instagram.com/{{ .Site.Params.instagram }}",
-        "https://twitter.com/{{ .Site.Params.twitter }}",
-        "https://github.com/{{ .Site.Params.github }}"
+        "https://www.facebook.com/{{ site.Params.facebook }}",
+        "https://www.instagram.com/{{ site.Params.instagram }}",
+        "https://twitter.com/{{ site.Params.twitter }}",
+        "https://github.com/{{ site.Params.github }}"
       ]
     }
     </script>

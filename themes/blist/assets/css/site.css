@@ -1,6 +1,14 @@
 /* Custom Styles */
 body {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: charter, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+/* Prose typography - Medium-inspired */
+.prose {
+  font-family: charter, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .gradient-barrier {

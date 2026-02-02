@@ -1,3 +1,30 @@
 <div class="grid place-items-center mb-8">
-  {{ template "_internal/pagination.html" . }}
+  {{ $paginator := .Paginator }}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav aria-label="Page navigation">
+    <ul class="flex list-none">
+      {{ if $paginator.HasPrev }}
+      <li>
+        <a href="{{ $paginator.Prev.URL }}" aria-label="Previous">
+          <span>Previous</span>
+        </a>
+      </li>
+      {{ end }}
+      {{ range $paginator.Pagers }}
+      <li>
+        <a href="{{ .URL }}"{{ if eq . $paginator }} aria-current="page"{{ end }}>
+          {{ .PageNumber }}
+        </a>
+      </li>
+      {{ end }}
+      {{ if $paginator.HasNext }}
+      <li>
+        <a href="{{ $paginator.Next.URL }}" aria-label="Next">
+          <span>Next</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+  {{ end }}
 </div>

@@ -1,9 +1,9 @@
 <footer class="container p-6 mx-auto flex justify-between items-center">
   <span class="text-sm font-light">
-    {{ if (isset .Site.Params "copyright") }}
-    {{ .Site.Params.copyright | safeHTML }}
+    {{ if (isset site.Params "copyright") }}
+    {{ site.Params.copyright | safeHTML }}
     {{ else }}
-    {{ dateFormat "2006" now }} © {{ .Site.Title }}
+    {{ dateFormat "2006" now }} © {{ site.Title }}
     {{ end }}
   </span>
   <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
@@ -15,11 +15,11 @@
   </span>
 </footer>
 
-{{ if .Site.Params.enableSearch }}
+{{ if site.Params.enableSearch }}
 {{- partial "search-ui.html" . -}}
 {{ end }}
 
-{{ if ge (len .Site.Languages) 3 }}
+{{ if ge (len site.Languages) 3 }}
 <script>
   const languageMenuButton = document.querySelector('.language-switcher');
   const languageDropdown = document.querySelector('.language-dropdown');
@@ -36,7 +36,7 @@
 </script>
 {{ end }}
 
-{{ if .Site.Params.darkModeToggle }}
+{{ if site.Params.darkModeToggle }}
 <script>
   // On page load or when changing themes
   const darkmode = document.querySelector('.toggle-dark-mode');
