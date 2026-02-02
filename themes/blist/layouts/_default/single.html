@@ -8,13 +8,8 @@
     {{ $alt := .Params.Title }}
       {{ with $src }}
         {{ $src := $src.Resize "x600 webp"}}
-        <img src="{{ $src.RelPermalink }}" alt="{{ $alt }}" class="rounded-lg shadow-sm w-full object-contain" />
+        <img src="{{ $src.RelPermalink }}" alt="{{ $alt }}" class="rounded-lg shadow-sm w-1/2 m-auto object-contain" />
       {{ end }}
-    {{ if not (or (or site.Params.hideMeta .Params.hideMeta) false) }}
-    <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
-      {{ $datestr }}
-    </div>
-    {{ end }}
   </div>
   {{ end }}
 

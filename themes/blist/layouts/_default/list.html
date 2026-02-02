@@ -2,12 +2,31 @@
 
   <h1 class="container px-6 pt-6 mx-auto text-3xl font-bold">{{ .Title }}</h1>
 
-  {{ $paginator := .Paginate .Pages.ByDate.Reverse 6 }}
-  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
-    {{ range $paginator.Pages }}
-      {{- partial "blog-card.html" . -}}
-    {{ end }}
-  </div>
+  {{ if .Data.Terms }}
+    {{/* This is a taxonomy terms list (e.g., /tags/) */}}
+    <div class="container p-6 mx-auto">
+      <div class="flex flex-wrap gap-3">
+        {{ $paginator := .Paginate .Data.Terms.Alphabetical 50 }}
+        {{ range $paginator.Pages }}
+          <a href="{{ .Permalink }}" 
+             class="inline-flex items-center px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+            <span class="font-medium">{{ .Title }}</span>
+            <span class="ml-2 px-2 py-0.5 text-xs rounded-full bg-gray-200 dark:bg-gray-600">
+              {{ .Count }}
+            </span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  {{ else }}
+    {{/* This is a regular page list (e.g., /blog/) or paginated content */}}
+    {{ $paginator := .Paginate .Pages.ByDate.Reverse 6 }}
+    <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
+      {{ range $paginator.Pages }}
+        {{- partial "blog-card.html" . -}}
+      {{ end }}
+    </div>
+  {{ end }}
 
   {{- partial "pagination.html" . -}}
   

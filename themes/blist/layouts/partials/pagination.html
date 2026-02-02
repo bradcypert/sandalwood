@@ -2,26 +2,84 @@
   {{ $paginator := .Paginator }}
   {{ if gt $paginator.TotalPages 1 }}
   <nav aria-label="Page navigation">
-    <ul class="flex list-none">
+    <ul class="pagination">
       {{ if $paginator.HasPrev }}
-      <li>
-        <a href="{{ $paginator.Prev.URL }}" aria-label="Previous">
+      <li class="page-item">
+        <a href="{{ $paginator.Prev.URL }}" class="page-link" aria-label="Previous">
           <span>Previous</span>
         </a>
       </li>
-      {{ end }}
-      {{ range $paginator.Pagers }}
-      <li>
-        <a href="{{ .URL }}"{{ if eq . $paginator }} aria-current="page"{{ end }}>
-          {{ .PageNumber }}
-        </a>
+      {{ else }}
+      <li class="page-item disabled">
+        <span class="page-link">Previous</span>
       </li>
       {{ end }}
+      
+      {{ $currentPage := $paginator.PageNumber }}
+      {{ $totalPages := $paginator.TotalPages }}
+      {{ $windowSize := 2 }}
+      
+      {{/* Always show first page */}}
+      {{ if eq $currentPage 1 }}
+      <li class="page-item active">
+        <a href="{{ $paginator.First.URL }}" class="page-link" aria-current="page">1</a>
+      </li>
+      {{ else }}
+      <li class="page-item">
+        <a href="{{ $paginator.First.URL }}" class="page-link">1</a>
+      </li>
+      {{ end }}
+      
+      {{/* Show ellipsis if there's a gap after first page */}}
+      {{ if gt $currentPage (add $windowSize 2) }}
+      <li class="page-item disabled">
+        <span class="page-link">...</span>
+      </li>
+      {{ end }}
+      
+      {{/* Show pages in the window around current page */}}
+      {{ range $paginator.Pagers }}
+        {{ $pageNum := .PageNumber }}
+        {{ if and (gt $pageNum 1) (lt $pageNum $totalPages) }}
+          {{ if and (ge $pageNum (sub $currentPage $windowSize)) (le $pageNum (add $currentPage $windowSize)) }}
+            <li class="page-item{{ if eq $pageNum $currentPage }} active{{ end }}">
+              <a href="{{ .URL }}" class="page-link"{{ if eq $pageNum $currentPage }} aria-current="page"{{ end }}>
+                {{ $pageNum }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
+      {{/* Show ellipsis if there's a gap before last page */}}
+      {{ if lt $currentPage (sub $totalPages (add $windowSize 1)) }}
+      <li class="page-item disabled">
+        <span class="page-link">...</span>
+      </li>
+      {{ end }}
+      
+      {{/* Always show last page (if more than 1 page) */}}
+      {{ if gt $totalPages 1 }}
+        {{ if eq $currentPage $totalPages }}
+        <li class="page-item active">
+          <a href="{{ $paginator.Last.URL }}" class="page-link" aria-current="page">{{ $totalPages }}</a>
+        </li>
+        {{ else }}
+        <li class="page-item">
+          <a href="{{ $paginator.Last.URL }}" class="page-link">{{ $totalPages }}</a>
+        </li>
+        {{ end }}
+      {{ end }}
+      
       {{ if $paginator.HasNext }}
-      <li>
-        <a href="{{ $paginator.Next.URL }}" aria-label="Next">
+      <li class="page-item">
+        <a href="{{ $paginator.Next.URL }}" class="page-link" aria-label="Next">
           <span>Next</span>
         </a>
+      </li>
+      {{ else }}
+      <li class="page-item disabled">
+        <span class="page-link">Next</span>
       </li>
       {{ end }}
     </ul>

@@ -5,9 +5,11 @@ status: publish
 permalink: /interfaces-in-zig
 author: "Brad Cypert"
 type: blog
+images:
+  - black-and-white-blank-challenge-connect-262488.jpg
 tags:
   - zig
-description: ""
+description: "While Zig doesn't have an interface keyword, interfaces are indeed supported by the language and even commonly used throughout the standard library."
 outline:
   what: "Interfaces as a pattern in Zig"
   why: "Interfaces are used by the standard library and ultimately can help make end-user code easier to work with or understand, but there are consequences to approaching this pattern."
