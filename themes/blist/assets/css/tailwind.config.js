@@ -21,7 +21,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            maxWidth: '680px',
+            maxWidth: '880px',
             fontSize: '1.125rem',
             lineHeight: '1.75',
             letterSpacing: '-0.003em',
