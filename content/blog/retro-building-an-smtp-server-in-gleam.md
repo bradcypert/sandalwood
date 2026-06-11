@@ -18,7 +18,7 @@ outline:
   how: "How is whatever Im teaching used?"
   when: "When should it be used?"
 ---
-I've been building an SMTP server in Gleam lately. I won't say "From scratch" as I'm using Rawhat's wonderful [Glisten](https://github.com/rawhat/glisten) library, which providers the TCP transport layer,
+I've been building an SMTP server in Gleam lately. I won't say "From scratch" as I'm using Rawhat's wonderful [Glisten](https://github.com/rawhat/glisten) library, which provides the TCP transport layer,
 but outside of that, I'm not (currently) using any other libraries. What I've actually implemented so far is rather small. I haven't touched IMAP or POP and have just focused
 on reading TCP packets, parsing them as SMTP payloads, and responding to the client appropriately. I'm hoping to share my learnings and document my progress with this post and others.
 Lets get into it!
