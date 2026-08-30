@@ -11,6 +11,8 @@ tags:
   - gleam
   - smtp
   - retrospective
+series:
+  - smtp-in-gleam
 description: "I started building an SMTP server in Gleam. Here's what I've learned so far (Part 1)"
 outline:
   what: "What's the main goal I am trying to convey"
@@ -21,16 +23,16 @@ outline:
 I've been building an SMTP server in Gleam lately. I won't say "From scratch" as I'm using Rawhat's wonderful [Glisten](https://github.com/rawhat/glisten) library, which provides the TCP transport layer,
 but outside of that, I'm not (currently) using any other libraries. What I've actually implemented so far is rather small. I haven't touched IMAP or POP and have just focused
 on reading TCP packets, parsing them as SMTP payloads, and responding to the client appropriately. I'm hoping to share my learnings and document my progress with this post and others.
-Lets get into it!
+Let's get into it!
 
 ## TCP is everywhere
 
 For most of our run-of-the-mill software development, when we send requests we're sending them over TCP. Now, you might say "I have never sent a TCP request in my life. I always use HTTP(s)" and to be honest,
-this would be a normal reaction. It's reasonable to lack the knowledge that HTTP is built ontop of TCP if the lowest level primitive you use is HTTP, but now that we've cleared the air, we can agree that
+this would be a normal reaction. It's reasonable to lack the knowledge that HTTP is built on top of TCP if the lowest level primitive you use is HTTP, but now that we've cleared the air, we can agree that
 you've likely been doing your networking over TCP. There are alternatives to TCP (UDP being the primary and the differences are probably out of the scope of this blog post) but HTTP (and HTTPS) is built
-ontop of TCP. Similarly, SMTP is also built on top of TCP.
+on top of TCP. Similarly, SMTP is also built on top of TCP.
 
-Armed with this information, we know that we can build an SMTP server (or an HTTP server) simply by building ontop of a TCP layer. In fact, TCP is such a common protocol to build ontop of that most languages
+Armed with this information, we know that we can build an SMTP server (or an HTTP server) simply by building on top of a TCP layer. In fact, TCP is such a common protocol to build on top of that most languages
 ship a standard library that includes support for a TCP layer, however, Gleam does not. Thankfully, an open source library named "Glisten" fits the bill quite nicely for us!
 
 ## A bit about Glisten
@@ -84,7 +86,7 @@ fn loop(state: session.SmtpSession, msg, conn) {
     Packet(bits) -> {
       session.print_session(state)
       let assert Ok(text) = bit_array.to_string(bits)
-      io.println("recieved message: " <> text)
+      io.println("received message: " <> text)
       process_lines(state.buffer <> text, state, conn)
     }
     _ -> glisten.continue(state)
@@ -253,7 +255,7 @@ fn handle_data_line(
 ```
 
 Here's where we're going to wire up our parsing logic from earlier! At this point, the code should hopefully be pretty clear to follow, but lets go through it. Data Lines are effectively the exception to the rest of this flow,
-so we detect those early and handle them separately. Similarly, greetings need to be handled differently and dont particularly need parsing, so we handle that here as well. Once we're through those two, we fall into our catch-all
+so we detect those early and handle them separately. Similarly, greetings need to be handled differently and don't particularly need parsing, so we handle that here as well. Once we're through those two, we fall into our catch-all
 which is where we parse our commands. Keep in mind that the last item of each branch is the return statement as you read through that code. Ultimately, we're just parsing and sending a response back at this point... which leads to a fantastic question.
 
 ## WHERE ARE MY EMAILS, BRAD
@@ -262,7 +264,7 @@ A fun rhetorical question since I'm typing this to myself. At this point, we hav
 
 So the next reasonable question should be "can our mail server query the mail in the remote GMAIL server that I use?" to which I would also reply "No." No, indeed. To do this, we'd need to support IMAP which we do not support (yet).
 
-"Okay, so we cant query the remote gmail SMTP servers, but _surely_ we can download the emails from GMAIL even if it were to delete them from the GMAIL servers and store them on our local server, right?". My reply to this would most likely be "Wow, you're leading with some very informed questions -- but no." This would be POP (Post Office Protocol), which we do not support (yet).
+"Okay, so we can't query the remote gmail SMTP servers, but _surely_ we can download the emails from GMAIL even if it were to delete them from the GMAIL servers and store them on our local server, right?". My reply to this would most likely be "Wow, you're leading with some very informed questions -- but no." This would be POP (Post Office Protocol), which we do not support (yet).
 
 So... if we try to send an email using our server, where DO they go? They disappear. This is ultimately a decision that can be made by the implementer. Maybe you'll store them in the filesystem. Maybe you'll even store them under user-specific, properly-permissioned directories so that users can SSH into your mail-server box and read their own emails. Maybe you'll store them in a database. Maybe it'll be SQLite. Maybe It'll be Dynamodb. Maybe you'll make a SaaS built on this SMTP server -- and this is all possible because you understand how it works.
 
@@ -274,4 +276,4 @@ So... if we try to send an email using our server, where DO they go? They disapp
 
 ## The End Game
 
-Learning is the end game. I hope you've enjoyed this little learning journey that we've been on together. Keep an eye out for more as I continue to build this out. Track the [repo here](https://github.com/bradcypert/sheesh), find live streams of building this on [my channel](https://www.youtube.com/bradcypert) and check back here for the next set of blog posts as we implement some of the "not yets" from above.  
+Learning is the end game. I hope you've enjoyed this little learning journey that we've been on together. Keep an eye out for more as I continue to build this out. This is [part 1 of the SMTP-in-Gleam series](/series/smtp-in-gleam/). Track the [repo here](https://github.com/bradcypert/sheesh), find live streams of building this on [my YouTube channel](https://www.youtube.com/@CodeWithCypert), and check back here for the next set of posts as we implement some of the "not yets" from above.  

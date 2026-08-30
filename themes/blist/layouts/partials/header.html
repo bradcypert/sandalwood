@@ -69,7 +69,7 @@
 
     {{ if site.Params.enableSearch }}
     <li class="grid place-items-center">
-      <span class="open-search inline-block cursor-pointer">
+      <span class="open-search inline-block cursor-pointer" role="button" aria-label="Search" tabindex="0">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -82,7 +82,7 @@
 
     {{ if site.Params.darkModeToggle }}
     <li class="grid place-items-center">
-      <span class="toggle-dark-mode inline-block cursor-pointer">
+      <span class="toggle-dark-mode inline-block cursor-pointer" role="button" aria-label="Toggle dark mode" tabindex="0">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />

@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{ if eq .Section "blog" }}
+    {
+      "@type": "BlogPosting",
+      "headline": {{ .Title }},
+      "image": {{ if (isset .Params.Images 0) }}{{ index (.Params.images) 0 | absURL }}{{ else }}{{ site.Params.logo | absURL }}{{ end }},
+      "datePublished": {{ .PublishDate }},
+      "dateModified": {{ .Lastmod }},
+      "author": {
+        "@type": "Person",
+        "name": {{ site.Params.author }}
+      },
+      "mainEntityOfPage": { "@type": "WebPage", "url": {{ .Permalink }} },
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ site.Title }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ site.Params.logo | absURL }}
+        }
+      },
+      "description": {{ .Summary | plainify }},
+      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+    },
+    {{ end }}
+    {
+      "@type": "Person",
+      "name": {{ site.Params.author }},
+      "url": {{ site.BaseURL }},
+      "sameAs": [
+        "https://twitter.com/{{ site.Params.twitter }}",
+        "https://github.com/{{ site.Params.github }}",
+        "https://linkedin.com/in/bradcypert",
+        "https://www.youtube.com/@CodeWithCypert"
+      ]
+    }
+  ]
+}
+</script>

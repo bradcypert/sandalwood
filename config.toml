@@ -15,7 +15,7 @@ enableGitInfo = true
     "profile.png"
   ]
 
-  description = 'Learn about a vast array of programming languages, frameworks, and technologies at BradCypert.com'
+  description = 'Systems programming in public — Zig, Gleam, Go, Rust, and whatever Brad Cypert is learning this month.'
 
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -24,7 +24,7 @@ enableGitInfo = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2022 - Brad Cypert · All rights reserved"
+  # Copyright year is rendered from the current date in layouts/partials/footer.html
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
@@ -44,11 +44,13 @@ enableGitInfo = true
   hideOtherLanguages = false
 
   introTitle = "Hey! I'm Brad Cypert."
+  introSubtitle = "I write systems code in public — Zig, Gleam, and whatever I'm learning this month."
+  introBio = "Who am I?<br>I'm a programming language enthusiast. Sometimes I <a class=\"text-pink-900 dark:text-pink-200\" href=\"/blog\">write</a>. Sometimes I post content on <a class=\"text-pink-900 dark:text-pink-200\" href=\"https://www.youtube.com/@CodeWithCypert\">my YouTube channel, CodeWithCypert</a>."
   introPhoto = "/brad-w-luna.jpg"
 
   author = "Brad Cypert"
   logo = "/brad-w-luna.jpg"
-  header = "Tips and Tutorials for JavaScript, Flutter, and more."
+  header = "Brad Cypert"
   twitter = "bradcypert"
   github = "bradcypert"
 
@@ -81,6 +83,7 @@ DefaultContentLanguageInSubdir = true
   twitter = "https://twitter.com/bradcypert"
   linkedin = "https://linkedin.com/in/bradcypert"
   github = "https://github.com/bradcypert"
+  youtube = "https://www.youtube.com/@CodeWithCypert"
 
 [build]
   writeStats = true
