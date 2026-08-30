@@ -27,7 +27,7 @@ Indeed, they're used in Allocators, Readers, Writers, Streams, Formatters and mo
 
 It may not be immediately obvious that these are interfaces due to the lack of an `interface` or `implements` keyword.
 
-This article is intended to be a deep dive into how Zig implements interface-like abstractions using [**vtables**](https://en.wikipedia.org/wiki/Virtual_method_table), why the standard library uses them, how they compare to Go-style interfaces, and — most importantly — **when you should and should not use them in your own Zig code**. However, this article ultimately reflects my the depths of my own understanding and I strongly recommend that you do not use this as your only source of truth and opinions.
+This article is intended to be a deep dive into how Zig implements interface-like abstractions using [**vtables**](https://en.wikipedia.org/wiki/Virtual_method_table), why the standard library uses them, how they compare to Go-style interfaces, and — most importantly — **when you should and should not use them in your own Zig code**. However, this article ultimately reflects the depths of my own understanding and I strongly recommend that you do not use this as your only source of truth and opinions.
 
 ---
 
@@ -178,7 +178,7 @@ Conceptually, they still follow the same pattern:
 { buffer + state, vtable }
 ```
 
-But unlike `Allocator`, the *interface* is no longer just a thin handle — it is a full object with it's own state.
+But unlike `Allocator`, the *interface* is no longer just a thin handle — it is a full object with its own state.
 There are benefits to both approaches and ultimately this distinction does matter when designing your own interfaces.
 
 ---

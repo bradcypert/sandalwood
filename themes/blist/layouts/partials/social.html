@@ -306,7 +306,7 @@
       {{ with site.BaseURL }}
       <li>
         <a
-          href="{{.}}/index.xml"
+          href="{{ "index.xml" | absURL }}"
           target="_blank"
           rel="noopener"
           aria-label="RSS feed"

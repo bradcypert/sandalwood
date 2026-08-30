@@ -1,4 +1,4 @@
 ---
-# Important: Front matter is required.
-# Because of this _index.md file, this directory is a branch bundle.
+title: "Blog"
+description: "Notes on Zig, Gleam, Go, Rust, and other languages — written while I'm still learning them."
 ---

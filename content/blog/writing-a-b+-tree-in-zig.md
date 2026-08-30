@@ -6,7 +6,7 @@ permalink: /todo
 author: "Brad Cypert"
 type: blog
 images:
-  - dart-mixins-cover.jpg
+  - zig-multithreading.jpeg
 tags:
     - Zig
     - Database
@@ -37,7 +37,7 @@ A B+ Tree is a self-balancing tree data structure that maintains sorted data and
 
 ### B+ Tree vs B-Tree: The Key Differences
 
-If your familiar with your fundamental DS&A's, you may be thinking that the "+" is actually a typo and should be "-". There is no typo and we're indeed talking about a B+ Tree (B Plus Tree) and not a B-Tree. While both are balanced trees, B+ Trees have some crucial advantages for database applications:
+If you're familiar with your fundamental DS&A's, you may be thinking that the "+" is actually a typo and should be "-". There is no typo and we're indeed talking about a B+ Tree (B Plus Tree) and not a B-Tree. While both are balanced trees, B+ Trees have some crucial advantages for database applications:
 
 | Feature | B-Tree | B+ Tree |
 |---------|--------|---------|
@@ -375,7 +375,7 @@ The B+ Tree implementation delivers excellent performance characteristics:
 
 ### Scalability Testing
 
-Our tests demonstrate real scalability:
+Our tests cover the split path, not large-scale load:
 
 ```zig
 // Successfully tested with 50+ keys triggering automatic splits
@@ -465,7 +465,7 @@ Optimize initial data loading by building trees bottom-up.
 
 Building a B+ Tree from scratch taught me immense respect for database engineers. The combination of algorithmic complexity, memory management, and concurrency creates challenges that require careful thought and elegant solutions.
 
-The LowkeyDB B+ Tree implementation demonstrates that Zig's safety, performance, and expressiveness make it an excellent choice for systems programming. The result is a production-ready data structure that scales from small embedded applications to larger datasets.
+The LowkeyDB B+ Tree implementation demonstrates that Zig's safety, performance, and expressiveness make it an excellent choice for systems programming. It's a working walkthrough of an in-progress engine — useful as a learning artifact, not a claim that this is production-ready.
 
 Key takeaways:
 
@@ -479,4 +479,4 @@ The complete implementation shows that building database-quality data structures
 
 ## Code Repository
 
-The complete LowkeyDB implementation, including the B+ Tree, is available with comprehensive examples and documentation. The codebase demonstrates real-world usage of advanced Zig features and provides a solid foundation for further database development.
+The complete LowkeyDB implementation, including the B+ Tree, lives at [github.com/bradcypert/lowkeydb](https://github.com/bradcypert/lowkeydb). The codebase is a snapshot of the work described here — including the current limits around recursive internal splits.

@@ -1,0 +1,18 @@
+<section class="{{ site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
+  <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
+    <div>
+      <h1 class="text-4xl font-bold mb-4">{{ site.Params.introTitle | safeHTML}}</h1>
+        <h2 class="text-xl mb-6">{{ site.Params.introSubtitle | default "I write systems code in public — Zig, Gleam, and whatever I'm learning this month." }}</h2>
+
+        <h3 class="text-xl mb-6">{{ site.Params.introBio | default "Who am I?<br>I'm a programming language enthusiast. Sometimes I write. Sometimes I post on YouTube." | safeHTML }}</h3>
+
+
+    </div>
+    {{ $src := resources.Get site.Params.introPhoto }}
+    {{ $title := site.Title }}
+      {{ with $src }}
+        {{ $src := $src.Resize "x600 webp"}}
+        <img class="rounded-lg shadow-sm" src="{{ $src.RelPermalink  }}" height="600" alt="Brad Cypert with his dog Luna" />
+      {{ end }}
+  </div>
+</section>

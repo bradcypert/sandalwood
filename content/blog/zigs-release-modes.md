@@ -11,7 +11,7 @@ tags:
   - zig
 versions:
   zig: "0.15.1"
-description: "Zig has multiple release modes to suite each individual's needs. Here's when to use one over the other."
+description: "Zig has multiple release modes to suit each individual's needs. Here's when to use one over the other."
 outline:
   what: "What's the main goal I am trying to convey"
   why: "Why does anyone care?"
