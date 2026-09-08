@@ -1,0 +1,48 @@
+{{/*
+  Renders a collapsed "How AI was used" disclosure when a post sets
+  `ai_assisted` in front matter.
+
+  Supported values:
+    ai_assisted: "I used Claude while researching X and generating the chart."
+    ai_assisted: |
+      Markdown is fine too.
+    ai_assisted:
+      - Researched memory management with Claude
+      - Generated the chart in this post
+    ai_assisted: true   # generic one-liner, if you don't want details
+*/}}
+{{ with .Params.ai_assisted }}
+<aside class="ai-assisted" id="how-ai-was-used">
+  <details>
+    <summary>
+      <span class="ai-assisted-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3v3"/>
+          <path d="M12 18v3"/>
+          <path d="M3 12h3"/>
+          <path d="M18 12h3"/>
+          <path d="m5.6 5.6 2.1 2.1"/>
+          <path d="m16.3 16.3 2.1 2.1"/>
+          <path d="m5.6 18.4 2.1-2.1"/>
+          <path d="m16.3 7.7 2.1-2.1"/>
+          <circle cx="12" cy="12" r="3.2"/>
+        </svg>
+      </span>
+      How AI was used
+    </summary>
+    <div class="ai-assisted-body">
+      {{ if reflect.IsSlice . }}
+        <ul>
+          {{ range . }}
+            <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+      {{ else if eq (printf "%v" .) "true" }}
+        <p>This post was written with AI assistance.</p>
+      {{ else }}
+        {{ . | markdownify }}
+      {{ end }}
+    </div>
+  </details>
+</aside>
+{{ end }}
