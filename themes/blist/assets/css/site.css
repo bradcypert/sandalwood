@@ -81,6 +81,103 @@ body {
 
 }
 
+/* Collapsed AI-usage disclosure on posts (see layouts/partials/ai-assisted.html) */
+.ai-assisted {
+  margin: 2.5em 0 0;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #6b7280;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.dark .ai-assisted {
+  color: #9ca3af;
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.ai-assisted summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  font-weight: 500;
+  color: #4b5563;
+  user-select: none;
+}
+
+.dark .ai-assisted summary {
+  color: #d1d5db;
+}
+
+.ai-assisted summary::-webkit-details-marker {
+  display: none;
+}
+
+.ai-assisted summary::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid currentColor;
+  transition: transform 0.15s ease;
+}
+
+.ai-assisted details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.ai-assisted-icon {
+  display: inline-flex;
+  opacity: 0.75;
+}
+
+.ai-assisted-body {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dark .ai-assisted-body {
+  border-top-color: #374151;
+}
+
+.ai-assisted-body p,
+.ai-assisted-body li,
+.prose .ai-assisted-body p,
+.prose .ai-assisted-body p:first-of-type,
+.prose.lg .ai-assisted-body p,
+.prose.lg .ai-assisted-body p:first-of-type {
+  font-size: 0.875rem !important;
+  line-height: 1.55 !important;
+  margin-top: 0.4em !important;
+  margin-bottom: 0.4em !important;
+}
+
+.ai-assisted-body p:first-child,
+.ai-assisted-body ul:first-child {
+  margin-top: 0 !important;
+}
+
+.ai-assisted-body p:last-child,
+.ai-assisted-body ul:last-child {
+  margin-bottom: 0 !important;
+}
+
+.ai-assisted-body ul {
+  margin: 0.25em 0 0 1.1em;
+  padding: 0;
+}
+
+.ai-assisted-body li::before {
+  content: none !important;
+}
+
 .gradient-barrier:hover .gradient-text{
     animation: rainbow-text-simple-animation 0.25s ease-in forwards;
 }
