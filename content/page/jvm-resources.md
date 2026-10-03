@@ -1,7 +1,8 @@
 ---
 title: "JVM Resources"
-description: "Improve your skills on the JVM with tutorials for Java, Kotlin, Scala and Clojure!"
+description: "Java, Kotlin, Clojure, Scala, and Android notes from years of writing on the JVM."
 date: 2020-01-10
+lastmod: 2026-10-03
 status: publish
 permalink: /jvm-resources
 author: "Brad Cypert"
@@ -10,62 +11,71 @@ type: page
 id: 2260
 ---
 
+The JVM is the platform I spent the most years on. Java paid the bills. Kotlin made Android and servers nicer. Clojure was the Lisp I actually shipped. Scala was the bet that you could have both objects and functions without leaving the runtime.
+
+This page is a combined index. Each language also has its own page if you only want one stack:
+
+- [Java](/java-resources/)
+- [Kotlin](/kotlin-resources/)
+- [Clojure](/clojure-resources/)
+- [Scala](/scala-resources/)
+
+The Android section lives here because those posts were written next to the Kotlin ones, even when the code was still Java.
+
 ## Java
 
-Java is a language/platform maintained by Oracle. It’s known for it’s “Write-Once-Run-Anywhere” mantra and, in my opinion, for its verbosity.
+Java is a language and a platform. Oracle maintains it. It is known for "write once, run anywhere," and, in my opinion, for its verbosity. I still think that verbosity is why old Java code is readable.
 
-- [How to use Java’s Enums](/a-beginners-guide-to-java-enums/)
-- [The Builder Design Pattern](/design-patterns-builder/)
-- [Reflection ](/intro-to-reflection-in-java/)
+- [How to use Java’s Enums](/a-beginners-guide-to-java-enums/) — Enums with behavior, not just a list of names.
+- [The Builder Design Pattern](/design-patterns-builder/) — Optional constructor arguments without a telescoping mess.
+- [Reflection](/intro-to-reflection-in-java/) — Inspect and call things at runtime. Powerful, under-documented, easy to regret.
 
 ## Kotlin
 
-Kotlin is a cross-platform, statically-typed language that often targets the JVM. It’s used for web development, Android development, and much more.
+Kotlin is a statically typed language that often targets the JVM. I used it for web services, Android, and the stretch of time when it was the obvious Java upgrade.
 
-- [Dependency Injection via The Facade Pattern](/the-facade-pattern-for-simple-dependency-injection/)
-- [Controllers in the KTOR web framework](/controllers-in-ktor/)
-- [Testing via Expekt](/bdd-assertions-expekt-kotlin/)
-
-- [Kotlin Sequences](/sequence-a-kotlin-type/)
-- [Sealed Classes](/kotlin-sealed-classes/)
-- [Testing Companion Objects](/static-methods-companion-objects-and-testing/)
+- [Dependency Injection via The Facade Pattern](/the-facade-pattern-for-simple-dependency-injection/) — A small facade instead of a full DI framework.
+- [Controllers in the KTOR web framework](/controllers-in-ktor/) — Structure Ktor routes like controllers even though the framework does not.
+- [Testing via Expekt](/bdd-assertions-expekt-kotlin/) — Assertions that read like sentences.
+- [Kotlin Sequences](/sequence-a-kotlin-type/) — Lazy collections for pipelines that should not allocate every step.
+- [Sealed Classes](/kotlin-sealed-classes/) — Restricted hierarchies and exhaustive `when`.
+- [Testing Companion Objects](/static-methods-companion-objects-and-testing/) — Companion objects as the testable version of static methods.
 
 ## Android
 
-Android is a mobile operating system designed primarily for touchscreen mobile devices such as smartphones and tablets. Development is done predominantly in Kotlin or Java.
+Android is a mobile OS. Development is mostly Kotlin now, with a long Java history. Some of these posts name libraries I would not start a new app with. The platform ideas are still the ones I look up.
 
-- [SurfaceFlinger](/what-is-androids-surfaceflinger/)
-- [Testing views via FormatterObjects](/formatter-objects-testable-fragments/)
-- [What is Proguard?](/what-the-heck-is-androids-proguard/)
-- [Overriding Button Styles](/overriding-button-styles-in-android/)
-
-- [When to use a Dimensions file](/the-complete-guide-to-dimensions-in-android/)
-- [Using Butterknife with Kotlin](/using-butterknife-kotlin/)
-- [Pending Intents](/android-pending-intents/)
-- [ListView/RecyclerView](/android-listview-recyclerview-adapters/)
+- [SurfaceFlinger](/what-is-androids-surfaceflinger/) — The compositor that actually puts pixels on the screen.
+- [Testing views via FormatterObjects](/formatter-objects-testable-fragments/) — Formatting pulled out of the fragment so tests can reach it.
+- [What is Proguard?](/what-the-heck-is-androids-proguard/) — Shrink, obfuscate, and then debug the class that vanished in release.
+- [Overriding Button Styles](/overriding-button-styles-in-android/) — Theme overrides without a style fight.
+- [When to use a Dimensions file](/the-complete-guide-to-dimensions-in-android/) — `dp` and `sp` in one place instead of magic numbers.
+- [Using Butterknife with Kotlin](/using-butterknife-kotlin/) — A Java view-binding library used from Kotlin. Useful in older codebases.
+- [Pending Intents](/android-pending-intents/) — Wrap an intent so it survives your process dying.
+- [ListView/RecyclerView](/android-listview-recyclerview-adapters/) — Which list widget, and how to write the adapter.
 
 ## Clojure
 
-Clojure is a modern, dynamic, and functional dialect of the Lisp programming language that can be built to target many platforms, although predominantly the JVM or JavaScript.
+Clojure is a Lisp that usually targets the JVM (or JavaScript). I liked it because the REPL was honest and the data stayed data.
 
-- [Futures in Clojure](/using-futures-in-clojure/)
-- [Intro to Async Programming](/clojure-async/)
-- [Guide to Clojure.Spec](/an-informal-guide-to-clojure-spec/)
-- [Provisioning a Clojure VM](/provisioning-a-development-environment-for-clojure-web-services-via-ansible-and-vagrant/)
-- [Map vs PMap](/understanding-clojures-map-pmap/)
-- [Linting with Kibit and Eastwood](/clojure-kibit-eastwood/)
-- [The Thread Macro (-&gt;) ](/threading-pipelines-in-clojure/)
-- [Multimethods](/mighty-morphing-multimethods/)
-- [JSON Web Tokens](/using-json-web-tokens-with-clojure/)
-- [Macros](/understanding-clojure-macros/)
-- [Postgres + YeSQL Trigram Search](/adding-trigram-searching-to-a-clojure-webapp/)
+- [Futures in Clojure](/using-futures-in-clojure/) — Background work you can deref later.
+- [Intro to Async Programming](/clojure-async/) — `core.async` without assuming you already live in it.
+- [Guide to Clojure.Spec](/an-informal-guide-to-clojure-spec/) — Describing maps as data, which is the whole language.
+- [Provisioning a Clojure VM](/provisioning-a-development-environment-for-clojure-web-services-via-ansible-and-vagrant/) — Ansible and Vagrant for a Clojure web service environment.
+- [Map vs PMap](/understanding-clojures-map-pmap/) — Why `pmap` is often slower than you wanted.
+- [Linting with Kibit and Eastwood](/clojure-kibit-eastwood/) — Static analysis in a language that likes to look dynamic.
+- [The Thread Macro (->)](/threading-pipelines-in-clojure/) — Pipelines instead of nested calls.
+- [Multimethods](/mighty-morphing-multimethods/) — Polymorphism on a value. Power Rangers included.
+- [JSON Web Tokens](/using-json-web-tokens-with-clojure/) — Auth headers with Buddy.
+- [Macros](/understanding-clojure-macros/) — When you actually want code to write code.
+- [Postgres + YeSQL Trigram Search](/adding-trigram-searching-to-a-clojure-webapp/) — Fuzzy search in Postgres, queried from Clojure.
 
 ## Scala
 
-Scala combines object-oriented and functional programming in one concise, high-level language. **Note: Most of these examples will be using Scala 2.X**
+Scala 2, mostly. Object-oriented and functional on the same runtime. The examples below assume that vintage.
 
-- [Pagination with Slick](/a-quick-script-to-update-all-of-your-npm-dependencies/)
-- [Creating a Java Bean from a Scala class](/creating-a-java-bean-from-a-scala-class/)
-- [Scheduling background tasks in Play](/scheduling-background-jobs-in-play-with-scala/)
-- [Upper/Lower Bounds in Scala](/upper-and-lower-bounds-in-scala/)
-- [Generics in Scala](/using-generics-in-scala/)
+- [Pagination with Slick](/pagination-in-scala-with-slick) — Paging database results in Slick.
+- [Creating a Java Bean from a Scala class](/creating-a-java-bean-from-a-scala-class/) — Interop when a Java library still wants a bean.
+- [Scheduling background tasks in Play](/scheduling-background-jobs-in-play-with-scala/) — Interval jobs in Play.
+- [Upper/Lower Bounds in Scala](/upper-and-lower-bounds-in-scala/) — Bounds on type parameters.
+- [Generics in Scala](/using-generics-in-scala/) — Parameterized types, before the bounds.
