@@ -1,6 +1,6 @@
 ---
 title: "Java Resources"
-description: "Java notes on enums, the builder pattern, and reflection — the parts I keep explaining."
+description: "Java is known for its “Write-Once-Run-Anywhere” mantra and helps run code on servers, phones, microwaves, and more!"
 date: 2020-01-10
 lastmod: 2026-10-03
 status: publish
@@ -10,13 +10,11 @@ excerpt: ""
 type: page
 ---
 
-Java is a language and a platform. Oracle maintains it. The "write once, run anywhere" line is still the thing people remember, and it is still roughly true: servers, phones, and a surprising number of devices that are not either.
+Java is a language and a platform. Oracle maintains it. The "write once, run anywhere" line is still the thing people remember, and it's still roughly true: servers, phones, and a surprising number of devices that aren't either.
 
-Java is also how I got into this career. High school classes, then college, then years of writing it for a living. I do not reach for it first anymore, but I still think it is worth knowing well. Verbosity is real. So is the fact that you can read a Java codebase ten years later and usually tell what it does.
+Java is also how I got into this career. High school classes, then college, then years of writing it for a living. Verbosity is real. So is the fact that you can read a Java codebase ten years later and usually tell what it does.
 
-These posts are small on purpose. Enums, builders, and reflection. That is not a complete Java education. It is the stuff I kept having to look up or explain.
-
-For Kotlin, Clojure, Scala, and Android on the same runtime, see [JVM resources](/jvm-resources/).
+Enums, builders, and reflection. That's the stuff I kept having to look up or explain.
 
 - [How to use Java’s Enums](/a-beginners-guide-to-java-enums/) — Enums as more than a list of names. Methods, fields, and why they beat magic strings.
 - [The Builder Design Pattern](/design-patterns-builder/) — Optional constructor arguments get out of hand. A builder is the clean way out.

@@ -1,6 +1,6 @@
 ---
 title: "PHP Resources"
-description: "PHP notes from the first language I learned — arrays, files, Laravel, Lumen, and Slim."
+description: "PHP, Laravel, Lumen, and Slim — arrays, files, and a few small HTTP services."
 date: 2020-01-09
 lastmod: 2026-10-03
 status: publish
@@ -11,25 +11,21 @@ type: page
 id: 2232
 ---
 
-PHP was one of the first programming languages I learned. I do not write it often these days, but I still appreciate the stateless request model. A request comes in, you handle it, you leave. Laravel made that feel like a real framework. WordPress made it feel like the web.
+PHP was one of the first programming languages I learned. I appreciate the stateless nature of web development. A request comes in, you handle it, you leave. Laravel made that feel like a real framework. WordPress made it feel like the web.
 
-The language has changed since these posts. Arrow functions landed in 7.4 and I was glad they did. Arrays and file I/O are still the first things you have to get right. The tutorials are small APIs — Laravel, Lumen, Slim plus Eloquent — because that is how I learn a web stack: build something that answers JSON.
-
-If you are here for the language, start with arrays or files. If you are here for a framework, the Lumen and Slim posts are the ones I would still follow.
+Arrow functions landed in 7.4 and I was glad they did. Arrays and file I/O are the first things you have to get right. When I want to learn a web stack, I build something that answers JSON — Laravel, Lumen, or Slim plus Eloquent.
 
 ### Core PHP
 
-Small pieces of the language I had to look up more than once.
-
 - [Arrow Functions](/arrow-functions-in-php-7-4) — Short closures, finally, and why they were worth the wait.
-- [Read from a File](/how-to-read-from-a-file-in-php) — `file` vs `file_get_contents`. Both work. They are not the same.
+- [Read from a File](/how-to-read-from-a-file-in-php) — `file` vs `file_get_contents`. Both work. They aren't the same.
 - [Add to an Array](/php-add-array) — Assignment over `array_push`. I still believe that.
 
 ### Laravel
 
 Laravel is the PHP framework I actually enjoyed. Homestead was how I kept the environment from rotting.
 
-- [What is Laravel's Homestead?](/what-is-laravels-homestead) — A Vagrant box for Laravel so you are not installing PHP packages on the host and hoping.
+- [What is Laravel's Homestead?](/what-is-laravels-homestead) — A Vagrant box for Laravel so you aren't installing PHP packages on the host and hoping.
 
 ### Tutorials
 

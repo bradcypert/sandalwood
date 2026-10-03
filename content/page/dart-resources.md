@@ -1,6 +1,6 @@
 ---
 title: "Dart Resources"
-description: "Dart, Flutter, GitHub Actions, and Bosun — notes from building apps and CLIs."
+description: "Dart is a client-optimized language for fast apps on any platform. Flutter, CI, and Bosun."
 date: 2020-01-09
 lastmod: 2026-10-03
 status: publish
@@ -13,19 +13,17 @@ id: 2232
 
 Dart is a client-optimized language for fast apps on any platform. Flutter lets you build for phones, desktops, and whatever screen is next.
 
-I still care about Dart. It is just not the headline right now. The language is pleasant, the tooling is better than people remember, and Flutter is still the fastest way I know to get a UI on more than one device without maintaining three codebases.
+I like Dart. The language is pleasant, the tooling is better than people remember, and Flutter is the fastest way I know to get a UI on more than one device without maintaining three codebases.
 
-This page is the Dart and Flutter writing from when that was a bigger part of my week. JSON, futures, constructors, slivers, plus the CI bits I needed to publish packages without clicking around GitHub.
-
-[Bosun](https://github.com/bradcypert/bosun) is in here too. I built it because CLI structure in Dart was underserved.
+[Bosun](https://github.com/bradcypert/bosun) is here too. I built it because CLI structure in Dart was underserved.
 
 ### Core Dart
 
-The language parts you hit on day two, once hello world stops being interesting.
+JSON, futures, constructors — the stuff you hit once hello world stops being interesting.
 
 - [Working with JSON](/working-with-json-in-dart) — Encoding and decoding without pretending Dart is JavaScript.
 - [Futures and Streams](/dart-futures-and-streams) — One value later vs values over time. Mixing them up is how you get sad.
-- [Constructors (and their many forms)](/the-many-constructors-of-dart) — Named, factory, const, redirecting. Dart has a lot of constructors. That is not an accident.
+- [Constructors (and their many forms)](/the-many-constructors-of-dart) — Named, factory, const, redirecting. Dart has a lot of constructors. That's not an accident.
 
 ### CI/CD
 
@@ -36,15 +34,15 @@ Publishing a Dart package is easy until you want tests and coverage on every pus
 
 ### Flutter
 
-Flutter is where Dart pays rent. These are the UI problems I actually had to solve.
+Flutter is where Dart pays rent.
 
-- [Routing inside the Scaffold](/flutter-routing-inside-of-the-scaffold) — Navigator matching a route and swapping the child. Sounds small. It is not.
+- [Routing inside the Scaffold](/flutter-routing-inside-of-the-scaffold) — Navigator matching a route and swapping the child. Sounds small. It isn't.
 - [Querying Width, Height, and Device Orientation](/how-to-query-flutter-dimensions-with-mediaquery) — `MediaQuery` for size and orientation without hard-coding a phone.
 - [Reusable SimpleDialog Bodies](/reusable-simpledialog-bodies-in-flutter) — Dialog content you can reuse instead of copy-pasting a column.
 - [WTF are Slivers](/wtf-are-slivers) — Scrollables with more control than a `ListView`, once you need it.
 
 ### Bosun (CLIs in Dart)
 
-There are plenty of guides for web apps. There were not many for structuring a CLI. Bosun was my answer.
+There are plenty of guides for web apps. There weren't many for structuring a CLI. Bosun was my answer.
 
-- [Building a CLI in Dart with Bosun](/building-a-cli-in-dart-with-bosun) — Commands, structure, and why I did not want to reinvent argument parsing every time.
+- [Building a CLI in Dart with Bosun](/building-a-cli-in-dart-with-bosun) — Commands, structure, and why I didn't want to reinvent argument parsing every time.
